@@ -1,0 +1,1037 @@
+2015-07-23 14:27:50,408 http-bio-8888-exec-3 anonymous 867x2x1 - 0:0:0:0:0:0:0:1 /secure/SetupDatabase!default.jspa HttpSession created [1j7u4tu]
+2015-07-23 14:29:49,843 http-bio-8888-exec-24 anonymous 868x19x1 1j7u4tu 0:0:0:0:0:0:0:1 /secure/SetupDatabase.jspa JIRA 6.0.5 build: 6102 started. You can now access JIRA through your web browser.
+2015-07-23 14:32:50,657 localhost-startStop-2      HttpSession [1j7u4tu] destroyed for 'anonymous'
+2015-07-23 14:40:24,584 localhost-startStop-1      JIRA 6.0.5 build: 6102 started. You can now access JIRA through your web browser.
+2015-07-23 14:41:38,359 http-bio-8888-exec-7 anonymous 881x2x1 - 0:0:0:0:0:0:0:1 /secure/SetupDatabase!default.jspa HttpSession created [ql20r7]
+2015-07-23 14:46:01,767 localhost-startStop-2      HttpSession [ql20r7] destroyed for 'anonymous'
+2015-07-23 14:50:43,438 localhost-startStop-1      JIRA 6.0.5 build: 6102 started. You can now access JIRA through your web browser.
+2015-07-23 14:51:04,339 http-bio-8888-exec-7 anonymous 891x2x1 - 0:0:0:0:0:0:0:1 /secure/SetupDatabase!default.jspa HttpSession created [1vvs7vi]
+2015-07-23 15:04:27,286 localhost-startStop-2      HttpSession [1vvs7vi] destroyed for 'jackjun'
+2015-07-23 15:08:43,270 localhost-startStop-1      JIRA 6.0.5 build: 6102 started. You can now access JIRA through your web browser.
+2015-07-23 15:12:03,063 http-bio-8888-exec-1   -   HttpSession created [3vygj6]
+2015-07-23 15:12:27,900 http-bio-8888-exec-24 anonymous 912x19x1 3vygj6 0:0:0:0:0:0:0:1 /login.jsp login : 'chujun' tried to login but they do not have USE permission or weren't found. Deleting remember me cookie.
+2015-07-23 15:12:37,350 http-bio-8888-exec-24 anonymous 912x22x1 3vygj6 0:0:0:0:0:0:0:1 /login.jsp HttpSession [3vygj6] destroyed for 'anonymous'
+2015-07-23 15:12:37,350 http-bio-8888-exec-24 anonymous 912x22x1 3vygj6 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [9uaryb]
+2015-07-23 15:12:40,251 http-bio-8888-exec-24 jackjun 912x22x1 3vygj6 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-23 15:54:37,160 localhost-startStop-2      HttpSession [9uaryb] destroyed for 'jackjun'
+2015-07-23 16:59:52,805 localhost-startStop-1      JIRA 6.0.5 build: 6102 started. You can now access JIRA through your web browser.
+2015-07-23 17:10:52,405 http-bio-8888-exec-1   -   HttpSession created [9ds03w]
+2015-07-23 17:11:00,362 http-bio-8888-exec-12 anonymous 1031x7x1 9ds03w 0:0:0:0:0:0:0:1 /login.jsp HttpSession [9ds03w] destroyed for 'anonymous'
+2015-07-23 17:11:00,362 http-bio-8888-exec-12 anonymous 1031x7x1 9ds03w 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [2i29b3]
+2015-07-23 17:11:00,446 http-bio-8888-exec-12 jackjun 1031x7x1 9ds03w 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-23 17:22:04,996 http-bio-8888-exec-14 jackjun 1042x140x1 2i29b3 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-23 17:22:04,997 http-bio-8888-exec-14 jackjun 1042x140x1 2i29b3 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [2i29b3] destroyed for 'jackjun'
+2015-07-23 17:22:04,997 http-bio-8888-exec-14 jackjun 1042x140x1 2i29b3 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [1isrw0y]
+2015-07-23 17:23:54,784 http-bio-8888-exec-24 jackjun 1043x225x1 1isrw0y 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1isrw0y] destroyed for 'jackjun'
+2015-07-23 17:23:54,785 http-bio-8888-exec-24 jackjun 1043x225x1 1isrw0y 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [wsxxrf]
+2015-07-23 17:23:54,788 http-bio-8888-exec-24 jackjun 1043x225x1 1isrw0y 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'jackjun' has logged out.
+2015-07-23 17:24:01,819 http-bio-8888-exec-24 anonymous 1044x235x1 wsxxrf 0:0:0:0:0:0:0:1 /login.jsp HttpSession [wsxxrf] destroyed for 'anonymous'
+2015-07-23 17:24:01,819 http-bio-8888-exec-24 anonymous 1044x235x1 wsxxrf 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [jakdf9]
+2015-07-23 17:24:01,857 http-bio-8888-exec-24 jackjun 1044x235x1 wsxxrf 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-23 17:24:15,459 http-bio-8888-exec-16 jackjun 1044x262x1 jakdf9 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-23 17:24:15,460 http-bio-8888-exec-16 jackjun 1044x262x1 jakdf9 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [jakdf9] destroyed for 'jackjun'
+2015-07-23 17:24:15,461 http-bio-8888-exec-16 jackjun 1044x262x1 jakdf9 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [157hguf]
+2015-07-23 17:52:43,600 http-bio-8888-exec-20 jackjun 1072x451x1 157hguf 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [157hguf] destroyed for 'jackjun'
+2015-07-23 17:52:43,601 http-bio-8888-exec-20 jackjun 1072x451x1 157hguf 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1p9saae]
+2015-07-23 17:52:43,601 http-bio-8888-exec-20 jackjun 1072x451x1 157hguf 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'jackjun' has logged out.
+2015-07-23 17:52:46,329 http-bio-8888-exec-20 anonymous 1072x457x1 1p9saae 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1p9saae] destroyed for 'anonymous'
+2015-07-23 17:52:46,329 http-bio-8888-exec-20 anonymous 1072x457x1 1p9saae 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1pngj46]
+2015-07-23 17:52:46,377 http-bio-8888-exec-20 jackjun 1072x457x1 1p9saae 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-23 17:55:17,641 http-bio-8888-exec-11 jackjun 1075x485x1 1pngj46 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-23 17:55:17,641 http-bio-8888-exec-11 jackjun 1075x485x1 1pngj46 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [1pngj46] destroyed for 'jackjun'
+2015-07-23 17:55:17,642 http-bio-8888-exec-11 jackjun 1075x485x1 1pngj46 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [bg7sfi]
+2015-07-23 18:10:01,310 http-bio-8888-exec-1 jackjun 1090x500x1 bg7sfi 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-23 18:10:01,310 http-bio-8888-exec-1 jackjun 1090x500x1 bg7sfi 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [bg7sfi] destroyed for 'jackjun'
+2015-07-23 18:10:01,311 http-bio-8888-exec-1 jackjun 1090x500x1 bg7sfi 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [gbcibn]
+2015-07-23 19:13:06,340 http-bio-8888-exec-15 jackjun 1153x727x1 gbcibn 0:0:0:0:0:0:0:1 /secure/admin/user//secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-23 19:13:06,340 http-bio-8888-exec-15 jackjun 1153x727x1 gbcibn 0:0:0:0:0:0:0:1 /secure/admin/user//secure/admin/WebSudoAuthenticate.jspa HttpSession [gbcibn] destroyed for 'jackjun'
+2015-07-23 19:13:06,340 http-bio-8888-exec-15 jackjun 1153x727x1 gbcibn 0:0:0:0:0:0:0:1 /secure/admin/user//secure/admin/WebSudoAuthenticate.jspa HttpSession created [1qw1qii]
+2015-07-23 19:20:23,360 http-bio-8888-exec-14 jackjun 1160x985x1 1qw1qii 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1qw1qii] destroyed for 'jackjun'
+2015-07-23 19:20:23,360 http-bio-8888-exec-14 jackjun 1160x985x1 1qw1qii 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [z0771e]
+2015-07-23 19:20:23,360 http-bio-8888-exec-14 jackjun 1160x985x1 1qw1qii 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'jackjun' has logged out.
+2015-07-23 19:20:29,660 http-bio-8888-exec-14 anonymous 1160x991x1 z0771e 0:0:0:0:0:0:0:1 /login.jsp The user 'chujun' is NOT AUTHORIZED to perform to login for this request
+2015-07-23 19:20:29,660 http-bio-8888-exec-14 anonymous 1160x991x1 z0771e 0:0:0:0:0:0:0:1 /login.jsp login : 'chujun' tried to login but they do not have USE permission or weren't found. Deleting remember me cookie.
+2015-07-23 19:20:29,707 http-bio-8888-exec-14 anonymous 1160x991x1 z0771e 0:0:0:0:0:0:0:1 /login.jsp The user 'chujun' is NOT AUTHORIZED to perform this request
+2015-07-23 19:20:34,435 http-bio-8888-exec-14 anonymous 1160x994x1 z0771e 0:0:0:0:0:0:0:1 /login.jsp The user 'chujun' is NOT AUTHORIZED to perform to login for this request
+2015-07-23 19:20:34,435 http-bio-8888-exec-14 anonymous 1160x994x1 z0771e 0:0:0:0:0:0:0:1 /login.jsp login : 'chujun' tried to login but they do not have USE permission or weren't found. Deleting remember me cookie.
+2015-07-23 19:20:34,473 http-bio-8888-exec-14 anonymous 1160x994x1 z0771e 0:0:0:0:0:0:0:1 /login.jsp The user 'chujun' is NOT AUTHORIZED to perform this request
+2015-07-23 19:20:46,049 http-bio-8888-exec-14 anonymous 1160x1002x1 z0771e 0:0:0:0:0:0:0:1 /login.jsp The user 'chujun' is NOT AUTHORIZED to perform to login for this request
+2015-07-23 19:20:46,049 http-bio-8888-exec-14 anonymous 1160x1002x1 z0771e 0:0:0:0:0:0:0:1 /login.jsp login : 'chujun' tried to login but they do not have USE permission or weren't found. Deleting remember me cookie.
+2015-07-23 19:20:46,123 http-bio-8888-exec-14 anonymous 1160x1002x1 z0771e 0:0:0:0:0:0:0:1 /login.jsp The user 'chujun' is NOT AUTHORIZED to perform this request
+2015-07-23 19:21:09,732 http-bio-8888-exec-14 anonymous 1161x1007x1 z0771e 0:0:0:0:0:0:0:1 /login.jsp The user 'chujun' is NOT AUTHORIZED to perform to login for this request
+2015-07-23 19:21:09,732 http-bio-8888-exec-14 anonymous 1161x1007x1 z0771e 0:0:0:0:0:0:0:1 /login.jsp login : 'chujun' tried to login but they do not have USE permission or weren't found. Deleting remember me cookie.
+2015-07-23 19:21:09,782 http-bio-8888-exec-14 anonymous 1161x1007x1 z0771e 0:0:0:0:0:0:0:1 /login.jsp The user 'chujun' is NOT AUTHORIZED to perform this request
+2015-07-23 19:21:21,978 http-bio-8888-exec-18 anonymous 1161x1011x1 z0771e 0:0:0:0:0:0:0:1 /login.jsp HttpSession [z0771e] destroyed for 'anonymous'
+2015-07-23 19:21:21,978 http-bio-8888-exec-18 anonymous 1161x1011x1 z0771e 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [bhcejp]
+2015-07-23 19:21:22,070 http-bio-8888-exec-18 jackjun 1161x1011x1 z0771e 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-23 19:28:11,973 http-bio-8888-exec-14 jackjun 1168x1047x1 bhcejp 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-23 19:28:11,973 http-bio-8888-exec-14 jackjun 1168x1047x1 bhcejp 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [bhcejp] destroyed for 'jackjun'
+2015-07-23 19:28:11,974 http-bio-8888-exec-14 jackjun 1168x1047x1 bhcejp 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [1xw1jx5]
+2015-07-23 19:33:01,112 http-bio-8888-exec-21 jackjun 1173x1186x1 1xw1jx5 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1xw1jx5] destroyed for 'jackjun'
+2015-07-23 19:33:01,113 http-bio-8888-exec-21 jackjun 1173x1186x1 1xw1jx5 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1lorh9n]
+2015-07-23 19:33:01,113 http-bio-8888-exec-21 jackjun 1173x1186x1 1xw1jx5 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'jackjun' has logged out.
+2015-07-23 19:33:06,217 http-bio-8888-exec-21 anonymous 1173x1192x1 1lorh9n 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1lorh9n] destroyed for 'anonymous'
+2015-07-23 19:33:06,217 http-bio-8888-exec-21 anonymous 1173x1192x1 1lorh9n 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1uaaoi7]
+2015-07-23 19:33:06,256 http-bio-8888-exec-21 jackjun 1173x1192x1 1lorh9n 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-23 19:33:15,063 http-bio-8888-exec-1 jackjun 1173x1220x1 1uaaoi7 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-23 19:33:15,064 http-bio-8888-exec-1 jackjun 1173x1220x1 1uaaoi7 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [1uaaoi7] destroyed for 'jackjun'
+2015-07-23 19:33:15,064 http-bio-8888-exec-1 jackjun 1173x1220x1 1uaaoi7 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [13wict5]
+2015-07-23 19:36:17,720 http-bio-8888-exec-19 jackjun 1176x1372x1 13wict5 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [13wict5] destroyed for 'jackjun'
+2015-07-23 19:36:17,720 http-bio-8888-exec-19 jackjun 1176x1372x1 13wict5 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1hk8tcg]
+2015-07-23 19:36:17,720 http-bio-8888-exec-19 jackjun 1176x1372x1 13wict5 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'jackjun' has logged out.
+2015-07-23 19:36:24,527 http-bio-8888-exec-19 anonymous 1176x1378x1 1hk8tcg 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1hk8tcg] destroyed for 'anonymous'
+2015-07-23 19:36:24,527 http-bio-8888-exec-19 anonymous 1176x1378x1 1hk8tcg 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [9fxm46]
+2015-07-23 19:36:24,576 http-bio-8888-exec-19 liuzhen 1176x1378x1 1hk8tcg 0:0:0:0:0:0:0:1 /login.jsp The user 'liuzhen' has PASSED authentication.
+2015-07-23 19:38:44,730 http-bio-8888-exec-18 liuzhen 1178x1819x1 9fxm46 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [9fxm46] destroyed for 'liuzhen'
+2015-07-23 19:38:44,730 http-bio-8888-exec-18 liuzhen 1178x1819x1 9fxm46 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1cpfggd]
+2015-07-23 19:38:44,731 http-bio-8888-exec-18 liuzhen 1178x1819x1 9fxm46 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'liuzhen' has logged out.
+2015-07-23 19:38:49,330 http-bio-8888-exec-25 anonymous 1178x1847x1 1cpfggd 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1cpfggd] destroyed for 'anonymous'
+2015-07-23 19:38:49,330 http-bio-8888-exec-25 anonymous 1178x1847x1 1cpfggd 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [jiu104]
+2015-07-23 19:38:49,418 http-bio-8888-exec-25 jackjun 1178x1847x1 1cpfggd 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-23 19:39:05,115 http-bio-8888-exec-20 jackjun 1179x1986x1 jiu104 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-23 19:39:05,116 http-bio-8888-exec-20 jackjun 1179x1986x1 jiu104 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [jiu104] destroyed for 'jackjun'
+2015-07-23 19:39:05,116 http-bio-8888-exec-20 jackjun 1179x1986x1 jiu104 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [vddten]
+2015-07-23 19:54:10,944 http-bio-8888-exec-17 jackjun 1194x2813x1 vddten 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-23 19:54:10,945 http-bio-8888-exec-17 jackjun 1194x2813x1 vddten 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [vddten] destroyed for 'jackjun'
+2015-07-23 19:54:10,945 http-bio-8888-exec-17 jackjun 1194x2813x1 vddten 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [14tpg97]
+2015-07-23 20:05:22,203 http-bio-8888-exec-1 jackjun 1205x3375x1 14tpg97 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [14tpg97] destroyed for 'jackjun'
+2015-07-23 20:05:22,203 http-bio-8888-exec-1 jackjun 1205x3375x1 14tpg97 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [n9okz6]
+2015-07-23 20:05:22,203 http-bio-8888-exec-1 jackjun 1205x3375x1 14tpg97 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'jackjun' has logged out.
+2015-07-23 20:05:25,188 http-bio-8888-exec-12 anonymous 1205x3403x1 n9okz6 0:0:0:0:0:0:0:1 /login.jsp HttpSession [n9okz6] destroyed for 'anonymous'
+2015-07-23 20:05:25,188 http-bio-8888-exec-12 anonymous 1205x3403x1 n9okz6 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [t4fuvs]
+2015-07-23 20:05:25,243 http-bio-8888-exec-12 jackjun 1205x3403x1 n9okz6 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-23 20:05:39,008 http-bio-8888-exec-2 jackjun 1205x3548x1 t4fuvs 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-23 20:05:39,009 http-bio-8888-exec-2 jackjun 1205x3548x1 t4fuvs 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [t4fuvs] destroyed for 'jackjun'
+2015-07-23 20:05:39,009 http-bio-8888-exec-2 jackjun 1205x3548x1 t4fuvs 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [1wen6v]
+2015-07-23 20:25:38,954 http-bio-8888-exec-18 jackjun 1225x4328x1 1wen6v 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1wen6v] destroyed for 'jackjun'
+2015-07-23 20:25:38,955 http-bio-8888-exec-18 jackjun 1225x4328x1 1wen6v 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [de6mqh]
+2015-07-23 20:25:38,956 http-bio-8888-exec-18 jackjun 1225x4328x1 1wen6v 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'jackjun' has logged out.
+2015-07-23 20:25:50,098 http-bio-8888-exec-18 anonymous 1225x4356x1 de6mqh 0:0:0:0:0:0:0:1 /login.jsp HttpSession [de6mqh] destroyed for 'anonymous'
+2015-07-23 20:25:50,098 http-bio-8888-exec-18 anonymous 1225x4356x1 de6mqh 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [qcc10q]
+2015-07-23 20:25:50,154 http-bio-8888-exec-18 wuqingfu 1225x4356x1 de6mqh 0:0:0:0:0:0:0:1 /login.jsp The user 'wuqingfu' has PASSED authentication.
+2015-07-24 01:34:07,285 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [qcc10q] destroyed for 'wuqingfu'
+2015-07-24 10:22:12,650 localhost-startStop-1      JIRA 6.0.5 build: 6102 started. You can now access JIRA through your web browser.
+2015-07-24 10:41:36,997 http-bio-8888-exec-1   -   HttpSession created [x1ukqi]
+2015-07-24 10:41:43,186 http-bio-8888-exec-8 anonymous 641x7x1 x1ukqi 0:0:0:0:0:0:0:1 /login.jsp HttpSession [x1ukqi] destroyed for 'anonymous'
+2015-07-24 10:41:43,186 http-bio-8888-exec-8 anonymous 641x7x1 x1ukqi 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [yqfp7]
+2015-07-24 10:41:43,278 http-bio-8888-exec-8 jackjun 641x7x1 x1ukqi 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-24 10:48:56,151 http-bio-8888-exec-3 jackjun 648x117x1 yqfp7 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [yqfp7] destroyed for 'jackjun'
+2015-07-24 10:48:56,152 http-bio-8888-exec-3 jackjun 648x117x1 yqfp7 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1bi3z5f]
+2015-07-24 10:48:56,155 http-bio-8888-exec-3 jackjun 648x117x1 yqfp7 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'jackjun' has logged out.
+2015-07-24 10:49:03,380 http-bio-8888-exec-3 anonymous 649x123x1 1bi3z5f 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1bi3z5f] destroyed for 'anonymous'
+2015-07-24 10:49:03,380 http-bio-8888-exec-3 anonymous 649x123x1 1bi3z5f 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1scxzbm]
+2015-07-24 10:49:03,478 http-bio-8888-exec-3 liting 649x123x1 1bi3z5f 0:0:0:0:0:0:0:1 /login.jsp The user 'liting' has PASSED authentication.
+2015-07-24 11:08:04,736 http-bio-8888-exec-7 liting 668x322x1 1scxzbm 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1scxzbm] destroyed for 'liting'
+2015-07-24 11:08:04,736 http-bio-8888-exec-7 liting 668x322x1 1scxzbm 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [5asndx]
+2015-07-24 11:08:04,737 http-bio-8888-exec-7 liting 668x322x1 1scxzbm 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'liting' has logged out.
+2015-07-24 11:08:10,044 http-bio-8888-exec-7 anonymous 668x328x1 5asndx 0:0:0:0:0:0:0:1 /login.jsp HttpSession [5asndx] destroyed for 'anonymous'
+2015-07-24 11:08:10,044 http-bio-8888-exec-7 anonymous 668x328x1 5asndx 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [5v7i08]
+2015-07-24 11:08:10,085 http-bio-8888-exec-7 jackjun 668x328x1 5asndx 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-24 11:18:46,085 localhost-startStop-1      JIRA 6.0.5 build: 6102 started. You can now access JIRA through your web browser.
+2015-07-24 11:20:51,908 http-bio-8888-exec-1   -   HttpSession created [1uvp0aq]
+2015-07-24 11:20:58,714 http-bio-8888-exec-12 anonymous 680x10x1 1uvp0aq 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1uvp0aq] destroyed for 'anonymous'
+2015-07-24 11:20:58,714 http-bio-8888-exec-12 anonymous 680x10x1 1uvp0aq 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1huegzo]
+2015-07-24 11:20:58,772 http-bio-8888-exec-12 jackjun 680x10x1 1uvp0aq 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-24 11:27:42,036 http-bio-8888-exec-2 jackjun 687x127x1 1huegzo 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-24 11:27:42,037 http-bio-8888-exec-2 jackjun 687x127x1 1huegzo 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [1huegzo] destroyed for 'jackjun'
+2015-07-24 11:27:42,038 http-bio-8888-exec-2 jackjun 687x127x1 1huegzo 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [pbkipa]
+2015-07-24 13:22:50,868 http-bio-8888-exec-18 jackjun 802x435x1 pbkipa 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [pbkipa] destroyed for 'jackjun'
+2015-07-24 13:22:50,868 http-bio-8888-exec-18 jackjun 802x435x1 pbkipa 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [14z42tn]
+2015-07-24 13:22:50,871 http-bio-8888-exec-18 jackjun 802x435x1 pbkipa 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'jackjun' has logged out.
+2015-07-24 13:23:00,115 http-bio-8888-exec-18 anonymous 803x441x1 14z42tn 0:0:0:0:0:0:0:1 /login.jsp HttpSession [14z42tn] destroyed for 'anonymous'
+2015-07-24 13:23:00,115 http-bio-8888-exec-18 anonymous 803x441x1 14z42tn 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [au3cs3]
+2015-07-24 13:23:00,182 http-bio-8888-exec-18 liting 803x441x1 14z42tn 0:0:0:0:0:0:0:1 /login.jsp The user 'liting' has PASSED authentication.
+2015-07-24 13:24:06,101 http-bio-8888-exec-3 liting 804x530x1 au3cs3 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [au3cs3] destroyed for 'liting'
+2015-07-24 13:24:06,102 http-bio-8888-exec-3 liting 804x530x1 au3cs3 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [3jz42o]
+2015-07-24 13:24:06,102 http-bio-8888-exec-3 liting 804x530x1 au3cs3 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'liting' has logged out.
+2015-07-24 13:24:12,118 http-bio-8888-exec-3 anonymous 804x536x1 3jz42o 0:0:0:0:0:0:0:1 /login.jsp HttpSession [3jz42o] destroyed for 'anonymous'
+2015-07-24 13:24:12,119 http-bio-8888-exec-3 anonymous 804x536x1 3jz42o 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [f7o39y]
+2015-07-24 13:24:12,174 http-bio-8888-exec-3 jackjun 804x536x1 3jz42o 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-24 13:24:50,174 http-bio-8888-exec-8 jackjun 804x584x1 f7o39y 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [f7o39y] destroyed for 'jackjun'
+2015-07-24 13:24:50,175 http-bio-8888-exec-8 jackjun 804x584x1 f7o39y 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [ofboc4]
+2015-07-24 13:24:50,175 http-bio-8888-exec-8 jackjun 804x584x1 f7o39y 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'jackjun' has logged out.
+2015-07-24 13:24:53,351 http-bio-8888-exec-8 anonymous 804x590x1 ofboc4 0:0:0:0:0:0:0:1 /login.jsp HttpSession [ofboc4] destroyed for 'anonymous'
+2015-07-24 13:24:53,352 http-bio-8888-exec-8 anonymous 804x590x1 ofboc4 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [c4mqlj]
+2015-07-24 13:24:53,432 http-bio-8888-exec-8 liting 804x590x1 ofboc4 0:0:0:0:0:0:0:1 /login.jsp The user 'liting' has PASSED authentication.
+2015-07-24 13:27:10,684 http-bio-8888-exec-11 liting 807x656x1 c4mqlj 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [c4mqlj] destroyed for 'liting'
+2015-07-24 13:27:10,684 http-bio-8888-exec-11 liting 807x656x1 c4mqlj 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [17c8ts1]
+2015-07-24 13:27:10,684 http-bio-8888-exec-11 liting 807x656x1 c4mqlj 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'liting' has logged out.
+2015-07-24 13:27:16,843 http-bio-8888-exec-11 anonymous 807x662x1 17c8ts1 0:0:0:0:0:0:0:1 /login.jsp HttpSession [17c8ts1] destroyed for 'anonymous'
+2015-07-24 13:27:16,843 http-bio-8888-exec-11 anonymous 807x662x1 17c8ts1 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1562d2d]
+2015-07-24 13:27:16,880 http-bio-8888-exec-11 jackjun 807x662x1 17c8ts1 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-24 13:51:33,237 localhost-startStop-2      HttpSession [1562d2d] destroyed for 'jackjun'
+2015-07-24 15:15:51,475 localhost-startStop-1      JIRA 6.0.5 build: 6102 started. You can now access JIRA through your web browser.
+2015-07-24 15:17:17,467 http-bio-8888-exec-1   -   HttpSession created [1nm2ggm]
+2015-07-24 15:19:37,944 http-bio-8888-exec-13 anonymous 919x7x1 1nm2ggm 0:0:0:0:0:0:0:1 /login.jsp login : 'jackjun' tried to login but they do not have USE permission or weren't found. Deleting remember me cookie.
+2015-07-24 15:19:38,006 http-bio-8888-exec-13 anonymous 919x7x1 1nm2ggm 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has FAILED authentication.  Failure count equals 1
+2015-07-24 15:19:46,738 http-bio-8888-exec-16 anonymous 919x10x1 1nm2ggm 0:0:0:0:0:0:0:1 /login.jsp login : 'jackjun' tried to login but they do not have USE permission or weren't found. Deleting remember me cookie.
+2015-07-24 15:19:46,780 http-bio-8888-exec-16 anonymous 919x10x1 1nm2ggm 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has FAILED authentication.  Failure count equals 2
+2015-07-24 15:19:54,224 http-bio-8888-exec-19 anonymous 919x13x1 1nm2ggm 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1nm2ggm] destroyed for 'anonymous'
+2015-07-24 15:19:54,224 http-bio-8888-exec-19 anonymous 919x13x1 1nm2ggm 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [13lso35]
+2015-07-24 15:19:54,306 http-bio-8888-exec-19 jackjun 919x13x1 1nm2ggm 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-24 15:32:34,346 http-bio-8888-exec-4 jackjun 932x41x1 13lso35 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-24 15:32:34,347 http-bio-8888-exec-4 jackjun 932x41x1 13lso35 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [13lso35] destroyed for 'jackjun'
+2015-07-24 15:32:34,347 http-bio-8888-exec-4 jackjun 932x41x1 13lso35 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [w0a3rz]
+2015-07-24 15:59:26,462 localhost-startStop-1      JIRA 6.0.5 build: 6102 started. You can now access JIRA through your web browser.
+2015-07-24 15:59:35,000 http-bio-8888-exec-1 anonymous 959x1x1 - 0:0:0:0:0:0:0:1 /secure/admin/ViewPermissionSchemes.jspa The user 'anonymous' is NOT AUTHORIZED to perform this request
+2015-07-24 15:59:35,005 http-bio-8888-exec-1 anonymous 959x1x1 - 0:0:0:0:0:0:0:1 /secure/admin/ViewPermissionSchemes.jspa HttpSession created [1nf9ob3]
+2015-07-24 16:00:17,454 http-bio-8888-exec-8 anonymous 960x6x1 1nf9ob3 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1nf9ob3] destroyed for 'anonymous'
+2015-07-24 16:00:17,454 http-bio-8888-exec-8 anonymous 960x6x1 1nf9ob3 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [10m6zga]
+2015-07-24 16:00:17,504 http-bio-8888-exec-8 jackjun 960x6x1 1nf9ob3 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-24 16:00:38,714 http-bio-8888-exec-21 jackjun 960x16x1 10m6zga 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-24 16:00:38,716 http-bio-8888-exec-21 jackjun 960x16x1 10m6zga 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [10m6zga] destroyed for 'jackjun'
+2015-07-24 16:00:38,716 http-bio-8888-exec-21 jackjun 960x16x1 10m6zga 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [1m865cv]
+2015-07-24 16:15:06,492 http-bio-8888-exec-20 jackjun 975x206x1 1m865cv 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-24 16:15:06,493 http-bio-8888-exec-20 jackjun 975x206x1 1m865cv 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [1m865cv] destroyed for 'jackjun'
+2015-07-24 16:15:06,493 http-bio-8888-exec-20 jackjun 975x206x1 1m865cv 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [1drx0of]
+2015-07-24 16:26:14,976 http-bio-8888-exec-5 jackjun 986x699x1 1drx0of 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1drx0of] destroyed for 'jackjun'
+2015-07-24 16:26:14,977 http-bio-8888-exec-5 jackjun 986x699x1 1drx0of 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [a87kin]
+2015-07-24 16:26:14,980 http-bio-8888-exec-5 jackjun 986x699x1 1drx0of 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'jackjun' has logged out.
+2015-07-24 16:26:24,478 http-bio-8888-exec-5 anonymous 986x705x1 a87kin 0:0:0:0:0:0:0:1 /login.jsp HttpSession [a87kin] destroyed for 'anonymous'
+2015-07-24 16:26:24,478 http-bio-8888-exec-5 anonymous 986x705x1 a87kin 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1g64gi4]
+2015-07-24 16:26:24,525 http-bio-8888-exec-5 lisheng 986x705x1 a87kin 0:0:0:0:0:0:0:1 /login.jsp The user 'lisheng' has PASSED authentication.
+2015-07-24 16:26:35,416 http-bio-8888-exec-25 lisheng 986x727x1 1g64gi4 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1g64gi4] destroyed for 'lisheng'
+2015-07-24 16:26:35,416 http-bio-8888-exec-25 lisheng 986x727x1 1g64gi4 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [vy1wrq]
+2015-07-24 16:26:35,417 http-bio-8888-exec-25 lisheng 986x727x1 1g64gi4 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'lisheng' has logged out.
+2015-07-24 16:26:41,471 http-bio-8888-exec-25 anonymous 986x733x1 vy1wrq 0:0:0:0:0:0:0:1 /login.jsp HttpSession [vy1wrq] destroyed for 'anonymous'
+2015-07-24 16:26:41,471 http-bio-8888-exec-25 anonymous 986x733x1 vy1wrq 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [gd0fah]
+2015-07-24 16:26:41,519 http-bio-8888-exec-25 liting 986x733x1 vy1wrq 0:0:0:0:0:0:0:1 /login.jsp The user 'liting' has PASSED authentication.
+2015-07-24 16:27:57,518 http-bio-8888-exec-2 liting 987x787x1 gd0fah 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [gd0fah] destroyed for 'liting'
+2015-07-24 16:27:57,519 http-bio-8888-exec-2 liting 987x787x1 gd0fah 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [wr0sis]
+2015-07-24 16:27:57,519 http-bio-8888-exec-2 liting 987x787x1 gd0fah 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'liting' has logged out.
+2015-07-24 16:28:03,806 http-bio-8888-exec-2 anonymous 988x793x1 wr0sis 0:0:0:0:0:0:0:1 /login.jsp HttpSession [wr0sis] destroyed for 'anonymous'
+2015-07-24 16:28:03,806 http-bio-8888-exec-2 anonymous 988x793x1 wr0sis 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1romiro]
+2015-07-24 16:28:03,842 http-bio-8888-exec-2 chujun 988x793x1 wr0sis 0:0:0:0:0:0:0:1 /login.jsp The user 'chujun' has PASSED authentication.
+2015-07-24 16:33:12,039 http-bio-8888-exec-2 chujun 993x820x1 1romiro 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1romiro] destroyed for 'chujun'
+2015-07-24 16:33:12,040 http-bio-8888-exec-2 chujun 993x820x1 1romiro 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [c7deoa]
+2015-07-24 16:33:12,040 http-bio-8888-exec-2 chujun 993x820x1 1romiro 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'chujun' has logged out.
+2015-07-24 16:33:21,280 http-bio-8888-exec-2 anonymous 993x826x1 c7deoa 0:0:0:0:0:0:0:1 /login.jsp HttpSession [c7deoa] destroyed for 'anonymous'
+2015-07-24 16:33:21,281 http-bio-8888-exec-2 anonymous 993x826x1 c7deoa 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1864a0t]
+2015-07-24 16:33:21,318 http-bio-8888-exec-2 jackjun 993x826x1 c7deoa 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-24 17:03:07,556 http-bio-8888-exec-6 jackjun 1023x1109x1 1864a0t 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-24 17:03:07,557 http-bio-8888-exec-6 jackjun 1023x1109x1 1864a0t 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [1864a0t] destroyed for 'jackjun'
+2015-07-24 17:03:07,557 http-bio-8888-exec-6 jackjun 1023x1109x1 1864a0t 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [1qbb3dq]
+2015-07-24 17:12:18,348 http-bio-8888-exec-10 jackjun 1032x1949x1 1qbb3dq 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1qbb3dq] destroyed for 'jackjun'
+2015-07-24 17:12:18,350 http-bio-8888-exec-10 jackjun 1032x1949x1 1qbb3dq 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [khipm0]
+2015-07-24 17:12:18,350 http-bio-8888-exec-10 jackjun 1032x1949x1 1qbb3dq 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'jackjun' has logged out.
+2015-07-24 17:12:34,380 http-bio-8888-exec-20 anonymous 1032x1977x1 khipm0 0:0:0:0:0:0:0:1 /login.jsp HttpSession [khipm0] destroyed for 'anonymous'
+2015-07-24 17:12:34,380 http-bio-8888-exec-20 anonymous 1032x1977x1 khipm0 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [13n89iu]
+2015-07-24 17:12:34,418 http-bio-8888-exec-20 chujun 1032x1977x1 khipm0 0:0:0:0:0:0:0:1 /login.jsp The user 'chujun' has PASSED authentication.
+2015-07-24 17:21:44,835 http-bio-8888-exec-14 chujun 1041x2239x1 13n89iu 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [13n89iu] destroyed for 'chujun'
+2015-07-24 17:21:44,836 http-bio-8888-exec-14 chujun 1041x2239x1 13n89iu 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [16pdws1]
+2015-07-24 17:21:44,836 http-bio-8888-exec-14 chujun 1041x2239x1 13n89iu 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'chujun' has logged out.
+2015-07-24 17:21:52,526 http-bio-8888-exec-8 anonymous 1041x2267x1 16pdws1 0:0:0:0:0:0:0:1 /login.jsp HttpSession [16pdws1] destroyed for 'anonymous'
+2015-07-24 17:21:52,526 http-bio-8888-exec-8 anonymous 1041x2267x1 16pdws1 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1igws57]
+2015-07-24 17:21:52,574 http-bio-8888-exec-8 jackjun 1041x2267x1 16pdws1 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-24 17:22:04,194 http-bio-8888-exec-16 jackjun 1042x2329x1 1igws57 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-24 17:22:04,195 http-bio-8888-exec-16 jackjun 1042x2329x1 1igws57 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [1igws57] destroyed for 'jackjun'
+2015-07-24 17:22:04,195 http-bio-8888-exec-16 jackjun 1042x2329x1 1igws57 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [1j7unib]
+2015-07-24 17:39:55,377 http-bio-8888-exec-23 jackjun 1059x2764x1 1j7unib 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1j7unib] destroyed for 'jackjun'
+2015-07-24 17:39:55,377 http-bio-8888-exec-23 jackjun 1059x2764x1 1j7unib 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1acfcoy]
+2015-07-24 17:39:55,378 http-bio-8888-exec-23 jackjun 1059x2764x1 1j7unib 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'jackjun' has logged out.
+2015-07-24 17:39:59,741 http-bio-8888-exec-23 anonymous 1059x2770x1 1acfcoy 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1acfcoy] destroyed for 'anonymous'
+2015-07-24 17:39:59,741 http-bio-8888-exec-23 anonymous 1059x2770x1 1acfcoy 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [16aqukb]
+2015-07-24 17:39:59,789 http-bio-8888-exec-23 jackjun 1059x2770x1 1acfcoy 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-24 17:40:03,636 http-bio-8888-exec-5 jackjun 1060x2788x1 16aqukb 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [16aqukb] destroyed for 'jackjun'
+2015-07-24 17:40:03,636 http-bio-8888-exec-5 jackjun 1060x2788x1 16aqukb 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [npr4fc]
+2015-07-24 17:40:03,636 http-bio-8888-exec-5 jackjun 1060x2788x1 16aqukb 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'jackjun' has logged out.
+2015-07-24 17:40:09,749 http-bio-8888-exec-5 anonymous 1060x2794x1 npr4fc 0:0:0:0:0:0:0:1 /login.jsp HttpSession [npr4fc] destroyed for 'anonymous'
+2015-07-24 17:40:09,749 http-bio-8888-exec-5 anonymous 1060x2794x1 npr4fc 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [otljpm]
+2015-07-24 17:40:09,812 http-bio-8888-exec-5 liting 1060x2794x1 npr4fc 0:0:0:0:0:0:0:1 /login.jsp The user 'liting' has PASSED authentication.
+2015-07-24 17:52:46,609 localhost-startStop-2      HttpSession [otljpm] destroyed for 'liting'
+2015-07-27 09:51:19,063 localhost-startStop-1      JIRA 6.0.5 build: 6102 started. You can now access JIRA through your web browser.
+2015-07-27 09:57:36,702 localhost-startStop-1      JIRA 6.0.5 build: 6102 started. You can now access JIRA through your web browser.
+2015-07-27 10:01:17,737 localhost-startStop-1      JIRA 6.0.5 build: 6102 started. You can now access JIRA through your web browser.
+2015-07-27 10:01:24,746 http-bio-8888-exec-1   -   HttpSession created [1poq4nn]
+2015-07-27 10:07:42,519 http-bio-8888-exec-1 anonymous 607x20x1 1poq4nn 0:0:0:0:0:0:0:1 /login.jsp login : 'chujun' tried to login but they do not have USE permission or weren't found. Deleting remember me cookie.
+2015-07-27 10:07:42,579 http-bio-8888-exec-1 anonymous 607x20x1 1poq4nn 0:0:0:0:0:0:0:1 /login.jsp The user 'chujun' has FAILED authentication.  Failure count equals 1
+2015-07-27 10:07:50,655 http-bio-8888-exec-1 anonymous 607x23x1 1poq4nn 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1poq4nn] destroyed for 'anonymous'
+2015-07-27 10:07:50,655 http-bio-8888-exec-1 anonymous 607x23x1 1poq4nn 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [13iqp2m]
+2015-07-27 10:07:50,694 http-bio-8888-exec-1 jackjun 607x23x1 1poq4nn 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-27 10:08:23,198 http-bio-8888-exec-2 jackjun 608x169x1 13iqp2m 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [13iqp2m] destroyed for 'jackjun'
+2015-07-27 10:08:23,198 http-bio-8888-exec-2 jackjun 608x169x1 13iqp2m 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [u9t1pd]
+2015-07-27 10:08:23,199 http-bio-8888-exec-2 jackjun 608x169x1 13iqp2m 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'jackjun' has logged out.
+2015-07-27 10:08:29,429 http-bio-8888-exec-2 anonymous 608x177x1 u9t1pd 0:0:0:0:0:0:0:1 /login.jsp HttpSession [u9t1pd] destroyed for 'anonymous'
+2015-07-27 10:08:29,429 http-bio-8888-exec-2 anonymous 608x177x1 u9t1pd 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1bs29fv]
+2015-07-27 10:08:29,468 http-bio-8888-exec-2 liting 608x177x1 u9t1pd 0:0:0:0:0:0:0:1 /login.jsp The user 'liting' has PASSED authentication.
+2015-07-27 10:24:23,516 http-bio-8888-exec-4 liting 624x242x1 1bs29fv 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1bs29fv] destroyed for 'liting'
+2015-07-27 10:24:23,517 http-bio-8888-exec-4 liting 624x242x1 1bs29fv 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [9hpgdp]
+2015-07-27 10:24:23,517 http-bio-8888-exec-4 liting 624x242x1 1bs29fv 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'liting' has logged out.
+2015-07-27 10:24:26,980 http-bio-8888-exec-4 anonymous 624x248x1 9hpgdp 0:0:0:0:0:0:0:1 /login.jsp login : 'ja' tried to login but they do not have USE permission or weren't found. Deleting remember me cookie.
+2015-07-27 10:24:35,752 http-bio-8888-exec-4 anonymous 624x251x1 9hpgdp 0:0:0:0:0:0:0:1 /login.jsp HttpSession [9hpgdp] destroyed for 'anonymous'
+2015-07-27 10:24:35,752 http-bio-8888-exec-4 anonymous 624x251x1 9hpgdp 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1hsh8tn]
+2015-07-27 10:24:35,900 http-bio-8888-exec-4 jackjun 624x251x1 9hpgdp 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-27 10:37:26,680 http-bio-8888-exec-3 jackjun 637x296x1 1hsh8tn 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-27 10:37:26,692 http-bio-8888-exec-3 jackjun 637x296x1 1hsh8tn 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [1hsh8tn] destroyed for 'jackjun'
+2015-07-27 10:37:26,692 http-bio-8888-exec-3 jackjun 637x296x1 1hsh8tn 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [1o1egb]
+2015-07-27 13:31:37,748 http-bio-8888-exec-2 jackjun 811x1155x1 1o1egb 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1o1egb] destroyed for 'jackjun'
+2015-07-27 13:31:37,752 http-bio-8888-exec-2 jackjun 811x1155x1 1o1egb 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1tmm4wq]
+2015-07-27 13:31:37,812 http-bio-8888-exec-2 jackjun 811x1155x1 1o1egb 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'jackjun' has logged out.
+2015-07-27 13:32:22,647 http-bio-8888-exec-1 anonymous 812x1170x1 1tmm4wq 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1tmm4wq] destroyed for 'anonymous'
+2015-07-27 13:32:22,647 http-bio-8888-exec-1 anonymous 812x1170x1 1tmm4wq 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [jrmb6t]
+2015-07-27 13:32:22,799 http-bio-8888-exec-1 test 812x1170x1 1tmm4wq 0:0:0:0:0:0:0:1 /login.jsp The user 'test' has PASSED authentication.
+2015-07-27 13:32:40,455 http-bio-8888-exec-12 test 812x1195x1 jrmb6t 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [jrmb6t] destroyed for 'test'
+2015-07-27 13:32:40,455 http-bio-8888-exec-12 test 812x1195x1 jrmb6t 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1xn6llb]
+2015-07-27 13:32:40,455 http-bio-8888-exec-12 test 812x1195x1 jrmb6t 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'test' has logged out.
+2015-07-27 13:32:47,060 http-bio-8888-exec-12 anonymous 812x1201x1 1xn6llb 0:0:0:0:0:0:0:1 /login.jsp login : 'jackjun' tried to login but they do not have USE permission or weren't found. Deleting remember me cookie.
+2015-07-27 13:32:47,148 http-bio-8888-exec-12 anonymous 812x1201x1 1xn6llb 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has FAILED authentication.  Failure count equals 1
+2015-07-27 13:32:50,447 http-bio-8888-exec-12 anonymous 812x1204x1 1xn6llb 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1xn6llb] destroyed for 'anonymous'
+2015-07-27 13:32:50,447 http-bio-8888-exec-12 anonymous 812x1204x1 1xn6llb 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [553hed]
+2015-07-27 13:32:50,603 http-bio-8888-exec-12 jackjun 812x1204x1 1xn6llb 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-27 13:33:16,757 http-bio-8888-exec-14 jackjun 813x1242x1 553hed 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-27 13:33:16,757 http-bio-8888-exec-14 jackjun 813x1242x1 553hed 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [553hed] destroyed for 'jackjun'
+2015-07-27 13:33:16,758 http-bio-8888-exec-14 jackjun 813x1242x1 553hed 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [7hi7uv]
+2015-07-27 13:37:32,529 http-bio-8888-exec-5 jackjun 817x1251x1 7hi7uv 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [7hi7uv] destroyed for 'jackjun'
+2015-07-27 13:37:32,530 http-bio-8888-exec-5 jackjun 817x1251x1 7hi7uv 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [q5mmzy]
+2015-07-27 13:37:32,530 http-bio-8888-exec-5 jackjun 817x1251x1 7hi7uv 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'jackjun' has logged out.
+2015-07-27 13:37:39,558 http-bio-8888-exec-5 anonymous 817x1257x1 q5mmzy 0:0:0:0:0:0:0:1 /login.jsp HttpSession [q5mmzy] destroyed for 'anonymous'
+2015-07-27 13:37:39,559 http-bio-8888-exec-5 anonymous 817x1257x1 q5mmzy 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1e5v3sy]
+2015-07-27 13:37:39,702 http-bio-8888-exec-5 chujun 817x1257x1 q5mmzy 0:0:0:0:0:0:0:1 /login.jsp The user 'chujun' has PASSED authentication.
+2015-07-27 13:46:19,908 localhost-startStop-1      JIRA 6.0.5 build: 6102 started. You can now access JIRA through your web browser.
+2015-07-27 13:46:47,990 http-bio-8888-exec-1   -   HttpSession created [ba02qt]
+2015-07-27 13:47:10,270 http-bio-8888-exec-20 anonymous 827x14x1 ba02qt 0:0:0:0:0:0:0:1 /rest/gadget/1.0/login HttpSession [ba02qt] destroyed for 'anonymous'
+2015-07-27 13:47:10,271 http-bio-8888-exec-20 anonymous 827x14x1 ba02qt 0:0:0:0:0:0:0:1 /rest/gadget/1.0/login HttpSession created [1wbfkzy]
+2015-07-27 13:47:10,455 http-bio-8888-exec-20 jackjun 827x14x1 ba02qt 0:0:0:0:0:0:0:1 /rest/gadget/1.0/login The user 'jackjun' has PASSED authentication.
+2015-07-27 14:06:00,609 localhost-startStop-2      HttpSession [1wbfkzy] destroyed for 'jackjun'
+2015-07-27 16:54:02,035 localhost-startStop-1      JIRA 6.0.5 build: 6102 started. You can now access JIRA through your web browser.
+2015-07-27 16:54:17,703 http-bio-8888-exec-1 anonymous 1014x1x1 - 0:0:0:0:0:0:0:1 /browse/MYB-1 HttpSession created [u63wch]
+2015-07-27 16:54:18,022 http-bio-8888-exec-1 jackjun 1014x1x1 - 0:0:0:0:0:0:0:1 /browse/MYB-1 The user 'jackjun' has PASSED authentication.
+2015-07-27 16:54:19,967 http-bio-8888-exec-2 anonymous 1014x2x2 - 0:0:0:0:0:0:0:1 /browse/MYB-1 HttpSession created [ban4gv]
+2015-07-27 16:54:20,123 http-bio-8888-exec-2 jackjun 1014x2x2 - 0:0:0:0:0:0:0:1 /browse/MYB-1 The user 'jackjun' has PASSED authentication.
+2015-07-27 16:54:50,294 http-bio-8888-exec-25 jackjun 1014x19x1 ban4gv 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [ban4gv] destroyed for 'jackjun'
+2015-07-27 16:54:50,294 http-bio-8888-exec-25 jackjun 1014x19x1 ban4gv 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [jlyuth]
+2015-07-27 16:54:50,370 http-bio-8888-exec-25 jackjun 1014x19x1 ban4gv 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'jackjun' has logged out.
+2015-07-27 16:55:06,304 http-bio-8888-exec-25 anonymous 1015x26x1 jlyuth 0:0:0:0:0:0:0:1 /login.jsp HttpSession [jlyuth] destroyed for 'anonymous'
+2015-07-27 16:55:06,304 http-bio-8888-exec-25 anonymous 1015x26x1 jlyuth 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [mouwih]
+2015-07-27 16:55:06,443 http-bio-8888-exec-25 jackjun 1015x26x1 jlyuth 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-27 17:05:15,641 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [u63wch] destroyed for 'jackjun'
+2015-07-27 17:45:18,369 http-bio-8888-exec-6 jackjun 1065x47x1 mouwih 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-27 17:45:18,370 http-bio-8888-exec-6 jackjun 1065x47x1 mouwih 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [mouwih] destroyed for 'jackjun'
+2015-07-27 17:45:18,370 http-bio-8888-exec-6 jackjun 1065x47x1 mouwih 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [4nb93v]
+2015-07-27 17:56:26,347 http-bio-8888-exec-7 jackjun 1076x70x1 4nb93v 0:0:0:0:0:0:0:1 /secure/admin/workflows//secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-27 17:56:26,348 http-bio-8888-exec-7 jackjun 1076x70x1 4nb93v 0:0:0:0:0:0:0:1 /secure/admin/workflows//secure/admin/WebSudoAuthenticate.jspa HttpSession [4nb93v] destroyed for 'jackjun'
+2015-07-27 17:56:26,348 http-bio-8888-exec-7 jackjun 1076x70x1 4nb93v 0:0:0:0:0:0:0:1 /secure/admin/workflows//secure/admin/WebSudoAuthenticate.jspa HttpSession created [14pt3s8]
+2015-07-27 23:03:18,946 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [14pt3s8] destroyed for 'jackjun'
+2015-07-28 09:49:06,052 http-bio-8888-exec-18 anonymous 589x165x1 - 0:0:0:0:0:0:0:1 /alreadyloggedout.jsp HttpSession created [1nne3vx]
+2015-07-28 09:50:03,381 http-bio-8888-exec-21 anonymous 590x171x1 1nne3vx 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1nne3vx] destroyed for 'anonymous'
+2015-07-28 09:50:03,382 http-bio-8888-exec-21 anonymous 590x171x1 1nne3vx 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [a52fkq]
+2015-07-28 09:50:03,503 http-bio-8888-exec-21 jackjun 590x171x1 1nne3vx 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-28 09:54:21,220 http-bio-8888-exec-10 jackjun 594x231x1 a52fkq 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-28 09:54:21,221 http-bio-8888-exec-10 jackjun 594x231x1 a52fkq 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [a52fkq] destroyed for 'jackjun'
+2015-07-28 09:54:21,221 http-bio-8888-exec-10 jackjun 594x231x1 a52fkq 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [1ya8rjg]
+2015-07-28 10:47:22,045 http-bio-8888-exec-15 jackjun 647x569x1 1ya8rjg 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-28 10:47:22,045 http-bio-8888-exec-15 jackjun 647x569x1 1ya8rjg 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [1ya8rjg] destroyed for 'jackjun'
+2015-07-28 10:47:22,045 http-bio-8888-exec-15 jackjun 647x569x1 1ya8rjg 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [16kmwig]
+2015-07-28 11:22:12,988 localhost-startStop-1      JIRA 6.0.5 build: 6102 started. You can now access JIRA through your web browser.
+2015-07-28 11:23:09,227 http-bio-8888-exec-1 anonymous 683x2x2 - 0:0:0:0:0:0:0:1 /secure/admin/workflows/ViewWorkflowSteps.jspa The user 'anonymous' is NOT AUTHORIZED to perform this request
+2015-07-28 11:23:09,257 http-bio-8888-exec-1 anonymous 683x2x2 - 0:0:0:0:0:0:0:1 /secure/admin/workflows/ViewWorkflowSteps.jspa HttpSession created [1mb1fu0]
+2015-07-28 11:23:09,395 http-bio-8888-exec-2   -   HttpSession created [165kcdo]
+2015-07-28 11:23:30,647 http-bio-8888-exec-13 anonymous 683x8x1 165kcdo 0:0:0:0:0:0:0:1 /login.jsp HttpSession [165kcdo] destroyed for 'anonymous'
+2015-07-28 11:23:30,647 http-bio-8888-exec-13 anonymous 683x8x1 165kcdo 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [tjndcf]
+2015-07-28 11:23:30,813 http-bio-8888-exec-13 jackjun 683x8x1 165kcdo 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-28 11:23:54,936 http-bio-8888-exec-21 jackjun 683x24x1 tjndcf 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-28 11:23:54,936 http-bio-8888-exec-21 jackjun 683x24x1 tjndcf 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [tjndcf] destroyed for 'jackjun'
+2015-07-28 11:23:54,937 http-bio-8888-exec-21 jackjun 683x24x1 tjndcf 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [1e2rk4s]
+2015-07-28 13:38:33,350 http-bio-8888-exec-23 jackjun 818x163x1 1e2rk4s 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-28 13:38:33,365 http-bio-8888-exec-23 jackjun 818x163x1 1e2rk4s 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [1e2rk4s] destroyed for 'jackjun'
+2015-07-28 13:38:33,365 http-bio-8888-exec-23 jackjun 818x163x1 1e2rk4s 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [1gqtj93]
+2015-07-28 13:51:42,598 http-bio-8888-exec-15 jackjun 831x269x1 1gqtj93 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-28 13:51:42,598 http-bio-8888-exec-15 jackjun 831x269x1 1gqtj93 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [1gqtj93] destroyed for 'jackjun'
+2015-07-28 13:51:42,598 http-bio-8888-exec-15 jackjun 831x269x1 1gqtj93 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [1jd4bvg]
+2015-07-28 14:49:03,162 http-bio-8888-exec-22 jackjun 889x737x1 1jd4bvg 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-28 14:49:03,163 http-bio-8888-exec-22 jackjun 889x737x1 1jd4bvg 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [1jd4bvg] destroyed for 'jackjun'
+2015-07-28 14:49:03,163 http-bio-8888-exec-22 jackjun 889x737x1 1jd4bvg 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [ilufzb]
+2015-07-28 15:39:30,199 http-bio-8888-exec-19 jackjun 939x914x1 ilufzb 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-28 15:39:30,200 http-bio-8888-exec-19 jackjun 939x914x1 ilufzb 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [ilufzb] destroyed for 'jackjun'
+2015-07-28 15:39:30,200 http-bio-8888-exec-19 jackjun 939x914x1 ilufzb 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [twwf3l]
+2015-07-28 16:23:32,445 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [1mb1fu0] destroyed for 'anonymous'
+2015-07-28 16:46:37,502 http-bio-8888-exec-6 jackjun 1006x1080x1 twwf3l 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-28 16:46:37,502 http-bio-8888-exec-6 jackjun 1006x1080x1 twwf3l 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [twwf3l] destroyed for 'jackjun'
+2015-07-28 16:46:37,502 http-bio-8888-exec-6 jackjun 1006x1080x1 twwf3l 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [vcn03o]
+2015-07-28 16:58:18,180 http-bio-8888-exec-11 jackjun 1018x1153x1 vcn03o 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-28 16:58:18,181 http-bio-8888-exec-11 jackjun 1018x1153x1 vcn03o 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [vcn03o] destroyed for 'jackjun'
+2015-07-28 16:58:18,182 http-bio-8888-exec-11 jackjun 1018x1153x1 vcn03o 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [1u82nxn]
+2015-07-28 22:23:40,501 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [1u82nxn] destroyed for 'jackjun'
+2015-07-29 09:30:20,008 http-bio-8888-exec-12   -   HttpSession created [94zf5t]
+2015-07-29 09:36:06,629 http-bio-8888-exec-25 anonymous 576x2087x1 94zf5t 0:0:0:0:0:0:0:1 /login.jsp HttpSession [94zf5t] destroyed for 'anonymous'
+2015-07-29 09:36:06,629 http-bio-8888-exec-25 anonymous 576x2087x1 94zf5t 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1qh2lse]
+2015-07-29 09:36:06,775 http-bio-8888-exec-25 jackjun 576x2087x1 94zf5t 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-29 09:36:19,220 http-bio-8888-exec-25 jackjun 576x2097x1 1qh2lse 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-29 09:36:19,221 http-bio-8888-exec-25 jackjun 576x2097x1 1qh2lse 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [1qh2lse] destroyed for 'jackjun'
+2015-07-29 09:36:19,221 http-bio-8888-exec-25 jackjun 576x2097x1 1qh2lse 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [1cyaw03]
+2015-07-29 10:10:59,571 http-bio-8888-exec-15 jackjun 610x2570x1 1cyaw03 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-29 10:10:59,572 http-bio-8888-exec-15 jackjun 610x2570x1 1cyaw03 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [1cyaw03] destroyed for 'jackjun'
+2015-07-29 10:10:59,572 http-bio-8888-exec-15 jackjun 610x2570x1 1cyaw03 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [1ovmdlg]
+2015-07-29 10:38:58,800 http-bio-8888-exec-11 jackjun 638x2900x1 1ovmdlg 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-29 10:38:58,837 http-bio-8888-exec-11 jackjun 638x2900x1 1ovmdlg 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [1ovmdlg] destroyed for 'jackjun'
+2015-07-29 10:38:58,838 http-bio-8888-exec-11 jackjun 638x2900x1 1ovmdlg 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [3f6twx]
+2015-07-29 10:59:27,858 http-bio-8888-exec-20 jackjun 659x3391x1 3f6twx 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [3f6twx] destroyed for 'jackjun'
+2015-07-29 10:59:27,858 http-bio-8888-exec-20 jackjun 659x3391x1 3f6twx 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1jogiru]
+2015-07-29 10:59:27,913 http-bio-8888-exec-20 jackjun 659x3391x1 3f6twx 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'jackjun' has logged out.
+2015-07-29 10:59:38,743 http-bio-8888-exec-20 anonymous 659x3397x1 1jogiru 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1jogiru] destroyed for 'anonymous'
+2015-07-29 10:59:38,743 http-bio-8888-exec-20 anonymous 659x3397x1 1jogiru 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1xih2d0]
+2015-07-29 10:59:38,907 http-bio-8888-exec-20 liting 659x3397x1 1jogiru 0:0:0:0:0:0:0:1 /login.jsp The user 'liting' has PASSED authentication.
+2015-07-29 11:00:40,037 http-bio-8888-exec-21 liting 660x3423x1 1xih2d0 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1xih2d0] destroyed for 'liting'
+2015-07-29 11:00:40,037 http-bio-8888-exec-21 liting 660x3423x1 1xih2d0 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1ld9f94]
+2015-07-29 11:00:40,037 http-bio-8888-exec-21 liting 660x3423x1 1xih2d0 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'liting' has logged out.
+2015-07-29 11:00:46,360 http-bio-8888-exec-21 anonymous 660x3429x1 1ld9f94 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1ld9f94] destroyed for 'anonymous'
+2015-07-29 11:00:46,360 http-bio-8888-exec-21 anonymous 660x3429x1 1ld9f94 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1poq140]
+2015-07-29 11:00:46,449 http-bio-8888-exec-21 chujun 660x3429x1 1ld9f94 0:0:0:0:0:0:0:1 /login.jsp The user 'chujun' has PASSED authentication.
+2015-07-29 11:11:38,377 http-bio-8888-exec-15 chujun 671x3479x1 1poq140 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1poq140] destroyed for 'chujun'
+2015-07-29 11:11:38,378 http-bio-8888-exec-15 chujun 671x3479x1 1poq140 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1e3wl65]
+2015-07-29 11:11:38,378 http-bio-8888-exec-15 chujun 671x3479x1 1poq140 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'chujun' has logged out.
+2015-07-29 11:11:50,250 http-bio-8888-exec-15 anonymous 671x3485x1 1e3wl65 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1e3wl65] destroyed for 'anonymous'
+2015-07-29 11:11:50,251 http-bio-8888-exec-15 anonymous 671x3485x1 1e3wl65 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [11m0e1j]
+2015-07-29 11:11:50,348 http-bio-8888-exec-15 jackjun 671x3485x1 1e3wl65 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-29 11:12:06,630 http-bio-8888-exec-21 jackjun 672x3508x1 11m0e1j 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-29 11:12:06,630 http-bio-8888-exec-21 jackjun 672x3508x1 11m0e1j 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [11m0e1j] destroyed for 'jackjun'
+2015-07-29 11:12:06,630 http-bio-8888-exec-21 jackjun 672x3508x1 11m0e1j 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [1k7ucyi]
+2015-07-29 13:16:56,754 http-bio-8888-exec-12 jackjun 796x4046x1 1k7ucyi 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-29 13:16:56,755 http-bio-8888-exec-12 jackjun 796x4046x1 1k7ucyi 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [1k7ucyi] destroyed for 'jackjun'
+2015-07-29 13:16:56,766 http-bio-8888-exec-12 jackjun 796x4046x1 1k7ucyi 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [1rbf41b]
+2015-07-29 13:37:59,207 http-bio-8888-exec-1 jackjun 817x4267x1 1rbf41b 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-29 13:37:59,208 http-bio-8888-exec-1 jackjun 817x4267x1 1rbf41b 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [1rbf41b] destroyed for 'jackjun'
+2015-07-29 13:37:59,208 http-bio-8888-exec-1 jackjun 817x4267x1 1rbf41b 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [s2mub5]
+2015-07-29 13:59:02,588 http-bio-8888-exec-19 jackjun 839x4352x1 s2mub5 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [s2mub5] destroyed for 'jackjun'
+2015-07-29 13:59:02,589 http-bio-8888-exec-19 jackjun 839x4352x1 s2mub5 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1408rsn]
+2015-07-29 13:59:02,589 http-bio-8888-exec-19 jackjun 839x4352x1 s2mub5 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'jackjun' has logged out.
+2015-07-29 13:59:10,961 http-bio-8888-exec-19 anonymous 839x4358x1 1408rsn 0:0:0:0:0:0:0:1 /login.jsp login : 'jackjun' tried to login but they do not have USE permission or weren't found. Deleting remember me cookie.
+2015-07-29 13:59:11,083 http-bio-8888-exec-19 anonymous 839x4358x1 1408rsn 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has FAILED authentication.  Failure count equals 1
+2015-07-29 13:59:16,066 http-bio-8888-exec-19 anonymous 839x4361x1 1408rsn 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1408rsn] destroyed for 'anonymous'
+2015-07-29 13:59:16,066 http-bio-8888-exec-19 anonymous 839x4361x1 1408rsn 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [nffm45]
+2015-07-29 13:59:16,523 http-bio-8888-exec-19 jackjun 839x4361x1 1408rsn 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-29 13:59:24,298 http-bio-8888-exec-19 jackjun 839x4379x1 nffm45 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-29 13:59:24,299 http-bio-8888-exec-19 jackjun 839x4379x1 nffm45 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [nffm45] destroyed for 'jackjun'
+2015-07-29 13:59:24,299 http-bio-8888-exec-19 jackjun 839x4379x1 nffm45 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [y2z37o]
+2015-07-29 15:18:33,339 http-bio-8888-exec-11 jackjun 918x4425x1 y2z37o 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-29 15:18:33,340 http-bio-8888-exec-11 jackjun 918x4425x1 y2z37o 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [y2z37o] destroyed for 'jackjun'
+2015-07-29 15:18:33,340 http-bio-8888-exec-11 jackjun 918x4425x1 y2z37o 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [liiv46]
+2015-07-29 16:12:06,216 localhost-startStop-2      HttpSession [liiv46] destroyed for 'jackjun'
+2015-07-29 16:28:01,320 localhost-startStop-1      JIRA 6.0.5 build: 6102 started. You can now access JIRA through your web browser.
+2015-07-29 16:32:21,003 localhost-startStop-1      JIRA 6.0.5 build: 6102 started. You can now access JIRA through your web browser.
+2015-07-29 16:33:38,919 http-bio-8888-exec-1 anonymous 993x1x1 - 0:0:0:0:0:0:0:1 / HttpSession created [ptcqca]
+2015-07-29 16:33:39,144 http-bio-8888-exec-1 jackjun 993x1x1 - 0:0:0:0:0:0:0:1 / The user 'jackjun' has PASSED authentication.
+2015-07-29 16:34:22,597 http-bio-8888-exec-24 jackjun 994x20x1 ptcqca 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-29 16:34:22,607 http-bio-8888-exec-24 jackjun 994x20x1 ptcqca 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [ptcqca] destroyed for 'jackjun'
+2015-07-29 16:34:22,607 http-bio-8888-exec-24 jackjun 994x20x1 ptcqca 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [vhj1vk]
+2015-07-29 16:46:13,690 http-bio-8888-exec-8 jackjun 1006x31x1 vhj1vk 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-29 16:46:13,691 http-bio-8888-exec-8 jackjun 1006x31x1 vhj1vk 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [vhj1vk] destroyed for 'jackjun'
+2015-07-29 16:46:13,691 http-bio-8888-exec-8 jackjun 1006x31x1 vhj1vk 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [1jtvi6v]
+2015-07-29 17:08:27,669 http-bio-8888-exec-13 jackjun 1028x385x1 1jtvi6v 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1jtvi6v] destroyed for 'jackjun'
+2015-07-29 17:08:27,670 http-bio-8888-exec-13 jackjun 1028x385x1 1jtvi6v 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [l93til]
+2015-07-29 17:08:28,110 http-bio-8888-exec-13 jackjun 1028x385x1 1jtvi6v 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'jackjun' has logged out.
+2015-07-29 17:08:32,476 http-bio-8888-exec-10 anonymous 1028x392x1 l93til 0:0:0:0:0:0:0:1 /login.jsp login : 'chujun' tried to login but they do not have USE permission or weren't found. Deleting remember me cookie.
+2015-07-29 17:08:32,558 http-bio-8888-exec-10 anonymous 1028x392x1 l93til 0:0:0:0:0:0:0:1 /login.jsp The user 'chujun' has FAILED authentication.  Failure count equals 1
+2015-07-29 17:08:38,098 http-bio-8888-exec-10 anonymous 1028x395x1 l93til 0:0:0:0:0:0:0:1 /login.jsp HttpSession [l93til] destroyed for 'anonymous'
+2015-07-29 17:08:38,099 http-bio-8888-exec-10 anonymous 1028x395x1 l93til 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [vv8m0s]
+2015-07-29 17:08:38,202 http-bio-8888-exec-10 chujun 1028x395x1 l93til 0:0:0:0:0:0:0:1 /login.jsp The user 'chujun' has PASSED authentication.
+2015-07-29 17:11:07,814 http-bio-8888-exec-21 chujun 1031x490x1 vv8m0s 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [vv8m0s] destroyed for 'chujun'
+2015-07-29 17:11:07,815 http-bio-8888-exec-21 chujun 1031x490x1 vv8m0s 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [12x6xzw]
+2015-07-29 17:11:07,836 http-bio-8888-exec-21 chujun 1031x490x1 vv8m0s 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'chujun' has logged out.
+2015-07-29 17:11:27,644 http-bio-8888-exec-21 anonymous 1031x496x1 12x6xzw 0:0:0:0:0:0:0:1 /login.jsp HttpSession [12x6xzw] destroyed for 'anonymous'
+2015-07-29 17:11:27,644 http-bio-8888-exec-21 anonymous 1031x496x1 12x6xzw 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [105tql7]
+2015-07-29 17:11:27,705 http-bio-8888-exec-21 zhangmingxi 1031x496x1 12x6xzw 0:0:0:0:0:0:0:1 /login.jsp The user 'zhangmingxi' has PASSED authentication.
+2015-07-29 17:12:31,941 http-bio-8888-exec-9 zhangmingxi 1032x560x1 105tql7 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [105tql7] destroyed for 'zhangmingxi'
+2015-07-29 17:12:31,942 http-bio-8888-exec-9 zhangmingxi 1032x560x1 105tql7 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [h6fg10]
+2015-07-29 17:12:31,958 http-bio-8888-exec-9 zhangmingxi 1032x560x1 105tql7 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'zhangmingxi' has logged out.
+2015-07-29 17:12:40,166 http-bio-8888-exec-9 anonymous 1032x566x1 h6fg10 0:0:0:0:0:0:0:1 /login.jsp HttpSession [h6fg10] destroyed for 'anonymous'
+2015-07-29 17:12:40,166 http-bio-8888-exec-9 anonymous 1032x566x1 h6fg10 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [o5afz6]
+2015-07-29 17:12:40,228 http-bio-8888-exec-9 jackjun 1032x566x1 h6fg10 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-29 17:13:09,393 http-bio-8888-exec-19 jackjun 1033x599x1 o5afz6 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-29 17:13:09,393 http-bio-8888-exec-19 jackjun 1033x599x1 o5afz6 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [o5afz6] destroyed for 'jackjun'
+2015-07-29 17:13:09,394 http-bio-8888-exec-19 jackjun 1033x599x1 o5afz6 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [q0ukf5]
+2015-07-29 17:15:59,890 http-bio-8888-exec-12 jackjun 1035x731x1 q0ukf5 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [q0ukf5] destroyed for 'jackjun'
+2015-07-29 17:15:59,891 http-bio-8888-exec-12 jackjun 1035x731x1 q0ukf5 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1fhkg8m]
+2015-07-29 17:15:59,907 http-bio-8888-exec-12 jackjun 1035x731x1 q0ukf5 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'jackjun' has logged out.
+2015-07-29 17:16:08,846 http-bio-8888-exec-12 anonymous 1036x737x1 1fhkg8m 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1fhkg8m] destroyed for 'anonymous'
+2015-07-29 17:16:08,847 http-bio-8888-exec-12 anonymous 1036x737x1 1fhkg8m 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1mu2wts]
+2015-07-29 17:16:08,958 http-bio-8888-exec-12 zhangmingxi 1036x737x1 1fhkg8m 0:0:0:0:0:0:0:1 /login.jsp The user 'zhangmingxi' has PASSED authentication.
+2015-07-29 17:16:47,869 http-bio-8888-exec-10 zhangmingxi 1036x776x1 1mu2wts 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1mu2wts] destroyed for 'zhangmingxi'
+2015-07-29 17:16:47,870 http-bio-8888-exec-10 zhangmingxi 1036x776x1 1mu2wts 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1rovy81]
+2015-07-29 17:16:47,911 http-bio-8888-exec-10 zhangmingxi 1036x776x1 1mu2wts 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'zhangmingxi' has logged out.
+2015-07-29 17:16:55,141 http-bio-8888-exec-10 anonymous 1036x782x1 1rovy81 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1rovy81] destroyed for 'anonymous'
+2015-07-29 17:16:55,141 http-bio-8888-exec-10 anonymous 1036x782x1 1rovy81 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [dfgxjg]
+2015-07-29 17:16:55,221 http-bio-8888-exec-10 mahao 1036x782x1 1rovy81 0:0:0:0:0:0:0:1 /login.jsp The user 'mahao' has PASSED authentication.
+2015-07-29 17:18:58,505 http-bio-8888-exec-25 mahao 1038x826x1 dfgxjg 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [dfgxjg] destroyed for 'mahao'
+2015-07-29 17:18:58,506 http-bio-8888-exec-25 mahao 1038x826x1 dfgxjg 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [fqz1b8]
+2015-07-29 17:18:58,527 http-bio-8888-exec-25 mahao 1038x826x1 dfgxjg 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'mahao' has logged out.
+2015-07-29 17:19:06,444 http-bio-8888-exec-25 anonymous 1039x832x1 fqz1b8 0:0:0:0:0:0:0:1 /login.jsp HttpSession [fqz1b8] destroyed for 'anonymous'
+2015-07-29 17:19:06,444 http-bio-8888-exec-25 anonymous 1039x832x1 fqz1b8 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [10x5ikq]
+2015-07-29 17:19:06,510 http-bio-8888-exec-25 jackjun 1039x832x1 fqz1b8 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-29 17:19:21,956 http-bio-8888-exec-15 jackjun 1039x861x1 10x5ikq 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-29 17:19:21,956 http-bio-8888-exec-15 jackjun 1039x861x1 10x5ikq 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [10x5ikq] destroyed for 'jackjun'
+2015-07-29 17:19:21,957 http-bio-8888-exec-15 jackjun 1039x861x1 10x5ikq 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [lr2qbb]
+2015-07-29 17:20:28,561 http-bio-8888-exec-21 anonymous 1040x899x1 - 0:0:0:0:0:0:0:1 / HttpSession created [17ltuot]
+2015-07-29 17:20:41,810 http-bio-8888-exec-13 anonymous 1040x918x1 17ltuot 0:0:0:0:0:0:0:1 /login.jsp HttpSession [17ltuot] destroyed for 'anonymous'
+2015-07-29 17:20:41,810 http-bio-8888-exec-13 anonymous 1040x918x1 17ltuot 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [8ryyfp]
+2015-07-29 17:20:41,879 http-bio-8888-exec-13 chujun 1040x918x1 17ltuot 0:0:0:0:0:0:0:1 /login.jsp The user 'chujun' has PASSED authentication.
+2015-07-29 17:21:06,379 http-bio-8888-exec-8 chujun 1041x1044x1 8ryyfp 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [8ryyfp] destroyed for 'chujun'
+2015-07-29 17:21:06,379 http-bio-8888-exec-8 chujun 1041x1044x1 8ryyfp 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1oyz8tu]
+2015-07-29 17:21:06,432 http-bio-8888-exec-8 chujun 1041x1044x1 8ryyfp 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'chujun' has logged out.
+2015-07-29 17:21:14,056 http-bio-8888-exec-8 anonymous 1041x1050x1 1oyz8tu 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1oyz8tu] destroyed for 'anonymous'
+2015-07-29 17:21:14,056 http-bio-8888-exec-8 anonymous 1041x1050x1 1oyz8tu 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1itxov1]
+2015-07-29 17:21:14,142 http-bio-8888-exec-8 jackjun 1041x1050x1 1oyz8tu 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-29 17:21:30,258 http-bio-8888-exec-6 jackjun 1041x1081x1 1itxov1 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1itxov1] destroyed for 'jackjun'
+2015-07-29 17:21:30,258 http-bio-8888-exec-6 jackjun 1041x1081x1 1itxov1 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [dfwlt7]
+2015-07-29 17:21:30,281 http-bio-8888-exec-6 jackjun 1041x1081x1 1itxov1 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'jackjun' has logged out.
+2015-07-29 17:21:37,916 http-bio-8888-exec-6 anonymous 1041x1087x1 dfwlt7 0:0:0:0:0:0:0:1 /login.jsp HttpSession [dfwlt7] destroyed for 'anonymous'
+2015-07-29 17:21:37,917 http-bio-8888-exec-6 anonymous 1041x1087x1 dfwlt7 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [t0i6cy]
+2015-07-29 17:21:38,026 http-bio-8888-exec-6 mahao 1041x1087x1 dfwlt7 0:0:0:0:0:0:0:1 /login.jsp The user 'mahao' has PASSED authentication.
+2015-07-29 17:42:40,872 http-bio-8888-exec-12 mahao 1062x1805x1 t0i6cy 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [t0i6cy] destroyed for 'mahao'
+2015-07-29 17:42:40,872 http-bio-8888-exec-12 mahao 1062x1805x1 t0i6cy 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [rrwhir]
+2015-07-29 17:42:40,945 http-bio-8888-exec-12 mahao 1062x1805x1 t0i6cy 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'mahao' has logged out.
+2015-07-29 17:42:51,543 http-bio-8888-exec-12 anonymous 1062x1811x1 rrwhir 0:0:0:0:0:0:0:1 /login.jsp HttpSession [rrwhir] destroyed for 'anonymous'
+2015-07-29 17:42:51,543 http-bio-8888-exec-12 anonymous 1062x1811x1 rrwhir 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1p4z1bv]
+2015-07-29 17:42:51,626 http-bio-8888-exec-12 mahao 1062x1811x1 rrwhir 0:0:0:0:0:0:0:1 /login.jsp The user 'mahao' has PASSED authentication.
+2015-07-29 18:02:47,162 http-bio-8888-exec-9 mahao 1082x2545x1 1p4z1bv 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1p4z1bv] destroyed for 'mahao'
+2015-07-29 18:02:47,163 http-bio-8888-exec-9 mahao 1082x2545x1 1p4z1bv 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [iz51hw]
+2015-07-29 18:02:47,234 http-bio-8888-exec-9 mahao 1082x2545x1 1p4z1bv 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'mahao' has logged out.
+2015-07-29 18:02:54,509 http-bio-8888-exec-9 anonymous 1082x2551x1 iz51hw 0:0:0:0:0:0:0:1 /login.jsp HttpSession [iz51hw] destroyed for 'anonymous'
+2015-07-29 18:02:54,509 http-bio-8888-exec-9 anonymous 1082x2551x1 iz51hw 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1wuu6pa]
+2015-07-29 18:02:54,587 http-bio-8888-exec-9 chujun 1082x2551x1 iz51hw 0:0:0:0:0:0:0:1 /login.jsp The user 'chujun' has PASSED authentication.
+2015-07-29 18:04:41,541 http-bio-8888-exec-1 chujun 1084x2621x1 1wuu6pa 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1wuu6pa] destroyed for 'chujun'
+2015-07-29 18:04:41,541 http-bio-8888-exec-1 chujun 1084x2621x1 1wuu6pa 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1bfytk0]
+2015-07-29 18:04:41,626 http-bio-8888-exec-1 chujun 1084x2621x1 1wuu6pa 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'chujun' has logged out.
+2015-07-29 18:04:50,679 http-bio-8888-exec-1 anonymous 1084x2627x1 1bfytk0 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1bfytk0] destroyed for 'anonymous'
+2015-07-29 18:04:50,679 http-bio-8888-exec-1 anonymous 1084x2627x1 1bfytk0 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1hrjc8c]
+2015-07-29 18:04:50,748 http-bio-8888-exec-1 zhangmingxi 1084x2627x1 1bfytk0 0:0:0:0:0:0:0:1 /login.jsp The user 'zhangmingxi' has PASSED authentication.
+2015-07-29 18:07:40,590 http-bio-8888-exec-24 zhangmingxi 1087x2773x1 1hrjc8c 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1hrjc8c] destroyed for 'zhangmingxi'
+2015-07-29 18:07:40,590 http-bio-8888-exec-24 zhangmingxi 1087x2773x1 1hrjc8c 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [12tqd2x]
+2015-07-29 18:07:40,914 http-bio-8888-exec-24 zhangmingxi 1087x2773x1 1hrjc8c 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'zhangmingxi' has logged out.
+2015-07-29 18:07:47,412 http-bio-8888-exec-24 anonymous 1087x2779x1 12tqd2x 0:0:0:0:0:0:0:1 /login.jsp HttpSession [12tqd2x] destroyed for 'anonymous'
+2015-07-29 18:07:47,412 http-bio-8888-exec-24 anonymous 1087x2779x1 12tqd2x 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [c1mt33]
+2015-07-29 18:07:47,458 http-bio-8888-exec-24 chujun 1087x2779x1 12tqd2x 0:0:0:0:0:0:0:1 /login.jsp The user 'chujun' has PASSED authentication.
+2015-07-29 23:08:46,934 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [c1mt33] destroyed for 'chujun'
+2015-07-30 10:08:54,936 localhost-startStop-1      JIRA 6.0.5 build: 6102 started. You can now access JIRA through your web browser.
+2015-07-30 10:19:58,755 http-bio-8888-exec-1   -   HttpSession created [152ntjs]
+2015-07-30 10:20:19,316 http-bio-8888-exec-8 anonymous 620x7x1 152ntjs 0:0:0:0:0:0:0:1 /login.jsp HttpSession [152ntjs] destroyed for 'anonymous'
+2015-07-30 10:20:19,316 http-bio-8888-exec-8 anonymous 620x7x1 152ntjs 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [6s15h]
+2015-07-30 10:20:19,435 http-bio-8888-exec-8 jackjun 620x7x1 152ntjs 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-30 10:20:27,878 http-bio-8888-exec-19 jackjun 620x19x4 6s15h 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-30 10:20:27,878 http-bio-8888-exec-19 jackjun 620x19x4 6s15h 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [6s15h] destroyed for 'jackjun'
+2015-07-30 10:20:27,878 http-bio-8888-exec-19 jackjun 620x19x4 6s15h 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [4glvik]
+2015-07-30 10:23:05,678 http-bio-8888-exec-17 anonymous 623x116x1 - 0:0:0:0:0:0:0:1 / HttpSession created [1nj53lt]
+2015-07-30 10:23:26,691 http-bio-8888-exec-17 anonymous 623x124x1 1nj53lt 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1nj53lt] destroyed for 'anonymous'
+2015-07-30 10:23:26,691 http-bio-8888-exec-17 anonymous 623x124x1 1nj53lt 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [9ib7t7]
+2015-07-30 10:23:26,791 http-bio-8888-exec-17 zhangmingxi 623x124x1 1nj53lt 0:0:0:0:0:0:0:1 /login.jsp The user 'zhangmingxi' has PASSED authentication.
+2015-07-30 10:24:12,211 http-bio-8888-exec-17 zhangmingxi 624x167x1 9ib7t7 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [9ib7t7] destroyed for 'zhangmingxi'
+2015-07-30 10:24:12,211 http-bio-8888-exec-17 zhangmingxi 624x167x1 9ib7t7 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [padbij]
+2015-07-30 10:24:12,255 http-bio-8888-exec-17 zhangmingxi 624x167x1 9ib7t7 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'zhangmingxi' has logged out.
+2015-07-30 10:24:18,049 http-bio-8888-exec-16 anonymous 624x173x1 padbij 0:0:0:0:0:0:0:1 /login.jsp HttpSession [padbij] destroyed for 'anonymous'
+2015-07-30 10:24:18,049 http-bio-8888-exec-16 anonymous 624x173x1 padbij 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [n11cer]
+2015-07-30 10:24:18,096 http-bio-8888-exec-16 chujun 624x173x1 padbij 0:0:0:0:0:0:0:1 /login.jsp The user 'chujun' has PASSED authentication.
+2015-07-30 10:24:56,407 http-bio-8888-exec-10 chujun 624x263x1 n11cer 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [n11cer] destroyed for 'chujun'
+2015-07-30 10:24:56,408 http-bio-8888-exec-10 chujun 624x263x1 n11cer 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [qvma1m]
+2015-07-30 10:24:56,408 http-bio-8888-exec-10 chujun 624x263x1 n11cer 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'chujun' has logged out.
+2015-07-30 10:33:27,816 http-bio-8888-exec-22 anonymous 633x269x1 qvma1m 0:0:0:0:0:0:0:1 /login.jsp HttpSession [qvma1m] destroyed for 'anonymous'
+2015-07-30 10:33:27,816 http-bio-8888-exec-22 anonymous 633x269x1 qvma1m 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [lqcxu0]
+2015-07-30 10:33:27,926 http-bio-8888-exec-22 zhangmingxi 633x269x1 qvma1m 0:0:0:0:0:0:0:1 /login.jsp The user 'zhangmingxi' has PASSED authentication.
+2015-07-30 10:34:21,373 http-bio-8888-exec-20 zhangmingxi 634x304x1 lqcxu0 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [lqcxu0] destroyed for 'zhangmingxi'
+2015-07-30 10:34:21,373 http-bio-8888-exec-20 zhangmingxi 634x304x1 lqcxu0 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1e8ii4h]
+2015-07-30 10:34:21,602 http-bio-8888-exec-20 zhangmingxi 634x304x1 lqcxu0 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'zhangmingxi' has logged out.
+2015-07-30 10:34:27,423 http-bio-8888-exec-20 anonymous 634x310x1 1e8ii4h 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1e8ii4h] destroyed for 'anonymous'
+2015-07-30 10:34:27,423 http-bio-8888-exec-20 anonymous 634x310x1 1e8ii4h 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1e4vy3b]
+2015-07-30 10:34:27,536 http-bio-8888-exec-20 mahao 634x310x1 1e8ii4h 0:0:0:0:0:0:0:1 /login.jsp The user 'mahao' has PASSED authentication.
+2015-07-30 10:37:40,143 http-bio-8888-exec-15 mahao 637x474x1 1e4vy3b 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1e4vy3b] destroyed for 'mahao'
+2015-07-30 10:37:40,144 http-bio-8888-exec-15 mahao 637x474x1 1e4vy3b 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [oytsoo]
+2015-07-30 10:37:40,144 http-bio-8888-exec-15 mahao 637x474x1 1e4vy3b 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'mahao' has logged out.
+2015-07-30 10:37:47,911 http-bio-8888-exec-15 anonymous 637x480x1 oytsoo 0:0:0:0:0:0:0:1 /login.jsp HttpSession [oytsoo] destroyed for 'anonymous'
+2015-07-30 10:37:47,911 http-bio-8888-exec-15 anonymous 637x480x1 oytsoo 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [i3hr9d]
+2015-07-30 10:37:47,961 http-bio-8888-exec-15 chujun 637x480x1 oytsoo 0:0:0:0:0:0:0:1 /login.jsp The user 'chujun' has PASSED authentication.
+2015-07-30 10:38:34,556 http-bio-8888-exec-4 chujun 638x526x1 i3hr9d 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [i3hr9d] destroyed for 'chujun'
+2015-07-30 10:38:34,556 http-bio-8888-exec-4 chujun 638x526x1 i3hr9d 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [16p5t3t]
+2015-07-30 10:38:34,600 http-bio-8888-exec-4 chujun 638x526x1 i3hr9d 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'chujun' has logged out.
+2015-07-30 10:38:41,539 http-bio-8888-exec-4 anonymous 638x532x1 16p5t3t 0:0:0:0:0:0:0:1 /login.jsp HttpSession [16p5t3t] destroyed for 'anonymous'
+2015-07-30 10:38:41,539 http-bio-8888-exec-4 anonymous 638x532x1 16p5t3t 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1ptlmhp]
+2015-07-30 10:38:41,577 http-bio-8888-exec-4 mahao 638x532x1 16p5t3t 0:0:0:0:0:0:0:1 /login.jsp The user 'mahao' has PASSED authentication.
+2015-07-30 10:40:21,860 http-bio-8888-exec-20 jackjun 640x580x1 4glvik 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-30 10:40:21,861 http-bio-8888-exec-20 jackjun 640x580x1 4glvik 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [4glvik] destroyed for 'jackjun'
+2015-07-30 10:40:21,861 http-bio-8888-exec-20 jackjun 640x580x1 4glvik 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [1my5e90]
+2015-07-30 10:57:08,899 http-bio-8888-exec-18 jackjun 657x803x1 1my5e90 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-30 10:57:08,900 http-bio-8888-exec-18 jackjun 657x803x1 1my5e90 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [1my5e90] destroyed for 'jackjun'
+2015-07-30 10:57:08,900 http-bio-8888-exec-18 jackjun 657x803x1 1my5e90 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [dzsr62]
+2015-07-30 11:12:23,653 http-bio-8888-exec-6 jackjun 672x808x1 dzsr62 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-30 11:12:23,653 http-bio-8888-exec-6 jackjun 672x808x1 dzsr62 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [dzsr62] destroyed for 'jackjun'
+2015-07-30 11:12:23,654 http-bio-8888-exec-6 jackjun 672x808x1 dzsr62 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [vuakl4]
+2015-07-30 11:15:26,470 http-bio-8888-exec-22 jackjun 675x904x1 vuakl4 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [vuakl4] destroyed for 'jackjun'
+2015-07-30 11:15:26,471 http-bio-8888-exec-22 jackjun 675x904x1 vuakl4 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [18l9aph]
+2015-07-30 11:15:26,692 http-bio-8888-exec-22 jackjun 675x904x1 vuakl4 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'jackjun' has logged out.
+2015-07-30 11:15:38,357 http-bio-8888-exec-22 anonymous 675x910x1 18l9aph 0:0:0:0:0:0:0:1 /login.jsp HttpSession [18l9aph] destroyed for 'anonymous'
+2015-07-30 11:15:38,357 http-bio-8888-exec-22 anonymous 675x910x1 18l9aph 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [hf8itw]
+2015-07-30 11:15:38,590 http-bio-8888-exec-22 zhangmingxi 675x910x1 18l9aph 0:0:0:0:0:0:0:1 /login.jsp The user 'zhangmingxi' has PASSED authentication.
+2015-07-30 11:16:16,069 http-bio-8888-exec-1 zhangmingxi 676x962x1 hf8itw 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [hf8itw] destroyed for 'zhangmingxi'
+2015-07-30 11:16:16,069 http-bio-8888-exec-1 zhangmingxi 676x962x1 hf8itw 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1fs3xog]
+2015-07-30 11:16:16,090 http-bio-8888-exec-1 zhangmingxi 676x962x1 hf8itw 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'zhangmingxi' has logged out.
+2015-07-30 11:16:24,996 http-bio-8888-exec-1 anonymous 676x968x1 1fs3xog 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1fs3xog] destroyed for 'anonymous'
+2015-07-30 11:16:24,997 http-bio-8888-exec-1 anonymous 676x968x1 1fs3xog 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [abslrx]
+2015-07-30 11:16:25,102 http-bio-8888-exec-1 lichangfeng 676x968x1 1fs3xog 0:0:0:0:0:0:0:1 /login.jsp The user 'lichangfeng' has PASSED authentication.
+2015-07-30 11:18:19,309 http-bio-8888-exec-3 lichangfeng 678x1073x1 abslrx 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [abslrx] destroyed for 'lichangfeng'
+2015-07-30 11:18:19,309 http-bio-8888-exec-3 lichangfeng 678x1073x1 abslrx 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [7xj5tf]
+2015-07-30 11:18:19,309 http-bio-8888-exec-3 lichangfeng 678x1073x1 abslrx 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'lichangfeng' has logged out.
+2015-07-30 11:18:26,907 http-bio-8888-exec-3 anonymous 678x1079x1 7xj5tf 0:0:0:0:0:0:0:1 /login.jsp login : 'jackjun' tried to login but they do not have USE permission or weren't found. Deleting remember me cookie.
+2015-07-30 11:18:26,958 http-bio-8888-exec-3 anonymous 678x1079x1 7xj5tf 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has FAILED authentication.  Failure count equals 1
+2015-07-30 11:18:29,863 http-bio-8888-exec-3 anonymous 678x1082x1 7xj5tf 0:0:0:0:0:0:0:1 /login.jsp HttpSession [7xj5tf] destroyed for 'anonymous'
+2015-07-30 11:18:29,863 http-bio-8888-exec-3 anonymous 678x1082x1 7xj5tf 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [exuuy3]
+2015-07-30 11:18:29,937 http-bio-8888-exec-3 jackjun 678x1082x1 7xj5tf 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-30 11:18:39,217 http-bio-8888-exec-15 jackjun 678x1101x1 exuuy3 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-30 11:18:39,218 http-bio-8888-exec-15 jackjun 678x1101x1 exuuy3 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [exuuy3] destroyed for 'jackjun'
+2015-07-30 11:18:39,218 http-bio-8888-exec-15 jackjun 678x1101x1 exuuy3 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [1gm6843]
+2015-07-30 11:20:04,651 http-bio-8888-exec-13 mahao 680x1255x1 1ptlmhp 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1ptlmhp] destroyed for 'mahao'
+2015-07-30 11:20:04,652 http-bio-8888-exec-13 mahao 680x1255x1 1ptlmhp 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [ptjxmm]
+2015-07-30 11:20:04,652 http-bio-8888-exec-13 mahao 680x1255x1 1ptlmhp 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'mahao' has logged out.
+2015-07-30 11:20:11,525 http-bio-8888-exec-13 anonymous 680x1261x1 ptjxmm 0:0:0:0:0:0:0:1 /login.jsp HttpSession [ptjxmm] destroyed for 'anonymous'
+2015-07-30 11:20:11,525 http-bio-8888-exec-13 anonymous 680x1261x1 ptjxmm 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [sxg1i2]
+2015-07-30 11:20:11,575 http-bio-8888-exec-13 mahao 680x1261x1 ptjxmm 0:0:0:0:0:0:0:1 /login.jsp The user 'mahao' has PASSED authentication.
+2015-07-30 11:22:25,012 http-bio-8888-exec-9 mahao 682x1420x1 sxg1i2 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [sxg1i2] destroyed for 'mahao'
+2015-07-30 11:22:25,012 http-bio-8888-exec-9 mahao 682x1420x1 sxg1i2 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [qyv26c]
+2015-07-30 11:22:25,052 http-bio-8888-exec-9 mahao 682x1420x1 sxg1i2 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'mahao' has logged out.
+2015-07-30 11:22:34,570 http-bio-8888-exec-9 anonymous 682x1426x1 qyv26c 0:0:0:0:0:0:0:1 /login.jsp login : 'lichangfeng' tried to login but they do not have USE permission or weren't found. Deleting remember me cookie.
+2015-07-30 11:22:34,643 http-bio-8888-exec-9 anonymous 682x1426x1 qyv26c 0:0:0:0:0:0:0:1 /login.jsp The user 'lichangfeng' has FAILED authentication.  Failure count equals 1
+2015-07-30 11:22:46,294 http-bio-8888-exec-9 anonymous 682x1429x1 qyv26c 0:0:0:0:0:0:0:1 /login.jsp login : 'lichangfeng' tried to login but they do not have USE permission or weren't found. Deleting remember me cookie.
+2015-07-30 11:22:46,359 http-bio-8888-exec-9 anonymous 682x1429x1 qyv26c 0:0:0:0:0:0:0:1 /login.jsp The user 'lichangfeng' has FAILED authentication.  Failure count equals 2
+2015-07-30 11:23:02,150 http-bio-8888-exec-9 anonymous 683x1432x1 qyv26c 0:0:0:0:0:0:0:1 /login.jsp login : 'lichangfeng' tried to login but they do not have USE permission or weren't found. Deleting remember me cookie.
+2015-07-30 11:23:02,198 http-bio-8888-exec-9 anonymous 683x1432x1 qyv26c 0:0:0:0:0:0:0:1 /login.jsp The user 'lichangfeng' has FAILED authentication.  Failure count equals 3
+2015-07-30 11:23:21,176 http-bio-8888-exec-9 anonymous 683x1436x1 qyv26c 0:0:0:0:0:0:0:1 /login.jsp HttpSession [qyv26c] destroyed for 'anonymous'
+2015-07-30 11:23:21,176 http-bio-8888-exec-9 anonymous 683x1436x1 qyv26c 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [9awbqw]
+2015-07-30 11:23:21,276 http-bio-8888-exec-9 mahao 683x1436x1 qyv26c 0:0:0:0:0:0:0:1 /login.jsp The user 'mahao' has PASSED authentication.
+2015-07-30 11:23:42,363 http-bio-8888-exec-9 mahao 683x1470x1 9awbqw 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [9awbqw] destroyed for 'mahao'
+2015-07-30 11:23:42,363 http-bio-8888-exec-9 mahao 683x1470x1 9awbqw 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [146eauf]
+2015-07-30 11:23:42,389 http-bio-8888-exec-9 mahao 683x1470x1 9awbqw 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'mahao' has logged out.
+2015-07-30 11:23:52,998 http-bio-8888-exec-9 anonymous 683x1476x1 146eauf 0:0:0:0:0:0:0:1 /login.jsp login : 'tangchuangdong' tried to login but they do not have USE permission or weren't found. Deleting remember me cookie.
+2015-07-30 11:24:07,873 http-bio-8888-exec-9 anonymous 684x1479x1 146eauf 0:0:0:0:0:0:0:1 /login.jsp HttpSession [146eauf] destroyed for 'anonymous'
+2015-07-30 11:24:07,874 http-bio-8888-exec-9 anonymous 684x1479x1 146eauf 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1fl30as]
+2015-07-30 11:24:07,957 http-bio-8888-exec-9 tangchuandong 684x1479x1 146eauf 0:0:0:0:0:0:0:1 /login.jsp The user 'tangchuandong' has PASSED authentication.
+2015-07-30 11:25:01,540 http-bio-8888-exec-18 tangchuandong 685x1506x1 1fl30as 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1fl30as] destroyed for 'tangchuandong'
+2015-07-30 11:25:01,540 http-bio-8888-exec-18 tangchuandong 685x1506x1 1fl30as 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [7iclvk]
+2015-07-30 11:25:01,582 http-bio-8888-exec-18 tangchuandong 685x1506x1 1fl30as 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'tangchuandong' has logged out.
+2015-07-30 11:25:11,780 http-bio-8888-exec-18 anonymous 685x1512x1 7iclvk 0:0:0:0:0:0:0:1 /login.jsp HttpSession [7iclvk] destroyed for 'anonymous'
+2015-07-30 11:25:11,780 http-bio-8888-exec-18 anonymous 685x1512x1 7iclvk 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1pb1ben]
+2015-07-30 11:25:11,890 http-bio-8888-exec-18 mahao 685x1512x1 7iclvk 0:0:0:0:0:0:0:1 /login.jsp The user 'mahao' has PASSED authentication.
+2015-07-30 13:11:54,858 http-bio-8888-exec-22 mahao 791x1718x1 1pb1ben 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1pb1ben] destroyed for 'mahao'
+2015-07-30 13:11:54,871 http-bio-8888-exec-22 mahao 791x1718x1 1pb1ben 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [7fuq0g]
+2015-07-30 13:11:54,989 http-bio-8888-exec-22 mahao 791x1718x1 1pb1ben 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'mahao' has logged out.
+2015-07-30 13:12:08,690 http-bio-8888-exec-22 anonymous 792x1724x1 7fuq0g 0:0:0:0:0:0:0:1 /login.jsp HttpSession [7fuq0g] destroyed for 'anonymous'
+2015-07-30 13:12:08,690 http-bio-8888-exec-22 anonymous 792x1724x1 7fuq0g 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [ecodef]
+2015-07-30 13:12:08,860 http-bio-8888-exec-22 chujun 792x1724x1 7fuq0g 0:0:0:0:0:0:0:1 /login.jsp The user 'chujun' has PASSED authentication.
+2015-07-30 13:19:39,591 http-bio-8888-exec-9 chujun 799x1749x1 ecodef 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [ecodef] destroyed for 'chujun'
+2015-07-30 13:19:39,591 http-bio-8888-exec-9 chujun 799x1749x1 ecodef 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [hhx70w]
+2015-07-30 13:19:39,627 http-bio-8888-exec-9 chujun 799x1749x1 ecodef 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'chujun' has logged out.
+2015-07-30 13:19:47,952 http-bio-8888-exec-9 anonymous 799x1755x1 hhx70w 0:0:0:0:0:0:0:1 /login.jsp HttpSession [hhx70w] destroyed for 'anonymous'
+2015-07-30 13:19:47,952 http-bio-8888-exec-9 anonymous 799x1755x1 hhx70w 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1uw3r81]
+2015-07-30 13:19:48,089 http-bio-8888-exec-9 chujun 799x1755x1 hhx70w 0:0:0:0:0:0:0:1 /login.jsp The user 'chujun' has PASSED authentication.
+2015-07-30 13:20:25,380 http-bio-8888-exec-17 jackjun 800x1781x1 1gm6843 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-30 13:20:25,380 http-bio-8888-exec-17 jackjun 800x1781x1 1gm6843 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [1gm6843] destroyed for 'jackjun'
+2015-07-30 13:20:25,380 http-bio-8888-exec-17 jackjun 800x1781x1 1gm6843 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [yay62s]
+2015-07-30 13:28:48,673 http-bio-8888-exec-14 chujun 808x1906x1 1uw3r81 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1uw3r81] destroyed for 'chujun'
+2015-07-30 13:28:48,674 http-bio-8888-exec-14 chujun 808x1906x1 1uw3r81 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [96bx2a]
+2015-07-30 13:28:48,721 http-bio-8888-exec-14 chujun 808x1906x1 1uw3r81 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'chujun' has logged out.
+2015-07-30 13:29:00,989 http-bio-8888-exec-14 anonymous 809x1912x1 96bx2a 0:0:0:0:0:0:0:1 /login.jsp HttpSession [96bx2a] destroyed for 'anonymous'
+2015-07-30 13:29:00,989 http-bio-8888-exec-14 anonymous 809x1912x1 96bx2a 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [o9wui3]
+2015-07-30 13:29:01,162 http-bio-8888-exec-14 zhangmingxi 809x1912x1 96bx2a 0:0:0:0:0:0:0:1 /login.jsp The user 'zhangmingxi' has PASSED authentication.
+2015-07-30 13:29:40,340 http-bio-8888-exec-11 zhangmingxi 809x1938x1 o9wui3 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [o9wui3] destroyed for 'zhangmingxi'
+2015-07-30 13:29:40,340 http-bio-8888-exec-11 zhangmingxi 809x1938x1 o9wui3 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [vtn6ap]
+2015-07-30 13:29:40,371 http-bio-8888-exec-11 zhangmingxi 809x1938x1 o9wui3 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'zhangmingxi' has logged out.
+2015-07-30 13:29:47,530 http-bio-8888-exec-11 anonymous 809x1944x1 vtn6ap 0:0:0:0:0:0:0:1 /login.jsp The user 'lichangfeng' is required to answer a CAPTCHA elevated security check.  Failure count equals 4
+2015-07-30 13:30:00,055 http-bio-8888-exec-11 anonymous 809x1948x1 vtn6ap 0:0:0:0:0:0:0:1 /login.jsp login : 'lichangfeng' tried to login but they do not have USE permission or weren't found. Deleting remember me cookie.
+2015-07-30 13:30:00,137 http-bio-8888-exec-11 anonymous 809x1948x1 vtn6ap 0:0:0:0:0:0:0:1 /login.jsp The user 'lichangfeng' has FAILED authentication.  Failure count equals 5
+2015-07-30 13:30:52,014 http-bio-8888-exec-23 anonymous 810x1988x1 vtn6ap 0:0:0:0:0:0:0:1 /login.jsp login : 'lichangfeng' tried to login but they do not have USE permission or weren't found. Deleting remember me cookie.
+2015-07-30 13:30:52,052 http-bio-8888-exec-23 anonymous 810x1988x1 vtn6ap 0:0:0:0:0:0:0:1 /login.jsp The user 'lichangfeng' has FAILED authentication.  Failure count equals 1
+2015-07-30 13:31:03,127 http-bio-8888-exec-23 anonymous 811x1991x1 vtn6ap 0:0:0:0:0:0:0:1 /login.jsp login : 'lichangfeng' tried to login but they do not have USE permission or weren't found. Deleting remember me cookie.
+2015-07-30 13:31:03,165 http-bio-8888-exec-23 anonymous 811x1991x1 vtn6ap 0:0:0:0:0:0:0:1 /login.jsp The user 'lichangfeng' has FAILED authentication.  Failure count equals 2
+2015-07-30 13:31:15,319 http-bio-8888-exec-23 anonymous 811x1994x1 vtn6ap 0:0:0:0:0:0:0:1 /login.jsp login : 'lichangfeng' tried to login but they do not have USE permission or weren't found. Deleting remember me cookie.
+2015-07-30 13:31:15,408 http-bio-8888-exec-23 anonymous 811x1994x1 vtn6ap 0:0:0:0:0:0:0:1 /login.jsp The user 'lichangfeng' has FAILED authentication.  Failure count equals 3
+2015-07-30 13:31:31,656 http-bio-8888-exec-23 anonymous 811x1998x1 vtn6ap 0:0:0:0:0:0:0:1 /login.jsp The user 'lichangfeng' is required to answer a CAPTCHA elevated security check.  Failure count equals 4
+2015-07-30 13:35:19,070 http-bio-8888-exec-4 anonymous 815x2057x1 vtn6ap 0:0:0:0:0:0:0:1 /login.jsp HttpSession [vtn6ap] destroyed for 'anonymous'
+2015-07-30 13:35:19,070 http-bio-8888-exec-4 anonymous 815x2057x1 vtn6ap 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1rhleh2]
+2015-07-30 13:35:19,146 http-bio-8888-exec-4 chujun 815x2057x1 vtn6ap 0:0:0:0:0:0:0:1 /login.jsp The user 'chujun' has PASSED authentication.
+2015-07-30 13:36:04,364 http-bio-8888-exec-13 chujun 816x2087x1 1rhleh2 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1rhleh2] destroyed for 'chujun'
+2015-07-30 13:36:04,364 http-bio-8888-exec-13 chujun 816x2087x1 1rhleh2 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1dqgdfh]
+2015-07-30 13:36:04,703 http-bio-8888-exec-13 chujun 816x2087x1 1rhleh2 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'chujun' has logged out.
+2015-07-30 13:36:12,249 http-bio-8888-exec-13 anonymous 816x2093x1 1dqgdfh 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1dqgdfh] destroyed for 'anonymous'
+2015-07-30 13:36:12,249 http-bio-8888-exec-13 anonymous 816x2093x1 1dqgdfh 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [9ydr7n]
+2015-07-30 13:36:12,359 http-bio-8888-exec-13 zhangmingxi 816x2093x1 1dqgdfh 0:0:0:0:0:0:0:1 /login.jsp The user 'zhangmingxi' has PASSED authentication.
+2015-07-30 13:38:31,511 http-bio-8888-exec-11 zhangmingxi 818x2163x1 9ydr7n 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [9ydr7n] destroyed for 'zhangmingxi'
+2015-07-30 13:38:31,511 http-bio-8888-exec-11 zhangmingxi 818x2163x1 9ydr7n 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [gtfb9y]
+2015-07-30 13:38:31,610 http-bio-8888-exec-11 zhangmingxi 818x2163x1 9ydr7n 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'zhangmingxi' has logged out.
+2015-07-30 13:38:37,627 http-bio-8888-exec-11 anonymous 818x2169x1 gtfb9y 0:0:0:0:0:0:0:1 /login.jsp HttpSession [gtfb9y] destroyed for 'anonymous'
+2015-07-30 13:38:37,627 http-bio-8888-exec-11 anonymous 818x2169x1 gtfb9y 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [18qrk2n]
+2015-07-30 13:38:37,689 http-bio-8888-exec-11 jackjun 818x2169x1 gtfb9y 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-30 13:39:01,448 http-bio-8888-exec-11 jackjun 819x2194x1 18qrk2n 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [18qrk2n] destroyed for 'jackjun'
+2015-07-30 13:39:01,448 http-bio-8888-exec-11 jackjun 819x2194x1 18qrk2n 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [qrt1l2]
+2015-07-30 13:39:01,448 http-bio-8888-exec-11 jackjun 819x2194x1 18qrk2n 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'jackjun' has logged out.
+2015-07-30 13:39:28,759 http-bio-8888-exec-17 anonymous 819x2210x1 qrt1l2 0:0:0:0:0:0:0:1 /login.jsp login : 'm' tried to login but they do not have USE permission or weren't found. Deleting remember me cookie.
+2015-07-30 13:39:37,349 http-bio-8888-exec-17 anonymous 819x2213x1 qrt1l2 0:0:0:0:0:0:0:1 /login.jsp HttpSession [qrt1l2] destroyed for 'anonymous'
+2015-07-30 13:39:37,349 http-bio-8888-exec-17 anonymous 819x2213x1 qrt1l2 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [jdtga1]
+2015-07-30 13:39:37,467 http-bio-8888-exec-17 mahao 819x2213x1 qrt1l2 0:0:0:0:0:0:0:1 /login.jsp The user 'mahao' has PASSED authentication.
+2015-07-30 13:40:29,071 http-bio-8888-exec-12 mahao 820x2239x1 jdtga1 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [jdtga1] destroyed for 'mahao'
+2015-07-30 13:40:29,071 http-bio-8888-exec-12 mahao 820x2239x1 jdtga1 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1bd44qf]
+2015-07-30 13:40:29,113 http-bio-8888-exec-12 mahao 820x2239x1 jdtga1 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'mahao' has logged out.
+2015-07-30 13:40:40,671 http-bio-8888-exec-12 anonymous 820x2245x1 1bd44qf 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1bd44qf] destroyed for 'anonymous'
+2015-07-30 13:40:40,671 http-bio-8888-exec-12 anonymous 820x2245x1 1bd44qf 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1wtxet0]
+2015-07-30 13:40:40,717 http-bio-8888-exec-12 zhangmingxi 820x2245x1 1bd44qf 0:0:0:0:0:0:0:1 /login.jsp The user 'zhangmingxi' has PASSED authentication.
+2015-07-30 13:41:44,504 http-bio-8888-exec-23 zhangmingxi 821x2274x1 1wtxet0 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1wtxet0] destroyed for 'zhangmingxi'
+2015-07-30 13:41:44,504 http-bio-8888-exec-23 zhangmingxi 821x2274x1 1wtxet0 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1o9u1rx]
+2015-07-30 13:41:44,504 http-bio-8888-exec-23 zhangmingxi 821x2274x1 1wtxet0 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'zhangmingxi' has logged out.
+2015-07-30 13:41:59,105 http-bio-8888-exec-23 anonymous 821x2280x1 1o9u1rx 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1o9u1rx] destroyed for 'anonymous'
+2015-07-30 13:41:59,105 http-bio-8888-exec-23 anonymous 821x2280x1 1o9u1rx 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [ij0nf5]
+2015-07-30 13:41:59,203 http-bio-8888-exec-23 tangchuandong 821x2280x1 1o9u1rx 0:0:0:0:0:0:0:1 /login.jsp The user 'tangchuandong' has PASSED authentication.
+2015-07-30 13:43:37,662 http-bio-8888-exec-20 tangchuandong 823x2318x1 ij0nf5 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [ij0nf5] destroyed for 'tangchuandong'
+2015-07-30 13:43:37,662 http-bio-8888-exec-20 tangchuandong 823x2318x1 ij0nf5 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [b7rbrj]
+2015-07-30 13:43:37,663 http-bio-8888-exec-20 tangchuandong 823x2318x1 ij0nf5 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'tangchuandong' has logged out.
+2015-07-30 13:43:50,625 http-bio-8888-exec-20 anonymous 823x2324x1 b7rbrj 0:0:0:0:0:0:0:1 /login.jsp HttpSession [b7rbrj] destroyed for 'anonymous'
+2015-07-30 13:43:50,625 http-bio-8888-exec-20 anonymous 823x2324x1 b7rbrj 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [16dfx5m]
+2015-07-30 13:43:50,707 http-bio-8888-exec-20 zhangmingxi 823x2324x1 b7rbrj 0:0:0:0:0:0:0:1 /login.jsp The user 'zhangmingxi' has PASSED authentication.
+2015-07-30 14:06:57,058 http-bio-8888-exec-22 zhangmingxi 846x2353x1 16dfx5m 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [16dfx5m] destroyed for 'zhangmingxi'
+2015-07-30 14:06:57,058 http-bio-8888-exec-22 zhangmingxi 846x2353x1 16dfx5m 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [jpna9m]
+2015-07-30 14:06:57,133 http-bio-8888-exec-22 zhangmingxi 846x2353x1 16dfx5m 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'zhangmingxi' has logged out.
+2015-07-30 14:07:04,890 http-bio-8888-exec-22 anonymous 847x2359x1 jpna9m 0:0:0:0:0:0:0:1 /login.jsp HttpSession [jpna9m] destroyed for 'anonymous'
+2015-07-30 14:07:04,891 http-bio-8888-exec-22 anonymous 847x2359x1 jpna9m 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [l8lnzb]
+2015-07-30 14:07:05,008 http-bio-8888-exec-22 mahao 847x2359x1 jpna9m 0:0:0:0:0:0:0:1 /login.jsp The user 'mahao' has PASSED authentication.
+2015-07-30 14:08:42,817 http-bio-8888-exec-1 jackjun 848x2405x1 yay62s 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-30 14:08:42,837 http-bio-8888-exec-1 jackjun 848x2405x1 yay62s 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [yay62s] destroyed for 'jackjun'
+2015-07-30 14:08:42,838 http-bio-8888-exec-1 jackjun 848x2405x1 yay62s 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [10vgmzr]
+2015-07-30 14:27:22,465 localhost-startStop-2      HttpSession [10vgmzr] destroyed for 'jackjun'
+2015-07-30 14:27:22,466 localhost-startStop-2      HttpSession [l8lnzb] destroyed for 'mahao'
+2015-07-30 14:30:09,597 localhost-startStop-1      JIRA 6.0.5 build: 6102 started. You can now access JIRA through your web browser.
+2015-07-30 14:48:37,232 localhost-startStop-1      JIRA 6.0.5 build: 6102 started. You can now access JIRA through your web browser.
+2015-07-30 15:01:53,623 localhost-startStop-1      JIRA 6.0.5 build: 6102 started. You can now access JIRA through your web browser.
+2015-07-30 15:02:27,538 http-bio-8888-exec-1 anonymous 902x1x1 - 0:0:0:0:0:0:0:1 /secure/admin/workflows/WorkflowDesigner.jspa The user 'anonymous' is NOT AUTHORIZED to perform this request
+2015-07-30 15:02:27,542 http-bio-8888-exec-1 anonymous 902x1x1 - 0:0:0:0:0:0:0:1 /secure/admin/workflows/WorkflowDesigner.jspa HttpSession created [e46fkm]
+2015-07-30 15:02:56,850 http-bio-8888-exec-9 anonymous 902x6x1 e46fkm 0:0:0:0:0:0:0:1 /login.jsp HttpSession [e46fkm] destroyed for 'anonymous'
+2015-07-30 15:02:56,850 http-bio-8888-exec-9 anonymous 902x6x1 e46fkm 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [37qm9p]
+2015-07-30 15:02:57,049 http-bio-8888-exec-9 chujun 902x6x1 e46fkm 0:0:0:0:0:0:0:1 /login.jsp The user 'chujun' has PASSED authentication.
+2015-07-30 15:02:57,063 http-bio-8888-exec-10 anonymous 902x7x1 37qm9p 0:0:0:0:0:0:0:1 /secure/admin/workflows/WorkflowDesigner.jspa The user 'chujun' is NOT AUTHORIZED to perform this request
+2015-07-30 15:03:14,415 http-bio-8888-exec-15 chujun 903x12x1 37qm9p 0:0:0:0:0:0:0:1 /login.jsp The user 'chujun' has PASSED authentication.
+2015-07-30 15:03:14,438 http-bio-8888-exec-16 anonymous 903x13x1 37qm9p 0:0:0:0:0:0:0:1 /secure/admin/workflows/WorkflowDesigner.jspa The user 'chujun' is NOT AUTHORIZED to perform this request
+2015-07-30 15:03:24,292 http-bio-8888-exec-14 chujun 903x32x1 37qm9p 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [37qm9p] destroyed for 'chujun'
+2015-07-30 15:03:24,292 http-bio-8888-exec-14 chujun 903x32x1 37qm9p 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [anwabk]
+2015-07-30 15:03:24,293 http-bio-8888-exec-14 chujun 903x32x1 37qm9p 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'chujun' has logged out.
+2015-07-30 15:03:31,273 http-bio-8888-exec-14 anonymous 903x38x1 anwabk 0:0:0:0:0:0:0:1 /login.jsp HttpSession [anwabk] destroyed for 'anonymous'
+2015-07-30 15:03:31,273 http-bio-8888-exec-14 anonymous 903x38x1 anwabk 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [f7bmay]
+2015-07-30 15:03:31,322 http-bio-8888-exec-14 chujun 903x38x1 anwabk 0:0:0:0:0:0:0:1 /login.jsp The user 'chujun' has PASSED authentication.
+2015-07-30 15:03:44,513 http-bio-8888-exec-13 chujun 903x56x1 f7bmay 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [f7bmay] destroyed for 'chujun'
+2015-07-30 15:03:44,513 http-bio-8888-exec-13 chujun 903x56x1 f7bmay 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [qu3qwo]
+2015-07-30 15:03:44,513 http-bio-8888-exec-13 chujun 903x56x1 f7bmay 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'chujun' has logged out.
+2015-07-30 15:03:51,120 http-bio-8888-exec-13 anonymous 903x62x1 qu3qwo 0:0:0:0:0:0:0:1 /login.jsp login : 'jackjun' tried to login but they do not have USE permission or weren't found. Deleting remember me cookie.
+2015-07-30 15:03:51,164 http-bio-8888-exec-13 anonymous 903x62x1 qu3qwo 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has FAILED authentication.  Failure count equals 1
+2015-07-30 15:03:54,521 http-bio-8888-exec-13 anonymous 903x65x1 qu3qwo 0:0:0:0:0:0:0:1 /login.jsp HttpSession [qu3qwo] destroyed for 'anonymous'
+2015-07-30 15:03:54,521 http-bio-8888-exec-13 anonymous 903x65x1 qu3qwo 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [9pxu0c]
+2015-07-30 15:03:54,614 http-bio-8888-exec-13 jackjun 903x65x1 qu3qwo 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-30 15:04:54,325 http-bio-8888-exec-22 jackjun 904x84x1 9pxu0c 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-30 15:04:54,326 http-bio-8888-exec-22 jackjun 904x84x1 9pxu0c 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [9pxu0c] destroyed for 'jackjun'
+2015-07-30 15:04:54,327 http-bio-8888-exec-22 jackjun 904x84x1 9pxu0c 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [1evl5xa]
+2015-07-30 15:50:17,361 http-bio-8888-exec-17 jackjun 950x451x1 1evl5xa 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-30 15:50:17,362 http-bio-8888-exec-17 jackjun 950x451x1 1evl5xa 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [1evl5xa] destroyed for 'jackjun'
+2015-07-30 15:50:17,362 http-bio-8888-exec-17 jackjun 950x451x1 1evl5xa 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [k6xgmp]
+2015-07-30 15:56:39,724 http-bio-8888-exec-6 jackjun 956x561x1 k6xgmp 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [k6xgmp] destroyed for 'jackjun'
+2015-07-30 15:56:39,724 http-bio-8888-exec-6 jackjun 956x561x1 k6xgmp 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1uw2yol]
+2015-07-30 15:56:39,725 http-bio-8888-exec-6 jackjun 956x561x1 k6xgmp 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'jackjun' has logged out.
+2015-07-30 15:56:47,428 http-bio-8888-exec-6 anonymous 956x567x1 1uw2yol 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1uw2yol] destroyed for 'anonymous'
+2015-07-30 15:56:47,428 http-bio-8888-exec-6 anonymous 956x567x1 1uw2yol 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1dr3nt9]
+2015-07-30 15:56:47,468 http-bio-8888-exec-6 jackjun 956x567x1 1uw2yol 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-30 15:56:53,813 http-bio-8888-exec-25 jackjun 956x586x1 1dr3nt9 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-30 15:56:53,813 http-bio-8888-exec-25 jackjun 956x586x1 1dr3nt9 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [1dr3nt9] destroyed for 'jackjun'
+2015-07-30 15:56:53,814 http-bio-8888-exec-25 jackjun 956x586x1 1dr3nt9 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [a6w7ea]
+2015-07-30 15:59:43,532 http-bio-8888-exec-23 anonymous 959x743x1 - 0:0:0:0:0:0:0:1 / HttpSession created [18pqto1]
+2015-07-30 15:59:43,749 http-bio-8888-exec-23 mahao 959x743x1 - 0:0:0:0:0:0:0:1 / The user 'mahao' has PASSED authentication.
+2015-07-30 15:59:52,828 http-bio-8888-exec-12 mahao 959x759x1 18pqto1 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [18pqto1] destroyed for 'mahao'
+2015-07-30 15:59:52,828 http-bio-8888-exec-12 mahao 959x759x1 18pqto1 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1lvz2sm]
+2015-07-30 15:59:52,859 http-bio-8888-exec-12 mahao 959x759x1 18pqto1 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'mahao' has logged out.
+2015-07-30 16:00:00,625 http-bio-8888-exec-12 anonymous 960x765x1 1lvz2sm 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1lvz2sm] destroyed for 'anonymous'
+2015-07-30 16:00:00,626 http-bio-8888-exec-12 anonymous 960x765x1 1lvz2sm 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [q0iqyq]
+2015-07-30 16:00:00,721 http-bio-8888-exec-12 wangxin 960x765x1 1lvz2sm 0:0:0:0:0:0:0:1 /login.jsp The user 'wangxin' has PASSED authentication.
+2015-07-30 16:09:10,252 http-bio-8888-exec-20 wangxin 969x1216x1 q0iqyq 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [q0iqyq] destroyed for 'wangxin'
+2015-07-30 16:09:10,252 http-bio-8888-exec-20 wangxin 969x1216x1 q0iqyq 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1tejzw9]
+2015-07-30 16:09:10,314 http-bio-8888-exec-20 wangxin 969x1216x1 q0iqyq 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'wangxin' has logged out.
+2015-07-30 16:09:18,594 http-bio-8888-exec-20 anonymous 969x1222x1 1tejzw9 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1tejzw9] destroyed for 'anonymous'
+2015-07-30 16:09:18,594 http-bio-8888-exec-20 anonymous 969x1222x1 1tejzw9 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [zei2o5]
+2015-07-30 16:09:18,687 http-bio-8888-exec-20 wangxin 969x1222x1 1tejzw9 0:0:0:0:0:0:0:1 /login.jsp The user 'wangxin' has PASSED authentication.
+2015-07-30 16:16:17,597 http-bio-8888-exec-3 wangxin 976x1727x1 zei2o5 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [zei2o5] destroyed for 'wangxin'
+2015-07-30 16:16:17,598 http-bio-8888-exec-3 wangxin 976x1727x1 zei2o5 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [7byx46]
+2015-07-30 16:16:17,645 http-bio-8888-exec-3 wangxin 976x1727x1 zei2o5 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'wangxin' has logged out.
+2015-07-30 16:16:27,414 http-bio-8888-exec-3 anonymous 976x1733x1 7byx46 0:0:0:0:0:0:0:1 /login.jsp HttpSession [7byx46] destroyed for 'anonymous'
+2015-07-30 16:16:27,414 http-bio-8888-exec-3 anonymous 976x1733x1 7byx46 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [623dor]
+2015-07-30 16:16:27,475 http-bio-8888-exec-3 tangchuandong 976x1733x1 7byx46 0:0:0:0:0:0:0:1 /login.jsp The user 'tangchuandong' has PASSED authentication.
+2015-07-30 16:17:20,291 http-bio-8888-exec-2 tangchuandong 977x1772x1 623dor 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [623dor] destroyed for 'tangchuandong'
+2015-07-30 16:17:20,291 http-bio-8888-exec-2 tangchuandong 977x1772x1 623dor 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1qtswws]
+2015-07-30 16:17:20,314 http-bio-8888-exec-2 tangchuandong 977x1772x1 623dor 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'tangchuandong' has logged out.
+2015-07-30 16:17:28,287 http-bio-8888-exec-2 anonymous 977x1778x1 1qtswws 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1qtswws] destroyed for 'anonymous'
+2015-07-30 16:17:28,287 http-bio-8888-exec-2 anonymous 977x1778x1 1qtswws 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1uprcg8]
+2015-07-30 16:17:28,333 http-bio-8888-exec-2 caojiaojiao 977x1778x1 1qtswws 0:0:0:0:0:0:0:1 /login.jsp The user 'caojiaojiao' has PASSED authentication.
+2015-07-30 16:18:03,344 http-bio-8888-exec-2 caojiaojiao 978x1811x1 1uprcg8 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1uprcg8] destroyed for 'caojiaojiao'
+2015-07-30 16:18:03,344 http-bio-8888-exec-2 caojiaojiao 978x1811x1 1uprcg8 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1d0r75m]
+2015-07-30 16:18:03,344 http-bio-8888-exec-2 caojiaojiao 978x1811x1 1uprcg8 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'caojiaojiao' has logged out.
+2015-07-30 16:18:11,712 http-bio-8888-exec-2 anonymous 978x1817x1 1d0r75m 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1d0r75m] destroyed for 'anonymous'
+2015-07-30 16:18:11,713 http-bio-8888-exec-2 anonymous 978x1817x1 1d0r75m 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1tctzhd]
+2015-07-30 16:18:11,771 http-bio-8888-exec-2 chujun 978x1817x1 1d0r75m 0:0:0:0:0:0:0:1 /login.jsp The user 'chujun' has PASSED authentication.
+2015-07-30 16:19:12,700 http-bio-8888-exec-3 chujun 979x1878x1 1tctzhd 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1tctzhd] destroyed for 'chujun'
+2015-07-30 16:19:12,700 http-bio-8888-exec-3 chujun 979x1878x1 1tctzhd 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1d6lljf]
+2015-07-30 16:19:12,775 http-bio-8888-exec-3 chujun 979x1878x1 1tctzhd 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'chujun' has logged out.
+2015-07-30 16:19:21,481 http-bio-8888-exec-3 anonymous 979x1884x1 1d6lljf 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1d6lljf] destroyed for 'anonymous'
+2015-07-30 16:19:21,481 http-bio-8888-exec-3 anonymous 979x1884x1 1d6lljf 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [14skr2s]
+2015-07-30 16:19:21,520 http-bio-8888-exec-3 mahao 979x1884x1 1d6lljf 0:0:0:0:0:0:0:1 /login.jsp The user 'mahao' has PASSED authentication.
+2015-07-30 16:20:27,424 http-bio-8888-exec-21 mahao 980x1920x1 14skr2s 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [14skr2s] destroyed for 'mahao'
+2015-07-30 16:20:27,425 http-bio-8888-exec-21 mahao 980x1920x1 14skr2s 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1vmlpq1]
+2015-07-30 16:20:27,425 http-bio-8888-exec-21 mahao 980x1920x1 14skr2s 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'mahao' has logged out.
+2015-07-30 16:20:35,815 http-bio-8888-exec-21 anonymous 980x1926x1 1vmlpq1 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1vmlpq1] destroyed for 'anonymous'
+2015-07-30 16:20:35,815 http-bio-8888-exec-21 anonymous 980x1926x1 1vmlpq1 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [diqnr7]
+2015-07-30 16:20:35,854 http-bio-8888-exec-21 wangxin 980x1926x1 1vmlpq1 0:0:0:0:0:0:0:1 /login.jsp The user 'wangxin' has PASSED authentication.
+2015-07-30 16:21:15,072 http-bio-8888-exec-25 wangxin 981x1953x1 diqnr7 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [diqnr7] destroyed for 'wangxin'
+2015-07-30 16:21:15,073 http-bio-8888-exec-25 wangxin 981x1953x1 diqnr7 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1s0wko3]
+2015-07-30 16:21:15,073 http-bio-8888-exec-25 wangxin 981x1953x1 diqnr7 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'wangxin' has logged out.
+2015-07-30 16:21:24,004 http-bio-8888-exec-25 anonymous 981x1959x1 1s0wko3 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1s0wko3] destroyed for 'anonymous'
+2015-07-30 16:21:24,004 http-bio-8888-exec-25 anonymous 981x1959x1 1s0wko3 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1u8vh3w]
+2015-07-30 16:21:24,059 http-bio-8888-exec-25 suqijiao 981x1959x1 1s0wko3 0:0:0:0:0:0:0:1 /login.jsp The user 'suqijiao' has PASSED authentication.
+2015-07-30 16:24:20,756 http-bio-8888-exec-16 jackjun 984x2023x1 a6w7ea 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [a6w7ea] destroyed for 'jackjun'
+2015-07-30 16:24:20,756 http-bio-8888-exec-16 jackjun 984x2023x1 a6w7ea 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1c2q551]
+2015-07-30 16:24:20,756 http-bio-8888-exec-16 jackjun 984x2023x1 a6w7ea 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'jackjun' has logged out.
+2015-07-30 16:24:27,244 http-bio-8888-exec-16 anonymous 984x2029x1 1c2q551 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1c2q551] destroyed for 'anonymous'
+2015-07-30 16:24:27,244 http-bio-8888-exec-16 anonymous 984x2029x1 1c2q551 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [l68baf]
+2015-07-30 16:24:27,300 http-bio-8888-exec-16 zhangmingxi 984x2029x1 1c2q551 0:0:0:0:0:0:0:1 /login.jsp The user 'zhangmingxi' has PASSED authentication.
+2015-07-30 16:25:36,905 http-bio-8888-exec-16 suqijiao 985x2116x1 1u8vh3w 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1u8vh3w] destroyed for 'suqijiao'
+2015-07-30 16:25:36,906 http-bio-8888-exec-16 suqijiao 985x2116x1 1u8vh3w 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [ccr89]
+2015-07-30 16:25:36,906 http-bio-8888-exec-16 suqijiao 985x2116x1 1u8vh3w 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'suqijiao' has logged out.
+2015-07-30 16:25:42,027 http-bio-8888-exec-16 anonymous 985x2122x1 ccr89 0:0:0:0:0:0:0:1 /login.jsp HttpSession [ccr89] destroyed for 'anonymous'
+2015-07-30 16:25:42,027 http-bio-8888-exec-16 anonymous 985x2122x1 ccr89 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1xhwmvq]
+2015-07-30 16:25:42,065 http-bio-8888-exec-16 wangxin 985x2122x1 ccr89 0:0:0:0:0:0:0:1 /login.jsp The user 'wangxin' has PASSED authentication.
+2015-07-30 16:28:35,029 http-bio-8888-exec-6 zhangmingxi 988x2331x1 l68baf 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [l68baf] destroyed for 'zhangmingxi'
+2015-07-30 16:28:35,030 http-bio-8888-exec-6 zhangmingxi 988x2331x1 l68baf 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [lkphwi]
+2015-07-30 16:28:35,030 http-bio-8888-exec-6 zhangmingxi 988x2331x1 l68baf 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'zhangmingxi' has logged out.
+2015-07-30 16:28:41,093 http-bio-8888-exec-6 anonymous 988x2337x1 lkphwi 0:0:0:0:0:0:0:1 /login.jsp HttpSession [lkphwi] destroyed for 'anonymous'
+2015-07-30 16:28:41,093 http-bio-8888-exec-6 anonymous 988x2337x1 lkphwi 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [p2ed7c]
+2015-07-30 16:28:41,181 http-bio-8888-exec-6 jackjun 988x2337x1 lkphwi 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-30 16:38:15,447 http-bio-8888-exec-21 wangxin 998x2455x1 1xhwmvq 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1xhwmvq] destroyed for 'wangxin'
+2015-07-30 16:38:15,447 http-bio-8888-exec-21 wangxin 998x2455x1 1xhwmvq 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [ifbd3k]
+2015-07-30 16:38:15,447 http-bio-8888-exec-21 wangxin 998x2455x1 1xhwmvq 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'wangxin' has logged out.
+2015-07-30 16:38:22,450 http-bio-8888-exec-21 anonymous 998x2461x1 ifbd3k 0:0:0:0:0:0:0:1 /login.jsp HttpSession [ifbd3k] destroyed for 'anonymous'
+2015-07-30 16:38:22,450 http-bio-8888-exec-21 anonymous 998x2461x1 ifbd3k 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [h2mp2o]
+2015-07-30 16:38:22,523 http-bio-8888-exec-21 suqijiao 998x2461x1 ifbd3k 0:0:0:0:0:0:0:1 /login.jsp The user 'suqijiao' has PASSED authentication.
+2015-07-30 16:38:57,125 http-bio-8888-exec-17 suqijiao 998x2493x1 h2mp2o 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [h2mp2o] destroyed for 'suqijiao'
+2015-07-30 16:38:57,126 http-bio-8888-exec-17 suqijiao 998x2493x1 h2mp2o 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1ou58wp]
+2015-07-30 16:38:57,126 http-bio-8888-exec-17 suqijiao 998x2493x1 h2mp2o 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'suqijiao' has logged out.
+2015-07-30 16:39:06,418 http-bio-8888-exec-17 anonymous 999x2499x1 1ou58wp 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1ou58wp] destroyed for 'anonymous'
+2015-07-30 16:39:06,418 http-bio-8888-exec-17 anonymous 999x2499x1 1ou58wp 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [f9jkdx]
+2015-07-30 16:39:06,471 http-bio-8888-exec-17 chujun 999x2499x1 1ou58wp 0:0:0:0:0:0:0:1 /login.jsp The user 'chujun' has PASSED authentication.
+2015-07-30 16:55:09,382 http-bio-8888-exec-11 chujun 1015x2518x1 f9jkdx 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [f9jkdx] destroyed for 'chujun'
+2015-07-30 16:55:09,382 http-bio-8888-exec-11 chujun 1015x2518x1 f9jkdx 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [i3b25v]
+2015-07-30 16:55:09,472 http-bio-8888-exec-11 chujun 1015x2518x1 f9jkdx 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'chujun' has logged out.
+2015-07-30 17:18:01,338 http-bio-8888-exec-23 jackjun 1038x2524x1 p2ed7c 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [p2ed7c] destroyed for 'jackjun'
+2015-07-30 17:18:01,339 http-bio-8888-exec-23 jackjun 1038x2524x1 p2ed7c 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [vi7t4]
+2015-07-30 17:18:01,339 http-bio-8888-exec-23 jackjun 1038x2524x1 p2ed7c 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'jackjun' has logged out.
+2015-07-30 17:18:08,238 http-bio-8888-exec-23 anonymous 1038x2530x1 vi7t4 0:0:0:0:0:0:0:1 /login.jsp HttpSession [vi7t4] destroyed for 'anonymous'
+2015-07-30 17:18:08,239 http-bio-8888-exec-23 anonymous 1038x2530x1 vi7t4 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [m3iabk]
+2015-07-30 17:18:08,304 http-bio-8888-exec-23 jackjun 1038x2530x1 vi7t4 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-30 17:18:16,137 http-bio-8888-exec-17 jackjun 1038x2550x1 m3iabk 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-30 17:18:16,137 http-bio-8888-exec-17 jackjun 1038x2550x1 m3iabk 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [m3iabk] destroyed for 'jackjun'
+2015-07-30 17:18:16,137 http-bio-8888-exec-17 jackjun 1038x2550x1 m3iabk 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [17floxd]
+2015-07-30 18:55:19,897 localhost-startStop-2      HttpSession [i3b25v] destroyed for 'anonymous'
+2015-07-30 18:55:19,898 localhost-startStop-2      HttpSession [17floxd] destroyed for 'jackjun'
+2015-07-31 09:42:24,162 localhost-startStop-1      JIRA 6.0.5 build: 6102 started. You can now access JIRA through your web browser.
+2015-07-31 09:43:12,784 http-bio-8888-exec-1   -   HttpSession created [4h4k59]
+2015-07-31 09:43:39,245 http-bio-8888-exec-8 anonymous 583x7x1 4h4k59 0:0:0:0:0:0:0:1 /login.jsp HttpSession [4h4k59] destroyed for 'anonymous'
+2015-07-31 09:43:39,245 http-bio-8888-exec-8 anonymous 583x7x1 4h4k59 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1s1vufg]
+2015-07-31 09:43:39,288 http-bio-8888-exec-8 chujun 583x7x1 4h4k59 0:0:0:0:0:0:0:1 /login.jsp The user 'chujun' has PASSED authentication.
+2015-07-31 11:20:58,244 localhost-startStop-1      JIRA 6.0.5 build: 6102 started. You can now access JIRA through your web browser.
+2015-07-31 11:23:53,240 http-bio-8888-exec-1   -   HttpSession created [1foumbo]
+2015-07-31 11:24:11,244 http-bio-8888-exec-12 anonymous 684x7x1 1foumbo 0:0:0:0:0:0:0:1 /login.jsp login : 'jackjun' tried to login but they do not have USE permission or weren't found. Deleting remember me cookie.
+2015-07-31 11:24:11,353 http-bio-8888-exec-12 anonymous 684x7x1 1foumbo 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has FAILED authentication.  Failure count equals 1
+2015-07-31 11:24:14,399 http-bio-8888-exec-15 anonymous 684x10x1 1foumbo 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1foumbo] destroyed for 'anonymous'
+2015-07-31 11:24:14,399 http-bio-8888-exec-15 anonymous 684x10x1 1foumbo 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [zplulw]
+2015-07-31 11:24:14,454 http-bio-8888-exec-15 jackjun 684x10x1 1foumbo 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-31 11:25:50,724 http-bio-8888-exec-1 jackjun 685x107x1 zplulw 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-31 11:25:50,726 http-bio-8888-exec-1 jackjun 685x107x1 zplulw 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [zplulw] destroyed for 'jackjun'
+2015-07-31 11:25:50,726 http-bio-8888-exec-1 jackjun 685x107x1 zplulw 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [12q928v]
+2015-07-31 13:21:07,954 http-bio-8888-exec-19 jackjun 801x163x1 12q928v 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-31 13:21:07,987 http-bio-8888-exec-19 jackjun 801x163x1 12q928v 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [12q928v] destroyed for 'jackjun'
+2015-07-31 13:21:07,988 http-bio-8888-exec-19 jackjun 801x163x1 12q928v 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [8uirpv]
+2015-07-31 13:27:41,832 localhost-startStop-1      JIRA 6.0.5 build: 6102 started. You can now access JIRA through your web browser.
+2015-07-31 13:29:03,364 http-bio-8888-exec-1   -   HttpSession created [pwj7jo]
+2015-07-31 13:29:22,486 http-bio-8888-exec-12 anonymous 809x10x1 pwj7jo 0:0:0:0:0:0:0:1 /login.jsp HttpSession [pwj7jo] destroyed for 'anonymous'
+2015-07-31 13:29:22,486 http-bio-8888-exec-12 anonymous 809x10x1 pwj7jo 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1rggxoe]
+2015-07-31 13:29:22,711 http-bio-8888-exec-12 jackjun 809x10x1 pwj7jo 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-31 13:30:18,208 http-bio-8888-exec-25 jackjun 810x74x1 1rggxoe 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-31 13:30:18,209 http-bio-8888-exec-25 jackjun 810x74x1 1rggxoe 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [1rggxoe] destroyed for 'jackjun'
+2015-07-31 13:30:18,211 http-bio-8888-exec-25 jackjun 810x74x1 1rggxoe 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [1mdkj8h]
+2015-07-31 13:35:48,600 http-bio-8888-exec-3 jackjun 815x219x1 1mdkj8h 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1mdkj8h] destroyed for 'jackjun'
+2015-07-31 13:35:48,600 http-bio-8888-exec-3 jackjun 815x219x1 1mdkj8h 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [zx5e47]
+2015-07-31 13:35:48,602 http-bio-8888-exec-3 jackjun 815x219x1 1mdkj8h 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'jackjun' has logged out.
+2015-07-31 13:35:58,239 http-bio-8888-exec-3 anonymous 815x225x1 zx5e47 0:0:0:0:0:0:0:1 /login.jsp HttpSession [zx5e47] destroyed for 'anonymous'
+2015-07-31 13:35:58,239 http-bio-8888-exec-3 anonymous 815x225x1 zx5e47 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1fpsa1z]
+2015-07-31 13:35:59,372 http-bio-8888-exec-3 wangxin 815x225x1 zx5e47 0:0:0:0:0:0:0:1 /login.jsp The user 'wangxin' has PASSED authentication.
+2015-07-31 13:48:54,878 http-bio-8888-exec-9 wangxin 828x275x1 1fpsa1z 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1fpsa1z] destroyed for 'wangxin'
+2015-07-31 13:48:54,879 http-bio-8888-exec-9 wangxin 828x275x1 1fpsa1z 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [gvtvc9]
+2015-07-31 13:48:54,879 http-bio-8888-exec-9 wangxin 828x275x1 1fpsa1z 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'wangxin' has logged out.
+2015-07-31 13:49:04,110 http-bio-8888-exec-5 anonymous 829x281x1 gvtvc9 0:0:0:0:0:0:0:1 /login.jsp HttpSession [gvtvc9] destroyed for 'anonymous'
+2015-07-31 13:49:04,110 http-bio-8888-exec-5 anonymous 829x281x1 gvtvc9 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [qufyvu]
+2015-07-31 13:49:04,335 http-bio-8888-exec-5 caojiaojiao 829x281x1 gvtvc9 0:0:0:0:0:0:0:1 /login.jsp The user 'caojiaojiao' has PASSED authentication.
+2015-07-31 13:50:22,704 http-bio-8888-exec-9 caojiaojiao 830x314x1 qufyvu 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [qufyvu] destroyed for 'caojiaojiao'
+2015-07-31 13:50:22,705 http-bio-8888-exec-9 caojiaojiao 830x314x1 qufyvu 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [l3shn5]
+2015-07-31 13:50:22,737 http-bio-8888-exec-9 caojiaojiao 830x314x1 qufyvu 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'caojiaojiao' has logged out.
+2015-07-31 13:50:28,205 http-bio-8888-exec-9 anonymous 830x320x1 l3shn5 0:0:0:0:0:0:0:1 /login.jsp HttpSession [l3shn5] destroyed for 'anonymous'
+2015-07-31 13:50:28,206 http-bio-8888-exec-9 anonymous 830x320x1 l3shn5 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1164edi]
+2015-07-31 13:50:28,269 http-bio-8888-exec-9 jackjun 830x320x1 l3shn5 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-31 13:50:37,192 http-bio-8888-exec-7 jackjun 830x339x1 1164edi 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has FAILED authentication.  Failure count equals 1
+2015-07-31 13:50:41,537 http-bio-8888-exec-7 jackjun 830x342x1 1164edi 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-31 13:50:41,538 http-bio-8888-exec-7 jackjun 830x342x1 1164edi 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [1164edi] destroyed for 'jackjun'
+2015-07-31 13:50:41,539 http-bio-8888-exec-7 jackjun 830x342x1 1164edi 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [18nvztk]
+2015-07-31 13:51:56,365 http-bio-8888-exec-8 jackjun 831x436x1 18nvztk 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [18nvztk] destroyed for 'jackjun'
+2015-07-31 13:51:56,366 http-bio-8888-exec-8 jackjun 831x436x1 18nvztk 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1tz2k26]
+2015-07-31 13:51:56,366 http-bio-8888-exec-8 jackjun 831x436x1 18nvztk 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'jackjun' has logged out.
+2015-07-31 13:52:08,156 http-bio-8888-exec-8 anonymous 832x442x1 1tz2k26 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1tz2k26] destroyed for 'anonymous'
+2015-07-31 13:52:08,157 http-bio-8888-exec-8 anonymous 832x442x1 1tz2k26 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1lhwjnv]
+2015-07-31 13:52:08,263 http-bio-8888-exec-8 caojiaojiao 832x442x1 1tz2k26 0:0:0:0:0:0:0:1 /login.jsp The user 'caojiaojiao' has PASSED authentication.
+2015-07-31 13:54:05,523 http-bio-8888-exec-14 caojiaojiao 834x480x1 1lhwjnv 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1lhwjnv] destroyed for 'caojiaojiao'
+2015-07-31 13:54:05,524 http-bio-8888-exec-14 caojiaojiao 834x480x1 1lhwjnv 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1w09fth]
+2015-07-31 13:54:05,796 http-bio-8888-exec-14 caojiaojiao 834x480x1 1lhwjnv 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'caojiaojiao' has logged out.
+2015-07-31 13:54:13,694 http-bio-8888-exec-14 anonymous 834x486x1 1w09fth 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1w09fth] destroyed for 'anonymous'
+2015-07-31 13:54:13,694 http-bio-8888-exec-14 anonymous 834x486x1 1w09fth 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [18swk1j]
+2015-07-31 13:54:13,849 http-bio-8888-exec-14 jackjun 834x486x1 1w09fth 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-07-31 13:54:21,234 http-bio-8888-exec-18 jackjun 834x505x1 18swk1j 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-07-31 13:54:21,234 http-bio-8888-exec-18 jackjun 834x505x1 18swk1j 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [18swk1j] destroyed for 'jackjun'
+2015-07-31 13:54:21,234 http-bio-8888-exec-18 jackjun 834x505x1 18swk1j 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [17r9674]
+2015-07-31 13:54:59,036 http-bio-8888-exec-2 jackjun 834x559x1 17r9674 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [17r9674] destroyed for 'jackjun'
+2015-07-31 13:54:59,036 http-bio-8888-exec-2 jackjun 834x559x1 17r9674 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [jqrz3e]
+2015-07-31 13:54:59,036 http-bio-8888-exec-2 jackjun 834x559x1 17r9674 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'jackjun' has logged out.
+2015-07-31 13:55:06,587 http-bio-8888-exec-2 anonymous 835x565x1 jqrz3e 0:0:0:0:0:0:0:1 /login.jsp HttpSession [jqrz3e] destroyed for 'anonymous'
+2015-07-31 13:55:06,587 http-bio-8888-exec-2 anonymous 835x565x1 jqrz3e 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [11jsiwg]
+2015-07-31 13:55:06,660 http-bio-8888-exec-2 caojiaojiao 835x565x1 jqrz3e 0:0:0:0:0:0:0:1 /login.jsp The user 'caojiaojiao' has PASSED authentication.
+2015-07-31 14:07:31,917 http-bio-8888-exec-10 caojiaojiao 847x613x1 11jsiwg 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [11jsiwg] destroyed for 'caojiaojiao'
+2015-07-31 14:07:31,917 http-bio-8888-exec-10 caojiaojiao 847x613x1 11jsiwg 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [dl1ra6]
+2015-07-31 14:07:31,918 http-bio-8888-exec-10 caojiaojiao 847x613x1 11jsiwg 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'caojiaojiao' has logged out.
+2015-07-31 14:07:43,795 http-bio-8888-exec-10 anonymous 847x619x1 dl1ra6 0:0:0:0:0:0:0:1 /login.jsp HttpSession [dl1ra6] destroyed for 'anonymous'
+2015-07-31 14:07:43,796 http-bio-8888-exec-10 anonymous 847x619x1 dl1ra6 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [uab1rx]
+2015-07-31 14:07:43,892 http-bio-8888-exec-10 fanrui 847x619x1 dl1ra6 0:0:0:0:0:0:0:1 /login.jsp The user 'fanrui' has PASSED authentication.
+2015-07-31 14:16:52,792 http-bio-8888-exec-19 fanrui 856x674x1 uab1rx 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [uab1rx] destroyed for 'fanrui'
+2015-07-31 14:16:52,793 http-bio-8888-exec-19 fanrui 856x674x1 uab1rx 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1vgb9uk]
+2015-07-31 14:16:52,822 http-bio-8888-exec-19 fanrui 856x674x1 uab1rx 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'fanrui' has logged out.
+2015-07-31 14:17:01,059 http-bio-8888-exec-19 anonymous 857x680x1 1vgb9uk 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1vgb9uk] destroyed for 'anonymous'
+2015-07-31 14:17:01,059 http-bio-8888-exec-19 anonymous 857x680x1 1vgb9uk 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1ckr8d8]
+2015-07-31 14:17:01,126 http-bio-8888-exec-19 caojiaojiao 857x680x1 1vgb9uk 0:0:0:0:0:0:0:1 /login.jsp The user 'caojiaojiao' has PASSED authentication.
+2015-07-31 14:19:45,529 http-bio-8888-exec-18 caojiaojiao 859x730x1 1ckr8d8 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1ckr8d8] destroyed for 'caojiaojiao'
+2015-07-31 14:19:45,530 http-bio-8888-exec-18 caojiaojiao 859x730x1 1ckr8d8 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [zxe84c]
+2015-07-31 14:19:45,530 http-bio-8888-exec-18 caojiaojiao 859x730x1 1ckr8d8 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'caojiaojiao' has logged out.
+2015-07-31 14:19:54,890 http-bio-8888-exec-18 anonymous 859x736x1 zxe84c 0:0:0:0:0:0:0:1 /login.jsp HttpSession [zxe84c] destroyed for 'anonymous'
+2015-07-31 14:19:54,890 http-bio-8888-exec-18 anonymous 859x736x1 zxe84c 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1azod4s]
+2015-07-31 14:19:54,956 http-bio-8888-exec-18 fanrui 859x736x1 zxe84c 0:0:0:0:0:0:0:1 /login.jsp The user 'fanrui' has PASSED authentication.
+2015-07-31 15:47:29,385 localhost-startStop-2      HttpSession [1azod4s] destroyed for 'fanrui'
+2015-07-31 15:53:05,853 localhost-startStop-1      JIRA 6.0.5 build: 6102 started. You can now access JIRA through your web browser.
+2015-07-31 16:06:38,577 http-bio-8888-exec-1   -   HttpSession created [1m1h0z8]
+2015-07-31 16:06:53,145 http-bio-8888-exec-7 anonymous 966x6x1 1m1h0z8 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1m1h0z8] destroyed for 'anonymous'
+2015-07-31 16:06:53,145 http-bio-8888-exec-7 anonymous 966x6x1 1m1h0z8 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1qus855]
+2015-07-31 16:06:53,238 http-bio-8888-exec-7 caojiaojiao 966x6x1 1m1h0z8 0:0:0:0:0:0:0:1 /login.jsp The user 'caojiaojiao' has PASSED authentication.
+2015-07-31 16:34:48,220 http-bio-8888-exec-6 caojiaojiao 994x27x1 1qus855 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1qus855] destroyed for 'caojiaojiao'
+2015-07-31 16:34:48,221 http-bio-8888-exec-6 caojiaojiao 994x27x1 1qus855 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1sryer3]
+2015-07-31 16:34:48,224 http-bio-8888-exec-6 caojiaojiao 994x27x1 1qus855 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'caojiaojiao' has logged out.
+2015-07-31 16:34:54,591 http-bio-8888-exec-10 anonymous 994x33x1 1sryer3 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1sryer3] destroyed for 'anonymous'
+2015-07-31 16:34:54,591 http-bio-8888-exec-10 anonymous 994x33x1 1sryer3 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [vik7gv]
+2015-07-31 16:34:54,639 http-bio-8888-exec-10 fanrui 994x33x1 1sryer3 0:0:0:0:0:0:0:1 /login.jsp The user 'fanrui' has PASSED authentication.
+2015-07-31 21:36:18,990 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [vik7gv] destroyed for 'fanrui'
+2015-08-03 10:05:00,328 http-bio-8888-exec-9 anonymous 605x83x2 - 0:0:0:0:0:0:0:1 /browse/MYB-6 HttpSession created [mro02k]
+2015-08-03 10:05:00,339 http-bio-8888-exec-8 anonymous 604x82x1 - 0:0:0:0:0:0:0:1 /browse/MYB-6 HttpSession created [187bsqo]
+2015-08-03 10:05:01,114 http-bio-8888-exec-6 anonymous 605x84x3 - 0:0:0:0:0:0:0:1 /browse/MYB-6 HttpSession created [ihgoak]
+2015-08-03 10:05:03,371 http-bio-8888-exec-11 anonymous 605x85x4 - 0:0:0:0:0:0:0:1 /browse/MYB-6 HttpSession created [6eunsf]
+2015-08-03 10:05:04,715 http-bio-8888-exec-12 anonymous 605x86x5 - 0:0:0:0:0:0:0:1 /browse/MYB-6 HttpSession created [18tfnq1]
+2015-08-03 10:05:05,447 http-bio-8888-exec-14 anonymous 605x87x6 - 0:0:0:0:0:0:0:1 /browse/MYB-6 HttpSession created [x4b2vq]
+2015-08-03 10:06:17,110 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [mro02k] destroyed for 'anonymous'
+2015-08-03 10:06:17,110 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [ihgoak] destroyed for 'anonymous'
+2015-08-03 10:06:17,111 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [6eunsf] destroyed for 'anonymous'
+2015-08-03 10:06:17,111 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [18tfnq1] destroyed for 'anonymous'
+2015-08-03 10:06:17,111 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [187bsqo] destroyed for 'anonymous'
+2015-08-03 11:04:48,706 http-bio-8888-exec-19 anonymous 664x96x1 x4b2vq 0:0:0:0:0:0:0:1 /login.jsp HttpSession [x4b2vq] destroyed for 'anonymous'
+2015-08-03 11:04:48,707 http-bio-8888-exec-19 anonymous 664x96x1 x4b2vq 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1va7vj9]
+2015-08-03 11:04:48,812 http-bio-8888-exec-19 chujun 664x96x1 x4b2vq 0:0:0:0:0:0:0:1 /login.jsp The user 'chujun' has PASSED authentication.
+2015-08-03 11:06:48,347 http-bio-8888-exec-20 chujun 666x149x1 1va7vj9 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1va7vj9] destroyed for 'chujun'
+2015-08-03 11:06:48,348 http-bio-8888-exec-20 chujun 666x149x1 1va7vj9 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [e13pou]
+2015-08-03 11:06:48,348 http-bio-8888-exec-20 chujun 666x149x1 1va7vj9 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'chujun' has logged out.
+2015-08-03 11:06:55,639 http-bio-8888-exec-20 anonymous 666x155x1 e13pou 0:0:0:0:0:0:0:1 /login.jsp HttpSession [e13pou] destroyed for 'anonymous'
+2015-08-03 11:06:55,639 http-bio-8888-exec-20 anonymous 666x155x1 e13pou 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [8of9lm]
+2015-08-03 11:06:55,704 http-bio-8888-exec-20 zhangmingxi 666x155x1 e13pou 0:0:0:0:0:0:0:1 /login.jsp The user 'zhangmingxi' has PASSED authentication.
+2015-08-03 11:07:12,684 http-bio-8888-exec-5 zhangmingxi 667x187x1 8of9lm 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [8of9lm] destroyed for 'zhangmingxi'
+2015-08-03 11:07:12,685 http-bio-8888-exec-5 zhangmingxi 667x187x1 8of9lm 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [15dibkq]
+2015-08-03 11:07:12,685 http-bio-8888-exec-5 zhangmingxi 667x187x1 8of9lm 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'zhangmingxi' has logged out.
+2015-08-03 11:07:20,575 http-bio-8888-exec-5 anonymous 667x193x1 15dibkq 0:0:0:0:0:0:0:1 /login.jsp HttpSession [15dibkq] destroyed for 'anonymous'
+2015-08-03 11:07:20,575 http-bio-8888-exec-5 anonymous 667x193x1 15dibkq 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [v34anj]
+2015-08-03 11:07:20,699 http-bio-8888-exec-5 dengbinbin 667x193x1 15dibkq 0:0:0:0:0:0:0:1 /login.jsp The user 'dengbinbin' has PASSED authentication.
+2015-08-03 11:30:49,473 http-bio-8888-exec-25 dengbinbin 690x253x1 v34anj 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [v34anj] destroyed for 'dengbinbin'
+2015-08-03 11:30:49,473 http-bio-8888-exec-25 dengbinbin 690x253x1 v34anj 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [vk9ys4]
+2015-08-03 11:30:49,473 http-bio-8888-exec-25 dengbinbin 690x253x1 v34anj 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'dengbinbin' has logged out.
+2015-08-03 11:30:55,146 http-bio-8888-exec-25 anonymous 690x259x1 vk9ys4 0:0:0:0:0:0:0:1 /login.jsp HttpSession [vk9ys4] destroyed for 'anonymous'
+2015-08-03 11:30:55,146 http-bio-8888-exec-25 anonymous 690x259x1 vk9ys4 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1m2ijng]
+2015-08-03 11:30:55,278 http-bio-8888-exec-25 fanrui 690x259x1 vk9ys4 0:0:0:0:0:0:0:1 /login.jsp The user 'fanrui' has PASSED authentication.
+2015-08-03 11:32:42,826 http-bio-8888-exec-8 fanrui 692x338x1 1m2ijng 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1m2ijng] destroyed for 'fanrui'
+2015-08-03 11:32:42,826 http-bio-8888-exec-8 fanrui 692x338x1 1m2ijng 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [iyn14t]
+2015-08-03 11:32:42,826 http-bio-8888-exec-8 fanrui 692x338x1 1m2ijng 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'fanrui' has logged out.
+2015-08-03 11:32:50,318 http-bio-8888-exec-8 anonymous 692x344x1 iyn14t 0:0:0:0:0:0:0:1 /login.jsp HttpSession [iyn14t] destroyed for 'anonymous'
+2015-08-03 11:32:50,319 http-bio-8888-exec-8 anonymous 692x344x1 iyn14t 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [do4q04]
+2015-08-03 11:32:50,386 http-bio-8888-exec-8 mahao 692x344x1 iyn14t 0:0:0:0:0:0:0:1 /login.jsp The user 'mahao' has PASSED authentication.
+2015-08-03 11:33:05,235 http-bio-8888-exec-17 mahao 693x378x1 do4q04 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [do4q04] destroyed for 'mahao'
+2015-08-03 11:33:05,236 http-bio-8888-exec-17 mahao 693x378x1 do4q04 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [19orczu]
+2015-08-03 11:33:05,236 http-bio-8888-exec-17 mahao 693x378x1 do4q04 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'mahao' has logged out.
+2015-08-03 11:33:10,157 http-bio-8888-exec-17 anonymous 693x384x1 19orczu 0:0:0:0:0:0:0:1 /login.jsp HttpSession [19orczu] destroyed for 'anonymous'
+2015-08-03 11:33:10,157 http-bio-8888-exec-17 anonymous 693x384x1 19orczu 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1bdk05]
+2015-08-03 11:33:10,196 http-bio-8888-exec-17 fanrui 693x384x1 19orczu 0:0:0:0:0:0:0:1 /login.jsp The user 'fanrui' has PASSED authentication.
+2015-08-03 14:16:30,812 http-bio-8888-exec-16 fanrui 856x414x1 1bdk05 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1bdk05] destroyed for 'fanrui'
+2015-08-03 14:16:30,843 http-bio-8888-exec-16 fanrui 856x414x1 1bdk05 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [b30vo6]
+2015-08-03 14:16:30,843 http-bio-8888-exec-16 fanrui 856x414x1 1bdk05 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'fanrui' has logged out.
+2015-08-03 14:16:41,410 http-bio-8888-exec-16 anonymous 856x420x1 b30vo6 0:0:0:0:0:0:0:1 /login.jsp HttpSession [b30vo6] destroyed for 'anonymous'
+2015-08-03 14:16:41,410 http-bio-8888-exec-16 anonymous 856x420x1 b30vo6 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [11x2sn0]
+2015-08-03 14:16:41,515 http-bio-8888-exec-16 caojiaojiao 856x420x1 b30vo6 0:0:0:0:0:0:0:1 /login.jsp The user 'caojiaojiao' has PASSED authentication.
+2015-08-03 16:05:28,627 http-bio-8888-exec-3 caojiaojiao 965x460x1 11x2sn0 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [11x2sn0] destroyed for 'caojiaojiao'
+2015-08-03 16:05:28,628 http-bio-8888-exec-3 caojiaojiao 965x460x1 11x2sn0 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [4fmi1r]
+2015-08-03 16:05:28,630 http-bio-8888-exec-3 caojiaojiao 965x460x1 11x2sn0 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'caojiaojiao' has logged out.
+2015-08-03 16:05:54,593 http-bio-8888-exec-3 anonymous 965x466x1 4fmi1r 0:0:0:0:0:0:0:1 /login.jsp HttpSession [4fmi1r] destroyed for 'anonymous'
+2015-08-03 16:05:54,594 http-bio-8888-exec-3 anonymous 965x466x1 4fmi1r 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1uob5wr]
+2015-08-03 16:05:54,746 http-bio-8888-exec-3 fanrui 965x466x1 4fmi1r 0:0:0:0:0:0:0:1 /login.jsp The user 'fanrui' has PASSED authentication.
+2015-08-03 16:06:29,027 http-bio-8888-exec-9 fanrui 966x510x1 1uob5wr 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1uob5wr] destroyed for 'fanrui'
+2015-08-03 16:06:29,027 http-bio-8888-exec-9 fanrui 966x510x1 1uob5wr 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1c6ig1c]
+2015-08-03 16:06:29,027 http-bio-8888-exec-9 fanrui 966x510x1 1uob5wr 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'fanrui' has logged out.
+2015-08-03 16:06:36,690 http-bio-8888-exec-9 anonymous 966x516x1 1c6ig1c 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1c6ig1c] destroyed for 'anonymous'
+2015-08-03 16:06:36,691 http-bio-8888-exec-9 anonymous 966x516x1 1c6ig1c 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1h48a39]
+2015-08-03 16:06:36,824 http-bio-8888-exec-9 caojiaojiao 966x516x1 1c6ig1c 0:0:0:0:0:0:0:1 /login.jsp The user 'caojiaojiao' has PASSED authentication.
+2015-08-03 16:07:12,551 http-bio-8888-exec-25 caojiaojiao 967x592x1 1h48a39 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1h48a39] destroyed for 'caojiaojiao'
+2015-08-03 16:07:12,551 http-bio-8888-exec-25 caojiaojiao 967x592x1 1h48a39 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1foufth]
+2015-08-03 16:07:12,551 http-bio-8888-exec-25 caojiaojiao 967x592x1 1h48a39 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'caojiaojiao' has logged out.
+2015-08-03 16:07:18,680 http-bio-8888-exec-25 anonymous 967x598x1 1foufth 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1foufth] destroyed for 'anonymous'
+2015-08-03 16:07:18,680 http-bio-8888-exec-25 anonymous 967x598x1 1foufth 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [18aok4k]
+2015-08-03 16:07:18,726 http-bio-8888-exec-25 fanrui 967x598x1 1foufth 0:0:0:0:0:0:0:1 /login.jsp The user 'fanrui' has PASSED authentication.
+2015-08-03 16:07:55,025 http-bio-8888-exec-8 fanrui 967x641x1 18aok4k 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [18aok4k] destroyed for 'fanrui'
+2015-08-03 16:07:55,026 http-bio-8888-exec-8 fanrui 967x641x1 18aok4k 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [16kzum1]
+2015-08-03 16:07:55,026 http-bio-8888-exec-8 fanrui 967x641x1 18aok4k 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'fanrui' has logged out.
+2015-08-03 16:08:01,409 http-bio-8888-exec-8 anonymous 968x647x1 16kzum1 0:0:0:0:0:0:0:1 /login.jsp HttpSession [16kzum1] destroyed for 'anonymous'
+2015-08-03 16:08:01,409 http-bio-8888-exec-8 anonymous 968x647x1 16kzum1 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [10erzx5]
+2015-08-03 16:08:01,484 http-bio-8888-exec-8 caojiaojiao 968x647x1 16kzum1 0:0:0:0:0:0:0:1 /login.jsp The user 'caojiaojiao' has PASSED authentication.
+2015-08-03 16:08:28,884 http-bio-8888-exec-16 caojiaojiao 968x775x1 10erzx5 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [10erzx5] destroyed for 'caojiaojiao'
+2015-08-03 16:08:28,885 http-bio-8888-exec-16 caojiaojiao 968x775x1 10erzx5 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [jm5tmb]
+2015-08-03 16:08:28,885 http-bio-8888-exec-16 caojiaojiao 968x775x1 10erzx5 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'caojiaojiao' has logged out.
+2015-08-03 16:08:41,264 http-bio-8888-exec-16 anonymous 968x781x1 jm5tmb 0:0:0:0:0:0:0:1 /login.jsp HttpSession [jm5tmb] destroyed for 'anonymous'
+2015-08-03 16:08:41,264 http-bio-8888-exec-16 anonymous 968x781x1 jm5tmb 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [tzyh2]
+2015-08-03 16:08:41,615 http-bio-8888-exec-16 wangxin 968x781x1 jm5tmb 0:0:0:0:0:0:0:1 /login.jsp The user 'wangxin' has PASSED authentication.
+2015-08-03 16:08:51,310 http-bio-8888-exec-15 wangxin 968x809x1 tzyh2 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [tzyh2] destroyed for 'wangxin'
+2015-08-03 16:08:51,310 http-bio-8888-exec-15 wangxin 968x809x1 tzyh2 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [4b5lrq]
+2015-08-03 16:08:51,843 http-bio-8888-exec-15 wangxin 968x809x1 tzyh2 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'wangxin' has logged out.
+2015-08-03 16:08:59,866 http-bio-8888-exec-20 anonymous 968x815x1 4b5lrq 0:0:0:0:0:0:0:1 /login.jsp HttpSession [4b5lrq] destroyed for 'anonymous'
+2015-08-03 16:08:59,866 http-bio-8888-exec-20 anonymous 968x815x1 4b5lrq 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [1gafctr]
+2015-08-03 16:08:59,994 http-bio-8888-exec-20 dengbinbin 968x815x1 4b5lrq 0:0:0:0:0:0:0:1 /login.jsp The user 'dengbinbin' has PASSED authentication.
+2015-08-03 16:09:33,275 http-bio-8888-exec-17 dengbinbin 969x861x1 1gafctr 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [1gafctr] destroyed for 'dengbinbin'
+2015-08-03 16:09:33,275 http-bio-8888-exec-17 dengbinbin 969x861x1 1gafctr 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1maszt5]
+2015-08-03 16:09:33,275 http-bio-8888-exec-17 dengbinbin 969x861x1 1gafctr 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'dengbinbin' has logged out.
+2015-08-03 16:09:40,007 http-bio-8888-exec-17 anonymous 969x867x1 1maszt5 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1maszt5] destroyed for 'anonymous'
+2015-08-03 16:09:40,007 http-bio-8888-exec-17 anonymous 969x867x1 1maszt5 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [fu91wx]
+2015-08-03 16:09:40,078 http-bio-8888-exec-17 jackjun 969x867x1 1maszt5 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-08-03 16:09:49,010 http-bio-8888-exec-17 jackjun 969x886x1 fu91wx 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-08-03 16:09:49,011 http-bio-8888-exec-17 jackjun 969x886x1 fu91wx 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [fu91wx] destroyed for 'jackjun'
+2015-08-03 16:09:49,011 http-bio-8888-exec-17 jackjun 969x886x1 fu91wx 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [1v3lqev]
+2015-08-03 16:09:50,066 http-bio-8888-exec-15 jackjun 969x888x2 1v3lqev 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-08-03 16:09:50,067 http-bio-8888-exec-15 jackjun 969x888x2 1v3lqev 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [1v3lqev] destroyed for 'jackjun'
+2015-08-03 16:09:50,067 http-bio-8888-exec-15 jackjun 969x888x2 1v3lqev 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [4p74kp]
+2015-08-03 16:09:50,088 http-bio-8888-exec-17 jackjun 969x887x1 1v3lqev 0:0:0:0:0:0:0:1 /secure/admin/user/UserBrowser.jspa HttpSession created [vq3etz]
+2015-08-03 16:12:10,559 http-bio-8888-exec-15 jackjun 972x999x1 4p74kp 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [4p74kp] destroyed for 'jackjun'
+2015-08-03 16:12:10,559 http-bio-8888-exec-15 jackjun 972x999x1 4p74kp 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1bbbw6j]
+2015-08-03 16:12:10,559 http-bio-8888-exec-15 jackjun 972x999x1 4p74kp 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'jackjun' has logged out.
+2015-08-03 18:06:14,613 localhost-startStop-2      HttpSession [vq3etz] destroyed for 'anonymous'
+2015-08-03 18:06:14,629 localhost-startStop-2      HttpSession [1bbbw6j] destroyed for 'anonymous'
+2015-08-04 10:50:00,387 http-bio-8888-exec-1   -   HttpSession created [1n42g5x]
+2015-08-04 10:50:00,862 http-bio-8888-exec-2   -   HttpSession created [1gt7enu]
+2015-08-04 10:51:57,814 localhost-startStop-1      JIRA 6.0.5 build: 6102 started. You can now access JIRA through your web browser.
+2015-08-04 11:00:53,472 http-bio-8888-exec-1   -   HttpSession created [8sl66h]
+2015-08-04 11:33:42,497 localhost-startStop-2      HttpSession [8sl66h] destroyed for 'anonymous'

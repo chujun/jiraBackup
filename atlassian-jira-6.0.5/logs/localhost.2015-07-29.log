@@ -1,0 +1,8 @@
+2015-7-29 16:12:06 org.apache.catalina.core.ApplicationContext log
+信息: org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: destroy called
+2015-7-29 16:28:11 org.apache.catalina.core.ApplicationContext log
+信息: org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: loaded (conf ok)
+2015-7-29 16:32:37 org.apache.catalina.core.ApplicationContext log
+信息: org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: loaded (conf ok)
+2015-7-29 17:23:49 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring FrameworkServlet 'Dispatcher Servlet'

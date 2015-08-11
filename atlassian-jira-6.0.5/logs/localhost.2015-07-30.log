@@ -1,0 +1,12 @@
+2015-7-30 10:09:05 org.apache.catalina.core.ApplicationContext log
+信息: org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: loaded (conf ok)
+2015-7-30 14:27:22 org.apache.catalina.core.ApplicationContext log
+信息: org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: destroy called
+2015-7-30 14:30:19 org.apache.catalina.core.ApplicationContext log
+信息: org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: loaded (conf ok)
+2015-7-30 14:48:43 org.apache.catalina.core.ApplicationContext log
+信息: org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: loaded (conf ok)
+2015-7-30 15:02:01 org.apache.catalina.core.ApplicationContext log
+信息: org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: loaded (conf ok)
+2015-7-30 18:55:19 org.apache.catalina.core.ApplicationContext log
+信息: org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: destroy called

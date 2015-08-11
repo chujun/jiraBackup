@@ -1,0 +1,120 @@
+2015-7-23 14:24:45 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\developsoftware\jdk\jdk6u30\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\developsoftware\jdk\jdk6u30\bin;D:\developsoftware\jdk\jdk6u30\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Verint\Playback\;D:\developsoftware\maven\apache-maven-3.0.4\bin;D:\developsoftware\versionControlSystem\tortoiseSVN1.8\bin;D:\developsoftware\sublime\plugins\ctags58;D:\developsoftware\apache-ant-1.8.4\bin;D:\datest\software\mysql5.5\bin;D:\developsoftware\versionControlSystem\TortoiseGit-1.8.14\bin;.
+2015-7-23 14:24:45 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8888"]
+2015-7-23 14:24:45 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 975 ms
+2015-7-23 14:24:45 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+2015-7-23 14:24:45 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.29
+2015-7-23 14:25:40 org.apache.catalina.util.SessionIdGenerator createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [378] milliseconds.
+2015-7-23 14:25:42 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8888"]
+2015-7-23 14:25:42 org.apache.catalina.startup.Catalina start
+信息: Server startup in 56247 ms
+2015-7-23 14:27:50 org.apache.jasper.compiler.TldLocationsCache tldScanJar
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2015-7-23 14:32:50 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+2015-7-23 14:32:50 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-8888"]
+2015-7-23 14:32:50 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+2015-7-23 14:32:54 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-8888"]
+2015-7-23 14:32:54 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-8888"]
+2015-7-23 14:38:37 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\developsoftware\jdk\jdk6u30\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\developsoftware\jdk\jdk6u30\bin;D:\developsoftware\jdk\jdk6u30\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Verint\Playback\;D:\developsoftware\maven\apache-maven-3.0.4\bin;D:\developsoftware\versionControlSystem\tortoiseSVN1.8\bin;D:\developsoftware\sublime\plugins\ctags58;D:\developsoftware\apache-ant-1.8.4\bin;D:\datest\software\mysql5.5\bin;D:\developsoftware\versionControlSystem\TortoiseGit-1.8.14\bin;.
+2015-7-23 14:38:37 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8888"]
+2015-7-23 14:38:37 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 544 ms
+2015-7-23 14:38:37 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+2015-7-23 14:38:37 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.29
+2015-7-23 14:40:25 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8888"]
+2015-7-23 14:40:25 org.apache.catalina.startup.Catalina start
+信息: Server startup in 107841 ms
+2015-7-23 14:46:01 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+2015-7-23 14:46:01 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-8888"]
+2015-7-23 14:46:01 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+2015-7-23 14:46:04 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-8888"]
+2015-7-23 14:46:04 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-8888"]
+2015-7-23 14:49:17 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\developsoftware\jdk\jdk6u30\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\developsoftware\jdk\jdk6u30\bin;D:\developsoftware\jdk\jdk6u30\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Verint\Playback\;D:\developsoftware\maven\apache-maven-3.0.4\bin;D:\developsoftware\versionControlSystem\tortoiseSVN1.8\bin;D:\developsoftware\sublime\plugins\ctags58;D:\developsoftware\apache-ant-1.8.4\bin;D:\datest\software\mysql5.5\bin;D:\developsoftware\versionControlSystem\TortoiseGit-1.8.14\bin;.
+2015-7-23 14:49:17 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8888"]
+2015-7-23 14:49:18 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 542 ms
+2015-7-23 14:49:18 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+2015-7-23 14:49:18 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.29
+2015-7-23 14:50:44 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8888"]
+2015-7-23 14:50:44 org.apache.catalina.startup.Catalina start
+信息: Server startup in 86116 ms
+2015-7-23 14:55:07 org.apache.jasper.compiler.TldLocationsCache tldScanJar
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2015-7-23 15:04:27 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+2015-7-23 15:04:27 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-8888"]
+2015-7-23 15:04:27 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+2015-7-23 15:04:32 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-8888"]
+2015-7-23 15:04:32 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-8888"]
+2015-7-23 15:07:04 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\developsoftware\jdk\jdk6u30\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\developsoftware\jdk\jdk6u30\bin;D:\developsoftware\jdk\jdk6u30\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Verint\Playback\;D:\developsoftware\maven\apache-maven-3.0.4\bin;D:\developsoftware\versionControlSystem\tortoiseSVN1.8\bin;D:\developsoftware\sublime\plugins\ctags58;D:\developsoftware\apache-ant-1.8.4\bin;D:\datest\software\mysql5.5\bin;D:\developsoftware\versionControlSystem\TortoiseGit-1.8.14\bin;.
+2015-7-23 15:07:04 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8888"]
+2015-7-23 15:07:04 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 437 ms
+2015-7-23 15:07:04 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+2015-7-23 15:07:04 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.29
+2015-7-23 15:08:51 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8888"]
+2015-7-23 15:08:51 org.apache.catalina.startup.Catalina start
+信息: Server startup in 106974 ms
+2015-7-23 15:12:03 org.apache.jasper.compiler.TldLocationsCache tldScanJar
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2015-7-23 15:54:36 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+2015-7-23 15:54:36 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-8888"]
+2015-7-23 15:54:37 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+2015-7-23 15:54:53 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-8888"]
+2015-7-23 15:54:53 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-8888"]
+2015-7-23 16:58:14 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\developsoftware\jdk\jdk6u30\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\developsoftware\jdk\jdk6u30\bin;D:\developsoftware\jdk\jdk6u30\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Verint\Playback\;D:\developsoftware\maven\apache-maven-3.0.4\bin;D:\developsoftware\versionControlSystem\tortoiseSVN1.8\bin;D:\developsoftware\sublime\plugins\ctags58;D:\developsoftware\apache-ant-1.8.4\bin;D:\datest\software\mysql5.5\bin;D:\developsoftware\versionControlSystem\TortoiseGit-1.8.14\bin;.
+2015-7-23 16:58:14 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8888"]
+2015-7-23 16:58:14 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 523 ms
+2015-7-23 16:58:14 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+2015-7-23 16:58:14 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.29
+2015-7-23 16:59:59 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8888"]
+2015-7-23 16:59:59 org.apache.catalina.startup.Catalina start
+信息: Server startup in 104653 ms
+2015-7-23 17:16:07 org.apache.jasper.compiler.TldLocationsCache tldScanJar
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
