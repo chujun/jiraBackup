@@ -1035,3 +1035,29 @@
 2015-08-04 10:51:57,814 localhost-startStop-1      JIRA 6.0.5 build: 6102 started. You can now access JIRA through your web browser.
 2015-08-04 11:00:53,472 http-bio-8888-exec-1   -   HttpSession created [8sl66h]
 2015-08-04 11:33:42,497 localhost-startStop-2      HttpSession [8sl66h] destroyed for 'anonymous'
+2015-08-11 19:26:41,162 localhost-startStop-1      JIRA 6.0.5 build: 6102 started. You can now access JIRA through your web browser.
+2015-08-11 19:28:36,615 http-bio-8888-exec-1   -   HttpSession created [gfwa8k]
+2015-08-11 19:29:41,931 http-bio-8888-exec-18 anonymous 1169x27x1 gfwa8k 0:0:0:0:0:0:0:1 /login.jsp HttpSession [gfwa8k] destroyed for 'anonymous'
+2015-08-11 19:29:41,931 http-bio-8888-exec-18 anonymous 1169x27x1 gfwa8k 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [170gamz]
+2015-08-11 19:29:41,975 http-bio-8888-exec-18 jackjun 1169x27x1 gfwa8k 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-08-11 19:30:06,654 http-bio-8888-exec-24 jackjun 1170x76x1 170gamz 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [170gamz] destroyed for 'jackjun'
+2015-08-11 19:30:06,654 http-bio-8888-exec-24 jackjun 1170x76x1 170gamz 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [h29tos]
+2015-08-11 19:30:06,655 http-bio-8888-exec-24 jackjun 1170x76x1 170gamz 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'jackjun' has logged out.
+2015-08-11 19:30:20,629 http-bio-8888-exec-16 anonymous 1170x84x1 h29tos 0:0:0:0:0:0:0:1 /login.jsp HttpSession [h29tos] destroyed for 'anonymous'
+2015-08-11 19:30:20,629 http-bio-8888-exec-16 anonymous 1170x84x1 h29tos 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [s3yojm]
+2015-08-11 19:30:20,715 http-bio-8888-exec-16 zhangmingxi 1170x84x1 h29tos 0:0:0:0:0:0:0:1 /login.jsp The user 'zhangmingxi' has PASSED authentication.
+2015-08-11 19:31:11,844 http-bio-8888-exec-18 zhangmingxi 1171x214x1 s3yojm 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [s3yojm] destroyed for 'zhangmingxi'
+2015-08-11 19:31:11,845 http-bio-8888-exec-18 zhangmingxi 1171x214x1 s3yojm 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [1yysbfl]
+2015-08-11 19:31:11,845 http-bio-8888-exec-18 zhangmingxi 1171x214x1 s3yojm 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'zhangmingxi' has logged out.
+2015-08-11 19:31:18,167 http-bio-8888-exec-5 anonymous 1171x220x1 1yysbfl 0:0:0:0:0:0:0:1 /login.jsp HttpSession [1yysbfl] destroyed for 'anonymous'
+2015-08-11 19:31:18,167 http-bio-8888-exec-5 anonymous 1171x220x1 1yysbfl 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [112lsz9]
+2015-08-11 19:31:18,264 http-bio-8888-exec-5 jackjun 1171x220x1 1yysbfl 0:0:0:0:0:0:0:1 /login.jsp The user 'jackjun' has PASSED authentication.
+2015-08-11 19:31:34,146 http-bio-8888-exec-7 jackjun 1171x245x1 112lsz9 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa The user 'jackjun' has PASSED authentication.
+2015-08-11 19:31:34,147 http-bio-8888-exec-7 jackjun 1171x245x1 112lsz9 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [112lsz9] destroyed for 'jackjun'
+2015-08-11 19:31:34,147 http-bio-8888-exec-7 jackjun 1171x245x1 112lsz9 0:0:0:0:0:0:0:1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [36ejla]
+2015-08-11 19:32:37,063 http-bio-8888-exec-8 jackjun 1172x300x1 36ejla 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession [36ejla] destroyed for 'jackjun'
+2015-08-11 19:32:37,063 http-bio-8888-exec-8 jackjun 1172x300x1 36ejla 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa HttpSession created [jl74ko]
+2015-08-11 19:32:37,064 http-bio-8888-exec-8 jackjun 1172x300x1 36ejla 0:0:0:0:0:0:0:1 /secure/Logout!default.jspa The user 'jackjun' has logged out.
+2015-08-11 19:32:42,661 http-bio-8888-exec-8 anonymous 1172x306x1 jl74ko 0:0:0:0:0:0:0:1 /login.jsp HttpSession [jl74ko] destroyed for 'anonymous'
+2015-08-11 19:32:42,661 http-bio-8888-exec-8 anonymous 1172x306x1 jl74ko 0:0:0:0:0:0:0:1 /login.jsp HttpSession created [czpu1o]
+2015-08-11 19:32:42,737 http-bio-8888-exec-8 zhangmingxi 1172x306x1 jl74ko 0:0:0:0:0:0:0:1 /login.jsp The user 'zhangmingxi' has PASSED authentication.

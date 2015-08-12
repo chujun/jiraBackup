@@ -1,0 +1,2 @@
+/* module-key = 'com.atlassian.gadgets.embedded:gadget-standalone-resources', location = 'js/gadgets-standalone.js' */
+new gadgets.IfrGadgetService();gadgets.IfrGadgetService.prototype.setTitle=function(title){};

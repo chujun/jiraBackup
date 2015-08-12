@@ -1,0 +1,15 @@
+/* module-key = 'com.atlassian.jira.gadgets:g-assigned-to-me', location = 'gadgets/assigned-to-me-gadget.soy' */
+// This file was automatically generated from assigned-to-me-gadget.soy.
+// Please don't edit this file by hand.
+
+if (typeof JIRA == 'undefined') { var JIRA = {}; }
+if (typeof JIRA.Templates == 'undefined') { JIRA.Templates = {}; }
+if (typeof JIRA.Templates.Gadgets == 'undefined') { JIRA.Templates.Gadgets = {}; }
+
+
+JIRA.Templates.Gadgets.assignedToMe = function(opt_data, opt_sb) {
+  var output = opt_sb || new soy.StringBuilder();
+  output.append('<div id="jira">', (! opt_data.issueTable.empty) ? '<div class="results-wrap"><div ' + ((opt_data.issueTable.hasPaging) ? 'class="paging-table"' : '') + '>' + opt_data.issueTable.table + '</div></div>' : '<div class="empty-results">' + soy.$$escapeHtml("There are no issues assigned to you.") + '</div>', '</div>');
+  return opt_sb ? '' : output.toString();
+};
+

@@ -1,0 +1,2 @@
+/* module-key = 'com.atlassian.gadgets.dashboard:gadget-dashboard-resources', location = 'css/gadgets.css' */
+.gadgets-gadget-chrome{margin:4px;border:1px solid #7aa5d6;}

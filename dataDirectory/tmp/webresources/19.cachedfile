@@ -1,0 +1,9 @@
+/* module-key = 'com.atlassian.labs.hipchat.hipchat-for-jira-plugin:resources', location = 'js/status.js' */
+AJS.$(function(A){A("body").bind("ajaxComplete",function(C,B){if(B.responseText&&/user\-hover\-info/.test(B.responseText)){A(".user-hover-info").each(function(){var E=A(this);
+var D=E.find("h5 a").text();
+if(!E.hasClass("hc-status-applied")){A.get(A('meta[name="ajs-context-path"]').attr("content")+"/plugins/servlet/hipchatproxy/v1/users/show",{user_id:D},function(F){E.addClass("hc-status-applied");
+E.find("h4").append('<a class="hc-status '+F.user.status.toLowerCase()+'" title="'+F.user.status+' on HipChat"><span>'+F.user.status+"</span></a>")
+},"json")
+}})
+}})
+});

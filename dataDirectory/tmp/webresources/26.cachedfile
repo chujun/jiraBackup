@@ -1,0 +1,755 @@
+/* module-key = 'com.atlassian.jira.plugins.jira-admin-helper-plugin:whereismycf-resources', location = 'js/IssuePicker.js' */
+AJS.namespace("JIRA.AdminHelper");
+JIRA.AdminHelper.IssuePicker=AJS.SingleSelect.extend({init:function(A){function B(C){if(!C.sections){return[]
+}var D=[];
+AJS.$(C.sections).each(function(E,G){var F=new AJS.GroupDescriptor({weight:E,label:G.label});
+AJS.$(G.issues).each(function(I,H){F.addItem(new AJS.ItemDescriptor({value:H.key,label:H.key+" - "+H.summaryText,html:H.keyHtml+" - "+H.summary,icon:contextPath+H.img}))
+});
+D.push(F)
+});
+return D
+}AJS.$.extend(A,{errorMessage:"Please select an issue",ajaxOptions:{url:contextPath+"/rest/api/1.0/issues/picker",query:true,formatResponse:B}});
+this._super(A)
+}});
+/* module-key = 'com.atlassian.jira.plugins.jira-admin-helper-plugin:whereismycf-resources', location = 'templates/common.soy' */
+// This file was automatically generated from common.soy.
+// Please don't edit this file by hand.
+
+if (typeof JIRA == 'undefined') { var JIRA = {}; }
+if (typeof JIRA.Templates == 'undefined') { JIRA.Templates = {}; }
+if (typeof JIRA.Templates.AdminHelper == 'undefined') { JIRA.Templates.AdminHelper = {}; }
+if (typeof JIRA.Templates.AdminHelper.Common == 'undefined') { JIRA.Templates.AdminHelper.Common = {}; }
+
+
+JIRA.Templates.AdminHelper.Common.statusImage = function(opt_data, opt_sb) {
+  var output = opt_sb || new soy.StringBuilder();
+  output.append((opt_data.status == 'green') ? '<span class="icon adminhelper-icon-tick"></span> ' : '<span class="icon adminhelper-icon-cross"></span> ');
+  return opt_sb ? '' : output.toString();
+};
+
+
+JIRA.Templates.AdminHelper.Common.warningImage = function(opt_data, opt_sb) {
+  var output = opt_sb || new soy.StringBuilder();
+  output.append('<span class="icon adminhelper-icon-warning"></span> ');
+  return opt_sb ? '' : output.toString();
+};
+
+
+JIRA.Templates.AdminHelper.Common.loadingStatus = function(opt_data, opt_sb) {
+  var output = opt_sb || new soy.StringBuilder();
+  output.append('<div class="status-loading" />');
+  return opt_sb ? '' : output.toString();
+};
+
+
+JIRA.Templates.AdminHelper.Common.statusLineRow = function(opt_data, opt_sb) {
+  var output = opt_sb || new soy.StringBuilder();
+  output.append('<tr class="statusRow ', (opt_data.hideFailedStatuses && opt_data.statusLine.status == 'red') ? 'hidden' : '', '" data-status="', soy.$$escapeHtml(opt_data.statusLine.status), '"><td>');
+  JIRA.Templates.AdminHelper.Common.statusImage({status: opt_data.statusLine.status}, output);
+  output.append('</td><td>');
+  var summaryList23 = opt_data.statusLine.summary;
+  var summaryListLen23 = summaryList23.length;
+  for (var summaryIndex23 = 0; summaryIndex23 < summaryListLen23; summaryIndex23++) {
+    var summaryData23 = summaryList23[summaryIndex23];
+    output.append('<p>', summaryData23, '</p>');
+  }
+  output.append('</td><td>');
+  if (opt_data.statusLine.details.length == 1) {
+    var detailList32 = opt_data.statusLine.details;
+    var detailListLen32 = detailList32.length;
+    for (var detailIndex32 = 0; detailIndex32 < detailListLen32; detailIndex32++) {
+      var detailData32 = detailList32[detailIndex32];
+      output.append(detailData32);
+    }
+  } else {
+    var detailList37 = opt_data.statusLine.details;
+    var detailListLen37 = detailList37.length;
+    for (var detailIndex37 = 0; detailIndex37 < detailListLen37; detailIndex37++) {
+      var detailData37 = detailList37[detailIndex37];
+      output.append('<p>', detailData37, '</p>');
+    }
+  }
+  output.append('</td></tr>');
+  return opt_sb ? '' : output.toString();
+};
+
+/* module-key = 'com.atlassian.jira.plugins.jira-admin-helper-plugin:whereismycf-resources', location = 'templates/whereismycf-dialog.soy' */
+// This file was automatically generated from whereismycf-dialog.soy.
+// Please don't edit this file by hand.
+
+if (typeof JIRA == 'undefined') { var JIRA = {}; }
+if (typeof JIRA.Templates == 'undefined') { JIRA.Templates = {}; }
+if (typeof JIRA.Templates.Dialogs == 'undefined') { JIRA.Templates.Dialogs = {}; }
+if (typeof JIRA.Templates.Dialogs.WhereIsMyCf == 'undefined') { JIRA.Templates.Dialogs.WhereIsMyCf = {}; }
+
+
+JIRA.Templates.Dialogs.WhereIsMyCf.searchPage = function(opt_data, opt_sb) {
+  var output = opt_sb || new soy.StringBuilder();
+  output.append('<form action="#" method="post" class="aui ajs-dirty-warning-exempt"><div class="form-body"><div id="whereismycf-suggestions" class="aui-list" /><div class=\'description\'>', soy.$$escapeHtml("Begin typing to find your field"), '</div></div><div class="form-body field-status-placeholder" /><div class="buttons-container form-footer"><div class="buttons"><a href="#" class="cancel" id="aui-dialog-close">', soy.$$escapeHtml("\u5173\u95ed"), '</a></div></div></form>');
+  return opt_sb ? '' : output.toString();
+};
+
+
+JIRA.Templates.Dialogs.WhereIsMyCf.resultPage = function(opt_data, opt_sb) {
+  var output = opt_sb || new soy.StringBuilder();
+  output.append('<div class="field-status-results"><div class="aui-message"><ul class="item-details"><li><dl><dt>', soy.$$escapeHtml("Project"), ': </dt><dd title="', soy.$$escapeHtml(opt_data.project), '">', soy.$$escapeHtml(opt_data.project), '</dd></dl><dl><dt>', soy.$$escapeHtml("Issue type"), ': </dt><dd title="', soy.$$escapeHtml(opt_data.issueType), '">', soy.$$escapeHtml(opt_data.issueType), '</dd></dl><dl><dt>', soy.$$escapeHtml("Screen"), ': </dt><dd title="', soy.$$escapeHtml(opt_data.operation), '">', soy.$$escapeHtml(opt_data.operation), '</dd></dl><dl><dt>', soy.$$escapeHtml("Field"), ': </dt><dd title="', soy.$$escapeHtml(opt_data.fieldName), '">', soy.$$escapeHtml(opt_data.fieldName), '</dd></dl><dl><dt>', soy.$$escapeHtml("Status"), ': </dt>');
+  JIRA.Templates.AdminHelper.Common.statusImage(opt_data, output);
+  output.append('<dd>', (opt_data.status == 'green') ? soy.$$escapeHtml(AJS.format("The \x27\x27{0}\x27\x27 field should be present on the form you are viewing",opt_data.fieldName)) : soy.$$escapeHtml(AJS.format("The \x27\x27{0}\x27\x27 field is not present on the form you are viewing",opt_data.fieldName)), '</dd></dl></li></ul></div>');
+  if (opt_data.statusLines.length == 0) {
+    output.append('<div class="aui-message info"><span class="aui-icon icon-info"></span><p>', soy.$$escapeHtml(AJS.format("There are no details available about the \x27\x27{0}\x27\x27 field status",opt_data.fieldName)), '</p></div>');
+  } else {
+    output.append('<table class="status-table aui"><thead><tr><th width="10%">', soy.$$escapeHtml("Status"), '</th><th width="30%">', soy.$$escapeHtml("Summary"), '</th><th width="60%">', soy.$$escapeHtml("Details"), '</th></tr></thead><tbody>');
+    var statusLineList58 = opt_data.statusLines;
+    var statusLineListLen58 = statusLineList58.length;
+    for (var statusLineIndex58 = 0; statusLineIndex58 < statusLineListLen58; statusLineIndex58++) {
+      var statusLineData58 = statusLineList58[statusLineIndex58];
+      JIRA.Templates.AdminHelper.Common.statusLineRow({statusLine: statusLineData58}, output);
+    }
+    output.append('<tbody></table>');
+  }
+  output.append('</div>');
+  return opt_sb ? '' : output.toString();
+};
+
+
+JIRA.Templates.Dialogs.WhereIsMyCf.errorPage = function(opt_data, opt_sb) {
+  var output = opt_sb || new soy.StringBuilder();
+  output.append('<div class="ajaxerror"><div class="aui-message ', soy.$$escapeHtml(opt_data.errorClass), '">');
+  if (opt_data.errorMessages.length == 1) {
+    var msgList70 = opt_data.errorMessages;
+    var msgListLen70 = msgList70.length;
+    for (var msgIndex70 = 0; msgIndex70 < msgListLen70; msgIndex70++) {
+      var msgData70 = msgList70[msgIndex70];
+      output.append('<p>', soy.$$escapeHtml(msgData70), '</p>');
+    }
+  } else {
+    output.append('<ul>');
+    var msgList77 = opt_data.errorMessages;
+    var msgListLen77 = msgList77.length;
+    for (var msgIndex77 = 0; msgIndex77 < msgListLen77; msgIndex77++) {
+      var msgData77 = msgList77[msgIndex77];
+      output.append('<li>', soy.$$escapeHtml(msgData77), '</li>');
+    }
+    output.append('</ul>');
+  }
+  output.append('</div></div>', (! opt_data.noCloseLink) ? '<div class="buttons-container form-footer"><div class="buttons"><a href="#" class="cancel" id="aui-dialog-close">' + soy.$$escapeHtml("\u5173\u95ed") + '</a></div></div>' : '');
+  return opt_sb ? '' : output.toString();
+};
+
+/* module-key = 'com.atlassian.jira.plugins.jira-admin-helper-plugin:whereismycf-resources', location = 'js/whereismycf-dialog.js' */
+AJS.namespace("JIRA.WhereIsMyCf");
+JIRA.WhereIsMyCf.WhereIsMyCfDialog=JIRA.Dialog.extend({OPERATION_CREATE:0,OPERATION_EDIT:1,OPERATION_VIEW:2,_getDefaultOptions:function(){return AJS.$.extend(this._super(),{cached:false,id:"whereismycf-dialog",widthClass:"large",stacked:true})
+},_setContent:function(B,D){var A=this;
+if(B){this._super(B,D)
+}else{this._super(AJS.$(JIRA.Templates.Dialogs.WhereIsMyCf.searchPage()),true)
+}this.get$popupContent().find(".cancel").click(function(E){A.hide();
+E.preventDefault()
+});
+if(JIRA.Dialog.current===this){var C=new JIRA.setFocus.FocusConfiguration();
+C.context=this.get$popup()[0];
+C.parentElementSelectors=[".form-body"];
+JIRA.setFocus.pushConfiguration(C);
+JIRA.setFocus.triggerFocus()
+}},_formatActionsResponse:function(A){var B=[];
+if(A){var C=new AJS.GroupDescriptor({showLabel:false,label:"Fields"});
+AJS.$(A).each(function(){var D=new AJS.ItemDescriptor({label:this.customFieldName});
+D.properties.cfId=this.customFieldId;
+C.addItem(D)
+});
+B.push(C)
+}return B
+},decorateContent:function(){var B=this,A=JIRA.Meta.getIssueKey();
+this.addHeading("Where is my field?");
+this.queryControl=new AJS.QueryableDropdownSelect({id:"whereismycf",element:this.$content.find("#whereismycf-suggestions"),ajaxOptions:{minQueryLength:1,dataType:"json",url:contextPath+"/rest/whereismycf/1.0/fields/all",formatResponse:this._formatActionsResponse},showDropdownButton:true,loadOnInit:true});
+this.queryControl._handleServerError=function(G){var H=JIRA.SmartAjax.buildSimpleErrorContent(G);
+var F=G.status===401?"warning":"error";
+B._setContent(AJS.$(JIRA.Templates.Dialogs.WhereIsMyCf.errorPage({errrorMessage:H,errorClass:F})),false)
+};
+var C=this.queryControl.listController.options.selectionHandler;
+this.queryControl.listController.options.selectionHandler=function(F){C.call(this,F);
+B.get$popupContent().find(".field-status-results").remove();
+B.get$popupContent().find(".field-status-placeholder").append(AJS.$(JIRA.Templates.AdminHelper.Common.loadingStatus()));
+var G=this.getFocused().data("descriptor");
+JIRA.SmartAjax.makeRequest({url:contextPath+AJS.format("/rest/whereismycf/1.0/fields/{0}?{1}",G.properties.cfId,B.options.context.asRequestParams()),complete:function(J,K,I){if(I.successful){B.queryControl.$field.val("").css("color","black");
+B.get$popupContent().find(".status-loading").remove();
+var H=I.data;
+B.get$popupContent().find(".field-status-placeholder").append(AJS.$(JIRA.Templates.Dialogs.WhereIsMyCf.resultPage({fieldName:G.label(),issueType:H.issueType,issueKey:H.issueKey,project:H.projectName,operation:H.operation,status:H.status,statusLines:D(H.statusLines),baseUrl:contextPath})))
+}else{E(B,I)
+}}});
+return false
+};
+function D(I){if(I.length==0){return I
+}function G(L){var K=[];
+AJS.$.each(L,function(M,N){K.push(H(N))
+});
+return K
+}function H(L){if(L.parameters.length==0){return AJS.escapeHTML(L.message)
+}else{var K=F(L.parameters);
+K.splice(0,0,AJS.escapeHTML(L.message));
+return AJS.format.apply(this,K)
+}}function F(L){var K=[];
+AJS.$.each(L,function(M,N){if(N.type=="plain"){K.push(AJS.escapeHTML(N.value))
+}else{if(N.type=="link"){K.push(AJS.format("<a href=''{0}'' target=''_blank''>{1}</a>",AJS.escapeHTML(N.href),AJS.escapeHTML(N.text)))
+}else{if(N.type=="newline"){K.push("<br/>")
+}else{if(N.type=="tagstart"){K.push("<"+N.tagName+">")
+}else{if(N.type=="tagend"){K.push("</"+N.tagName+">")
+}else{throw"Unrecognized parameter type: "+N.type
+}}}}}});
+return K
+}var J=[];
+AJS.$.each(I,function(M,K){var L={};
+L.status=K.status;
+L.summary=G(K.summary);
+L.details=G(K.details);
+J.push(L)
+});
+return J
+}function E(G,H){var J=[];
+var I=JIRA.SmartAjax.buildSimpleErrorContent(H);
+if(I){J.push(I)
+}else{if(H.data&&H.data.errorMessages){J.push(H.data.errorMessages)
+}if(H.data&&H.data.errors){J.push(H.data.errors)
+}}var F=H.status===401?"warning":"error";
+G._setContent(AJS.$(JIRA.Templates.Dialogs.WhereIsMyCf.errorPage({errorMessages:J,errorClass:F})),false)
+}},show:function(A){if(A){this.context(A)
+}if(!this.options.context){throw"This class must be initialized with 'context' parameter before calling show()"
+}this._super()
+},context:function(A){if(A){this.options.context=A
+}else{return this.options.context
+}},hide:function(A){if(this._super(A)===false){return false
+}JIRA.setFocus.popConfiguration()
+}});
+JIRA.WhereIsMyCf.IssueContext=Class.extend({init:function(A){this.options=A||{}
+},issueKey:function(A){if(A){this.options.issueKey=A
+}else{return this.options.issueKey
+}},asRequestParams:function(){function A(C){return typeof (C)!="undefined"
+}var B="atl_token="+atl_token();
+if(A(this.options.issueKey)){B+="&issueKey="+this.options.issueKey
+}if(A(this.options.projectKey)){B+="&projectKey="+this.options.projectKey
+}if(A(this.options.projectId)){B+="&projectId="+this.options.projectId
+}if(A(this.options.issueOperation!==undefined)){B+="&issueOperation="+this.options.issueOperation
+}if(A(this.options.issueTypeId)){B+="&issueTypeId="+this.options.issueTypeId
+}return B
+}});
+/* module-key = 'com.atlassian.jira.plugins.jira-admin-helper-plugin:whereismycf-resources', location = 'js/whereismycf.js' */
+(function(G){var D="Where is my field?";
+JIRA.WhereIsMyCf.dialog=new JIRA.WhereIsMyCf.WhereIsMyCfDialog;
+G(document).delegate(".whereismycf-trigger","click",function(I){I.preventDefault();
+JIRA.WhereIsMyCf.dialog.show(C())
+});
+G(document).bind("showLayer",function(J,L,K){if(L=="inlineDialog"&&K.popup.attr("id")=="inline-dialog-field_picker_popup"){if(K.popup.find(".whereismycf-qfpicker-link").length==0){var I=G("<a href='#' class='whereismycf-qfpicker-link'>"+D+"</a>").appendTo(K.popup.find(".qf-picker-header dl"));
+I.click(function(M){M.preventDefault();
+K.hide();
+H();
+JIRA.WhereIsMyCf.dialog.show(B())
+})
+}}});
+function H(){AJS.InlineDialog.current=null
+}function F(){var I=JIRA.Issue.getIssueKey();
+if(!I&&JIRA.IssueNavigator){I=JIRA.IssueNavigator.getSelectedIssueKey()
+}return I
+}function C(){return new JIRA.WhereIsMyCf.IssueContext({issueKey:F(),issueOperation:JIRA.WhereIsMyCf.dialog.OPERATION_VIEW})
+}function B(){var I=JIRA.Dialog.current;
+if(I.options.id=="create-issue-dialog"){return A(I)
+}else{if(I.options.id=="edit-issue-dialog"){return E(I)
+}else{throw"Uknown current dialog ID: "+I.options.id
+}}}function A(I){var J=I.get$popupContent();
+return new JIRA.WhereIsMyCf.IssueContext({projectId:J.find("#project").find("option:selected").val(),issueTypeId:J.find("#issuetype").find("option:selected").val(),issueOperation:JIRA.WhereIsMyCf.dialog.OPERATION_CREATE})
+}function E(I){var J=I.get$popupContent();
+return new JIRA.WhereIsMyCf.IssueContext({issueKey:F(),issueTypeId:J.find("#issuetype").find("option:selected").val(),issueOperation:JIRA.WhereIsMyCf.dialog.OPERATION_EDIT})
+}})(AJS.$);
+/* module-key = 'com.atlassian.jira.plugins.jira-admin-helper-plugin:whereismycf-resources', location = 'templates/permission-helper-dialog.soy' */
+// This file was automatically generated from permission-helper-dialog.soy.
+// Please don't edit this file by hand.
+
+if (typeof JIRA == 'undefined') { var JIRA = {}; }
+if (typeof JIRA.Templates == 'undefined') { JIRA.Templates = {}; }
+if (typeof JIRA.Templates.Dialogs == 'undefined') { JIRA.Templates.Dialogs = {}; }
+if (typeof JIRA.Templates.Dialogs.PermissionHelper == 'undefined') { JIRA.Templates.Dialogs.PermissionHelper = {}; }
+
+
+JIRA.Templates.Dialogs.PermissionHelper.searchPage = function(opt_data, opt_sb) {
+  var output = opt_sb || new soy.StringBuilder();
+  output.append('<form action="#" method="post" class="permissionhelper-search-form aui ajs-dirty-warning-exempt"><div class="content-area-container"><div class="form-body"><div id="error-message-placeholder"></div><div class="action-description">', soy.$$escapeHtml("Discover why a user does or does not have certain permissions..."), '</div><div class="field-group"><label for="permissionhelper-user">', soy.$$escapeHtml("User"), '</label><select id="permissionhelper-user" name="permissionhelper-user" class="single-user-picker js-default-user-picker" data-container-class="long-field"></select><div class=\'description\'>', soy.$$escapeHtml("Begin typing to find a user, leave blank for Anonymous user"), '</div></div><div class="field-group ', (opt_data.currentIssueKey) ? 'hidden' : '', '"><label for="permissionhelper-issue">', soy.$$escapeHtml("Issue"), '</label><select class="aui-field-select select" name="permissionhelper-issue" id="permissionhelper-issue"></select><div class="description">', soy.$$escapeHtml("Begin typing to find an issue"), '</div></div><div class="field-group"><label for="permissionhelper-permission">', soy.$$escapeHtml("Permission"), '</label><select class="aui-field-select select" name="permissionhelper-permission" id="permissionhelper-permission">');
+  var permissionGroupList20 = opt_data.permissionGroups;
+  var permissionGroupListLen20 = permissionGroupList20.length;
+  for (var permissionGroupIndex20 = 0; permissionGroupIndex20 < permissionGroupListLen20; permissionGroupIndex20++) {
+    var permissionGroupData20 = permissionGroupList20[permissionGroupIndex20];
+    output.append('<optgroup label="', soy.$$escapeHtml(permissionGroupData20.name), '">');
+    var permissionList24 = permissionGroupData20.permissions;
+    var permissionListLen24 = permissionList24.length;
+    for (var permissionIndex24 = 0; permissionIndex24 < permissionListLen24; permissionIndex24++) {
+      var permissionData24 = permissionList24[permissionIndex24];
+      output.append('<option ', (permissionData24.id == 10) ? 'selected="selected"' : '', ' value="', soy.$$escapeHtml(permissionData24.id), '">', soy.$$escapeHtml(permissionData24.name), '</option>');
+    }
+    output.append('</optgroup>');
+  }
+  output.append('</select><div class=\'description\'>', soy.$$escapeHtml("Begin typing to find a permission or press down to see all"), '</div></div></div><div class="form-body field-status-placeholder" /></div><div class="buttons-container form-footer"><div class="buttons"><input class="button search" type="submit" id="permission-helper-submit" value="', soy.$$escapeHtml("\u63d0\u4ea4"), '">', (! opt_data.noCloseLink) ? '<a href="#" class="cancel" id="aui-dialog-close">' + soy.$$escapeHtml("\u5173\u95ed") + '</a>' : '', '</div></div></form>');
+  return opt_sb ? '' : output.toString();
+};
+
+
+JIRA.Templates.Dialogs.PermissionHelper.resultPage = function(opt_data, opt_sb) {
+  var output = opt_sb || new soy.StringBuilder();
+  output.append('<div class="field-status-results"><div class="aui-message"><ul class="item-details"><li><dl><dt>', soy.$$escapeHtml("Permission name"), ': </dt><dd title="', soy.$$escapeHtml(opt_data.permissionName), '">', soy.$$escapeHtml(opt_data.permissionName), '</dd></dl><dl><dt>', soy.$$escapeHtml("User"), ': </dt><dd title="', soy.$$escapeHtml(opt_data.userDisplayName), '">', (opt_data.username != '') ? '<a href="' + soy.$$escapeHtml(opt_data.baseUrl) + '/secure/admin/user/ViewUser.jspa?name=' + soy.$$escapeHtml(opt_data.username) + '">' + soy.$$escapeHtml(opt_data.userDisplayName) + '</a>' : soy.$$escapeHtml(opt_data.userDisplayName), '</dd></dl><dl><dt>', soy.$$escapeHtml("Project"), ': </dt><dd title="', soy.$$escapeHtml(opt_data.projectName), '"><a href="', soy.$$escapeHtml(opt_data.baseUrl), '/browse/', soy.$$escapeHtml(opt_data.projectKey), '">', soy.$$escapeHtml(opt_data.projectName), '</a></dd></dl><dl><dt>', soy.$$escapeHtml("Permission scheme"), ': </dt><dd title="blah"><a href="', soy.$$escapeHtml(opt_data.baseUrl), '/plugins/servlet/project-config/', soy.$$escapeHtml(opt_data.projectKey), '/permissions">', soy.$$escapeHtml(opt_data.permissionSchemeName), '</a></dd></dl>', (opt_data.issueKey) ? '<dl><dt>' + soy.$$escapeHtml("Issue") + ': </dt><dd title="' + soy.$$escapeHtml(opt_data.issueKey) + '"><a href="' + soy.$$escapeHtml(opt_data.baseUrl) + '/browse/' + soy.$$escapeHtml(opt_data.issueKey) + '">' + soy.$$escapeHtml(opt_data.issueKey) + '</a></dd></dl>' : '', '<dl><dt>', soy.$$escapeHtml("Status"), ': </dt><dd>');
+  JIRA.Templates.AdminHelper.Common.statusImage(opt_data, output);
+  output.append((opt_data.status == 'green') ? soy.$$escapeHtml(AJS.format("{0} has the \x27\x27{1}\x27\x27 permission",opt_data.userDisplayName,opt_data.permissionName)) : soy.$$escapeHtml(AJS.format("{0} does not have the \x27\x27{1}\x27\x27 permission",opt_data.userDisplayName,opt_data.permissionName)), '</dd></dl></li></ul></div>');
+  if (opt_data.statusLines.length == 0) {
+    output.append('<div class="aui-message info"><span class="aui-icon icon-info"></span><p>', soy.$$escapeHtml(AJS.format("There are no details available about the \x27\x27{0}\x27\x27 permission",opt_data.permissionName)), '</p></div>');
+  } else {
+    output.append('<table class="status-table aui"><thead><tr><th width="10%">', soy.$$escapeHtml("Status"), '</th><th width="30%">', soy.$$escapeHtml("Summary"), '</th><th width="60%">', soy.$$escapeHtml("Details"), '</th></tr></thead><tbody>');
+    var statusLineList127 = opt_data.statusLines;
+    var statusLineListLen127 = statusLineList127.length;
+    for (var statusLineIndex127 = 0; statusLineIndex127 < statusLineListLen127; statusLineIndex127++) {
+      var statusLineData127 = statusLineList127[statusLineIndex127];
+      JIRA.Templates.AdminHelper.Common.statusLineRow({statusLine: statusLineData127, hideFailedStatuses: opt_data.hideFailedStatuses}, output);
+    }
+    output.append('<tbody></table><div class="toggle-conditions-container"><a class="show-failed-conditions" ', (opt_data.hideFailedStatuses == false || opt_data.allGreenStatuses == true) ? 'style="display: none"' : '', '>', soy.$$escapeHtml("Show failed conditions"), '</a><a class="hide-failed-conditions" ', (opt_data.hideFailedStatuses == true || opt_data.allFailedStatuses == true) ? 'style="display: none"' : '', '>', soy.$$escapeHtml("Hide failed conditions"), '</a></div>');
+  }
+  output.append('</div>');
+  return opt_sb ? '' : output.toString();
+};
+
+
+JIRA.Templates.Dialogs.PermissionHelper.errorPage = function(opt_data, opt_sb) {
+  var output = opt_sb || new soy.StringBuilder();
+  output.append('<div class="ajaxerror"><div class="aui-message ', soy.$$escapeHtml(opt_data.errorClass), '">');
+  if (opt_data.errorMessages.length == 1) {
+    var msgList152 = opt_data.errorMessages;
+    var msgListLen152 = msgList152.length;
+    for (var msgIndex152 = 0; msgIndex152 < msgListLen152; msgIndex152++) {
+      var msgData152 = msgList152[msgIndex152];
+      output.append('<p>', soy.$$escapeHtml(msgData152), '</p>');
+    }
+  } else {
+    output.append('<ul>');
+    var msgList159 = opt_data.errorMessages;
+    var msgListLen159 = msgList159.length;
+    for (var msgIndex159 = 0; msgIndex159 < msgListLen159; msgIndex159++) {
+      var msgData159 = msgList159[msgIndex159];
+      output.append('<li>', soy.$$escapeHtml(msgData159), '</li>');
+    }
+    output.append('</ul>');
+  }
+  output.append('</div></div><div class="buttons-container form-footer"><div class="buttons"><a href="#" class="cancel" id="aui-dialog-close">', soy.$$escapeHtml("\u5173\u95ed"), '</a></div></div>');
+  return opt_sb ? '' : output.toString();
+};
+
+/* module-key = 'com.atlassian.jira.plugins.jira-admin-helper-plugin:whereismycf-resources', location = 'js/permission-helper-ui.js' */
+AJS.namespace("JIRA.PermissionHelper");
+JIRA.PermissionHelper.PERMISSIONS=[{"name":"项目权限","permissions":[{"id":"23","name":"管理项目"},{"id":"10","name":"浏览项目"},{"id":"29","name":"查看版本控制"},{"id":"45","name":"查看工作流"}]},{"name":"问题权限","permissions":[{"id":"11","name":"创建问题"},{"id":"12","name":"编辑问题"},{"id":"28","name":"规划问题日程"},{"id":"25","name":"移动问题"},{"id":"13","name":"分配问题"},{"id":"17","name":"被分配"},{"id":"14","name":"解决问题"},{"id":"18","name":"关闭问题"},{"id":"30","name":"修改报告人"},{"id":"16","name":"删除问题"},{"id":"21","name":"链接问题"},{"id":"26","name":"设置安全级别"}]},{"name":"投票人 & 关注人权限","permissions":[{"id":"31","name":"查看投票人与关注人"},{"id":"32","name":"管理关注列表"}]},{"name":"使用备注权限","permissions":[{"id":"15","name":"添加备注"},{"id":"34","name":"编辑所有备注"},{"id":"35","name":"编辑自己的备注"},{"id":"36","name":"删除所有备注"},{"id":"37","name":"删除自己的备注"}]},{"name":"附件权限","permissions":[{"id":"19","name":"添加附件"},{"id":"38","name":"删除所有附件"},{"id":"39","name":"删除自己的附件"}]},{"name":"时间追踪权限","permissions":[{"id":"20","name":"添加工作日志"},{"id":"40","name":"编辑自己的工作日志"},{"id":"41","name":"编辑所有工作日志"},{"id":"42","name":"删除自己的工作日志"},{"id":"43","name":"删除所有工作日志"}]}];
+JIRA.PermissionHelper.PermissionHelperUi={initUi:function(D,B,C){I();
+var L={};
+L.searchButton=D.find("input.search");
+L.searchForm=D.find("form.permissionhelper-search-form");
+var K=function(O){O.preventDefault();
+var M=H(D,B);
+D.find(".error").remove();
+var N=false;
+if(!M.params().issueKey){E(AJS.$("#permissionhelper-issue",D),"Please select an issue");
+N=true
+}if(!M.params().permissionId){E(AJS.$("#permissionhelper-permission"),"Please select a valid permission");
+N=true
+}if(N){return 
+}D.find("#error-message-placeholder").empty();
+D.find(".field-status-results").remove();
+D.find(".field-status-placeholder").append(AJS.$(JIRA.Templates.AdminHelper.Common.loadingStatus()));
+JIRA.SmartAjax.makeRequest({url:contextPath+AJS.format("/rest/whereismycf/1.0/permissions?username={0}&issueKey={1}&permissionId={2}",M.params().username,M.params().issueKey,M.params().permissionId),complete:function(S,U,Q){D.find(".status-loading").remove();
+if(Q.successful){var T=Q.data;
+var R=J(T.statusLines);
+var P=AJS.$(JIRA.Templates.Dialogs.PermissionHelper.resultPage({permissionName:T.permissionName,username:T.username,userDisplayName:T.userDisplayName,issueKey:T.issueKey,projectKey:T.projectKey,projectName:T.projectName,status:T.status,statusLines:R,hideFailedStatuses:G(R),allFailedStatuses:!G(R),allGreenStatuses:A(R),baseUrl:contextPath,permissionSchemeName:T.permissionSchemeName}));
+D.find(".field-status-placeholder").append(P);
+if(C){C()
+}P.delegate(".show-failed-conditions","click",function(V){console.log("SHOWING");
+V.preventDefault();
+AJS.$(".statusRow[data-status='red']").show();
+AJS.$(".show-failed-conditions").hide();
+AJS.$(".hide-failed-conditions").show();
+JIRA.PermissionHelper.dialog._positionInCenter()
+});
+P.delegate(".hide-failed-conditions","click",function(V){console.log("HIDING");
+V.preventDefault();
+AJS.$(".statusRow[data-status='red']").hide();
+AJS.$(".hide-failed-conditions").hide();
+AJS.$(".show-failed-conditions").show();
+JIRA.PermissionHelper.dialog._positionInCenter()
+})
+}else{F(D,Q)
+}}})
+};
+L.searchForm.submit(K);
+L.searchButton.click(K);
+function E(M,N){M.parent().append(AJS.$("<div>").addClass("error").text(N))
+}function H(M,N){return{permissionId:function(){var O=M.find("#permissionhelper-permission option:selected");
+if(O.length>0){return O.val()
+}else{return 10
+}},paramsForRequest:function(){return N.asRequestParams(this._paramsFromContents())
+},params:function(){return N.params(this._paramsFromContents())
+},_paramsFromContents:function(){var R={};
+var Q=M.find("#permissionhelper-user option:selected");
+if(Q.length==1){R.username=Q.val()
+}else{R.username=""
+}var P=M.find("#permissionhelper-issue option:selected");
+if(P.length>0){R.issueKey=P.val()
+}var O=M.find("#permissionhelper-permission option:selected");
+if(O.length>0){R.permissionId=O.val()
+}return R
+}}
+}function J(P){if(P.length==0){return P
+}function N(S){var R=[];
+AJS.$.each(S,function(T,U){R.push(O(U))
+});
+return R
+}function O(S){if(S.parameters.length==0){return AJS.escapeHTML(S.message)
+}else{var R=M(S.parameters);
+R.splice(0,0,AJS.escapeHTML(S.message));
+return AJS.format.apply(this,R)
+}}function M(S){var R=[];
+AJS.$.each(S,function(T,U){if(U.type=="plain"){R.push(AJS.escapeHTML(U.value))
+}else{if(U.type=="link"){R.push(AJS.format("<a href=''{0}'' target=''_blank''>{1}</a>",AJS.escapeHTML(U.href),AJS.escapeHTML(U.text)))
+}else{if(U.type=="newline"){R.push("<br/>")
+}else{if(U.type=="tagstart"){R.push("<"+U.tagName+">")
+}else{if(U.type=="tagend"){R.push("</"+U.tagName+">")
+}else{throw"Unrecognized parameter type: "+U.type
+}}}}}});
+return R
+}var Q=[];
+AJS.$.each(P,function(T,R){var S={};
+S.status=R.status;
+S.required=R.required;
+S.summary=N(R.summary);
+S.details=N(R.details);
+Q.push(S)
+});
+return Q
+}function G(O){var M=false;
+var N=false;
+AJS.$.each(O,function(Q,P){if(P.status=="green"){M=true
+}else{if(P.required){N=true
+}}});
+return N?false:M
+}function A(N){var M=false;
+AJS.$.each(N,function(P,O){if(O.status=="red"){M=true
+}});
+return !M
+}function F(P,O){var M=false;
+var R=[];
+if(O.data){var Q=JSON.parse(O.data);
+if(Q.errorMessages&&Q.errorMessages.length){R.push(Q.errorMessages);
+M=true
+}if(Q.errors){if(Q.errors.issue){E(AJS.$("#permissionhelper-issue",P),Q.errors.issue);
+M=true
+}if(Q.errors.user){E(AJS.$("#permissionhelper-user",P),Q.errors.user);
+M=true
+}if(Q.errors.permission){E(AJS.$("#permissionhelper-permission",P),Q.errors.permission);
+M=true
+}}}if(!M){R.push(JIRA.SmartAjax.buildSimpleErrorContent(O))
+}var N=L.searchForm.find("#error-message-placeholder");
+AJS.$.each(R,function(S,T){AJS.messages.error(N,{body:T,closeable:false})
+})
+}function I(){new JIRA.AdminHelper.IssuePicker({element:AJS.$("#permissionhelper-issue"),itemAttrDisplayed:"label",width:500});
+new AJS.SingleSelect({element:AJS.$("#permissionhelper-permission"),itemAttrDisplayed:"label",width:500})
+}return L
+}};
+/* module-key = 'com.atlassian.jira.plugins.jira-admin-helper-plugin:whereismycf-resources', location = 'js/permission-helper-dialog.js' */
+JIRA.PermissionHelper.PermissionHelperDialog=JIRA.Dialog.extend({_getDefaultOptions:function(){return AJS.$.extend(this._super(),{cached:false,id:"permission-helper-dialog",widthClass:"large",stacked:true})
+},_setContent:function(C,F){var A=this;
+if(C){this._super(C,F)
+}else{var E=this.context().issueKey()||"";
+var B=this.context().permissionId()||"";
+this._super(AJS.$(JIRA.Templates.Dialogs.PermissionHelper.searchPage({currentIssueKey:E,currentPermissionId:B,permissionGroups:JIRA.PermissionHelper.PERMISSIONS})),true)
+}this.get$popupContent().find(".cancel").click(function(G){A.hide();
+G.preventDefault()
+});
+if(JIRA.Dialog.current===this){var D=new JIRA.setFocus.FocusConfiguration();
+D.context=this.get$popup()[0];
+D.parentElementSelectors=[".form-body"];
+JIRA.setFocus.pushConfiguration(D);
+JIRA.setFocus.triggerFocus()
+}},decorateContent:function(){var A=this;
+this.addHeading("Permission Helper");
+JIRA.PermissionHelper.PermissionHelperUi.initUi(this.get$popupContent(),this.context(),function(){A._positionInCenter()
+})
+},show:function(A){if(A){this.context(A)
+}if(!this.options.context){throw"This class must be initialized with 'context' parameter before calling show()"
+}this._super()
+},context:function(A){if(A){this.options.context=A
+}else{return this.options.context
+}},hide:function(A){if(this._super(A)===false){return false
+}JIRA.setFocus.popConfiguration()
+}});
+JIRA.PermissionHelper.Context=Class.extend({init:function(A){this.options=A||{}
+},issueKey:function(A){if(A){this.options.issueKey=A
+}else{return this.options.issueKey
+}},permissionId:function(A){if(A){this.options.permissionId=A
+}else{return this.options.permissionId
+}},params:function(A){var B=AJS.$.extend({},this.options);
+if(this._exists(A)){AJS.$.extend(B,A)
+}return B
+},asRequestParams:function(A){var C=this.params(A);
+var B="atl_token="+atl_token();
+if(this._exists(C.username)){B+="&username="+C.username
+}if(this._exists(C.issueKey)){B+="&issueKey="+C.issueKey
+}if(this._exists(C.projectKey)){B+="&projectKey="+C.projectKey
+}if(this._exists(C.projectId)){B+="&projectId="+C.projectId
+}if(this._exists(C.issueOperation!==undefined)){B+="&issueOperation="+C.issueOperation
+}if(this._exists(C.issueTypeId)){B+="&issueTypeId="+C.issueTypeId
+}return B
+},_exists:function(A){return typeof (A)!="undefined"
+}});
+/* module-key = 'com.atlassian.jira.plugins.jira-admin-helper-plugin:whereismycf-resources', location = 'js/permission-helper.js' */
+(function(D){var C="Permission Helper";
+JIRA.PermissionHelper.dialog=new JIRA.PermissionHelper.PermissionHelperDialog;
+D(document).delegate(".permissionhelper-trigger","click",function(E){E.preventDefault();
+JIRA.PermissionHelper.dialog.show(A())
+});
+D(function(){var E=D("#permission-helper-admin-page");
+if(E.length==1){B();
+E.append(D(JIRA.Templates.Dialogs.PermissionHelper.searchPage({noCloseLink:true,permissionGroups:JIRA.PermissionHelper.PERMISSIONS})));
+E.trigger(JIRA.Events.NEW_CONTENT_ADDED,[E]);
+JIRA.PermissionHelper.PermissionHelperUi.initUi(E,new JIRA.PermissionHelper.Context());
+D("#permissionhelper-user-field").focus()
+}});
+function A(){var E=JIRA.Issue.getIssueKey();
+if(!E&&JIRA.IssueNavigator){E=JIRA.IssueNavigator.getSelectedIssueKey()
+}return new JIRA.PermissionHelper.Context({issueKey:E,issueOperation:JIRA.PermissionHelper.dialog.OPERATION_VIEW})
+}function B(){var E=D("#permission-helper-admin-page");
+E.prepend(D("<h2>").attr("id","admin-page-heading").text(C))
+}})(AJS.$);
+/* module-key = 'com.atlassian.jira.plugins.jira-admin-helper-plugin:whereismycf-resources', location = 'templates/notification-helper.soy' */
+// This file was automatically generated from notification-helper.soy.
+// Please don't edit this file by hand.
+
+if (typeof JIRA == 'undefined') { var JIRA = {}; }
+if (typeof JIRA.Templates == 'undefined') { JIRA.Templates = {}; }
+if (typeof JIRA.Templates.Dialogs == 'undefined') { JIRA.Templates.Dialogs = {}; }
+if (typeof JIRA.Templates.Dialogs.NotificationHelper == 'undefined') { JIRA.Templates.Dialogs.NotificationHelper = {}; }
+
+
+JIRA.Templates.Dialogs.NotificationHelper.searchPage = function(opt_data, opt_sb) {
+  var output = opt_sb || new soy.StringBuilder();
+  output.append('<form action="#" method="post" class="notificationhelper-search-form aui ajs-dirty-warning-exempt"><div class="content-area-container"><div class="form-body"><div id="error-message-placeholder"></div><div class="action-description">', soy.$$escapeHtml("Find out why users receive, or do not receive notifications for this issue"), '</div><div class="field-group"><label for="notificationhelper-user">', soy.$$escapeHtml("User"), '</label><select id="notificationhelper-user" name="notificationhelper-user" class="single-user-picker js-default-user-picker" data-container-class="long-field"></select><div class=\'description\'>', soy.$$escapeHtml("Begin typing to find a user"), '</div></div><div class="field-group ', (opt_data.currentIssueKey) ? 'hidden' : '', '"><label for="notificationhelper-issue">', soy.$$escapeHtml("Issue"), '</label><select class="aui-field-select select" name="notificationhelper-issue" id="notificationhelper-issue"></select><div class="description">', soy.$$escapeHtml("Begin typing to find an issue"), '</div></div><div class="field-group"><label for="notificationhelper-event">', soy.$$escapeHtml("Notification Event"), '</label><select class="aui-field-select select" name="notificationhelper-event" id="notificationhelper-event">');
+  var eventList20 = opt_data.events;
+  var eventListLen20 = eventList20.length;
+  for (var eventIndex20 = 0; eventIndex20 < eventListLen20; eventIndex20++) {
+    var eventData20 = eventList20[eventIndex20];
+    output.append('<option ', (eventData20.id == opt_data.defaultEventId) ? 'selected="selected"' : '', ' value="', soy.$$escapeHtml(eventData20.id), '">', soy.$$escapeHtml(eventData20.name), '</option>');
+  }
+  output.append('</select><div class=\'description\'>', soy.$$escapeHtml("Begin typing to find a notification event or press down to see all"), '</div></div></div><div class="form-body field-status-placeholder" /></div><div class="buttons-container form-footer"><div class="buttons"><input class="button search" type="submit" id="permission-helper-submit" value="', soy.$$escapeHtml("\u63d0\u4ea4"), '">', (! opt_data.noCloseLink) ? '<a href="#" class="cancel" id="aui-dialog-close">' + soy.$$escapeHtml("\u5173\u95ed") + '</a>' : '', '</div></div></form>');
+  return opt_sb ? '' : output.toString();
+};
+
+
+JIRA.Templates.Dialogs.NotificationHelper.resultPage = function(opt_data, opt_sb) {
+  var output = opt_sb || new soy.StringBuilder();
+  output.append('<div class="field-status-results"><div class="aui-message"><ul class="item-details"><li><dl><dt>', soy.$$escapeHtml("Event"), ': </dt><dd title="', soy.$$escapeHtml(opt_data.eventName), '">', soy.$$escapeHtml(opt_data.eventName), '</dd></dl><dl><dt>', soy.$$escapeHtml("User"), ': </dt><dd title="', soy.$$escapeHtml(opt_data.userDisplayName), '">', (opt_data.username != '') ? '<a href="' + soy.$$escapeHtml(opt_data.baseUrl) + '/secure/admin/user/ViewUser.jspa?name=' + soy.$$escapeHtml(opt_data.username) + '">' + soy.$$escapeHtml(opt_data.userDisplayName) + '</a>' : soy.$$escapeHtml(opt_data.userDisplayName), '</dd></dl><dl><dt>', soy.$$escapeHtml("Project"), ': </dt><dd title="', soy.$$escapeHtml(opt_data.projectName), '"><a href="', soy.$$escapeHtml(opt_data.baseUrl), '/browse/', soy.$$escapeHtml(opt_data.projectKey), '">', soy.$$escapeHtml(opt_data.projectName), '</a></dd></dl><dl><dt>', soy.$$escapeHtml("Scheme"), ': </dt><dd title="blah"><a href="', soy.$$escapeHtml(opt_data.baseUrl), '/plugins/servlet/project-config/', soy.$$escapeHtml(opt_data.projectKey), '/notifications">', soy.$$escapeHtml(opt_data.notificationSchemeName), '</a></dd></dl>', (opt_data.issueKey) ? '<dl><dt>' + soy.$$escapeHtml("Issue") + ': </dt><dd title="' + soy.$$escapeHtml(opt_data.issueKey) + '"><a href="' + soy.$$escapeHtml(opt_data.baseUrl) + '/browse/' + soy.$$escapeHtml(opt_data.issueKey) + '">' + soy.$$escapeHtml(opt_data.issueKey) + '</a></dd></dl>' : '', '<dl><dt>', soy.$$escapeHtml("Status"), ': </dt><dd>');
+  JIRA.Templates.AdminHelper.Common.statusImage(opt_data, output);
+  if (opt_data.status == 'green') {
+    output.append(soy.$$escapeHtml(AJS.format("{0} receives notifications for the \x27\x27{1}\x27\x27 event",opt_data.userDisplayName,opt_data.eventName)));
+    if (opt_data.userNotifyOwnChanges == false) {
+      output.append('<br>');
+      JIRA.Templates.AdminHelper.Common.warningImage(null, output);
+      output.append(soy.$$escapeHtml(AJS.format("{0} does not get notified of their own changes.",opt_data.userDisplayName)), ' <a target="_blank" href="https://confluence.atlassian.com/display/JIRA/Managing+your+User+Profile#ManagingyourUserProfile-Preferences">', soy.$$escapeHtml("Learn more"), '</a>.');
+    }
+  } else {
+    output.append(soy.$$escapeHtml(AJS.format("{0} does not receive notifications for the \x27\x27{1}\x27\x27 event",opt_data.userDisplayName,opt_data.eventName)));
+  }
+  output.append('</dd></dl></li></ul></div>');
+  if (opt_data.statusLines.length == 0) {
+    output.append('<div class="aui-message info"><span class="aui-icon icon-info"></span><p>', soy.$$escapeHtml(AJS.format("There are no details available about the notifications for the \x27\x27{0}\x27\x27 event",opt_data.eventName)), '</p></div>');
+  } else {
+    output.append('<table class="status-table aui"><thead><tr><th width="10%">', soy.$$escapeHtml("Status"), '</th><th width="30%">', soy.$$escapeHtml("Summary"), '</th><th width="60%">', soy.$$escapeHtml("Details"), '</th></tr></thead><tbody>');
+    var statusLineList129 = opt_data.statusLines;
+    var statusLineListLen129 = statusLineList129.length;
+    for (var statusLineIndex129 = 0; statusLineIndex129 < statusLineListLen129; statusLineIndex129++) {
+      var statusLineData129 = statusLineList129[statusLineIndex129];
+      JIRA.Templates.AdminHelper.Common.statusLineRow({statusLine: statusLineData129, hideFailedStatuses: opt_data.hideFailedStatuses}, output);
+    }
+    output.append('<tbody></table><div class="toggle-conditions-container"><a class="show-failed-conditions" ', (opt_data.hideFailedStatuses == false || opt_data.allGreenStatuses == true) ? 'style="display: none"' : '', '>', soy.$$escapeHtml("Show failed conditions"), '</a><a class="hide-failed-conditions" ', (opt_data.hideFailedStatuses == true || opt_data.allFailedStatuses == true) ? 'style="display: none"' : '', '>', soy.$$escapeHtml("Hide failed conditions"), '</a></div>');
+  }
+  output.append('</div>');
+  return opt_sb ? '' : output.toString();
+};
+
+/* module-key = 'com.atlassian.jira.plugins.jira-admin-helper-plugin:whereismycf-resources', location = 'js/notification-helper-ui.js' */
+AJS.namespace("JIRA.NotificationHelper");
+JIRA.NotificationHelper.NOTIFICATION_EVENTS=[{"id":1,"isDefault":true,"name":"问题已创建"},{"id":2,"name":"问题已更新"},{"id":3,"name":"问题已被分配"},{"id":4,"name":"问题已解决"},{"id":5,"name":"问题已关闭"},{"id":6,"name":"已添加备注"},{"id":14,"name":"备注被编辑"},{"id":7,"name":"重新打开"},{"id":8,"name":"问题已删除"},{"id":9,"name":"问题被移动"},{"id":10,"name":"已添加工作日志"},{"id":11,"name":"开始解决问题"},{"id":12,"name":"停止解决问题"},{"id":15,"name":"工作日志已更新"},{"id":16,"name":"工作日志被删除"},{"id":13,"name":"一般事件"}];
+JIRA.NotificationHelper.defaultEventId=function(){var A;
+AJS.$(JIRA.NotificationHelper.NOTIFICATION_EVENTS).each(function(){if(this.isDefault){A=this.id
+}});
+return A
+};
+JIRA.NotificationHelper.NotificationHelperUi={initUi:function(C,K,B){G();
+var L={};
+L.searchButton=C.find("input.search");
+L.searchForm=C.find("form.notificationhelper-search-form");
+var I=function(O){O.preventDefault();
+var M=F(C,K);
+C.find(".error").remove();
+var N=false;
+if(!M.params().username){D(AJS.$("#notificationhelper-user",C),"Please select a user");
+N=true
+}if(!M.params().issueKey){D(AJS.$("#notificationhelper-issue",C),"Please select an issue");
+N=true
+}if(!M.params().eventId){D(AJS.$("#notificationhelper-event",C),"Please select a valid notification event");
+N=true
+}if(N){return 
+}C.find("#error-message-placeholder").empty();
+C.find(".field-status-results").remove();
+C.find(".field-status-placeholder").append(AJS.$(JIRA.Templates.AdminHelper.Common.loadingStatus()));
+JIRA.SmartAjax.makeRequest({url:contextPath+AJS.format("/rest/whereismycf/1.0/notifications?username={0}&issueKey={1}&eventId={2}",M.params().username,M.params().issueKey,M.params().eventId),complete:function(T,U,R){C.find(".status-loading").remove();
+if(R.successful){var P=R.data;
+var S=H(P.statusLines);
+var Q=AJS.$(JIRA.Templates.Dialogs.NotificationHelper.resultPage({eventName:P.eventName,username:P.username,userDisplayName:P.userDisplayName,userNotifyOwnChanges:P.userNotifyOwnChanges,issueKey:P.issueKey,projectKey:P.projectKey,projectName:P.projectName,status:P.status,statusLines:S,notificationSchemeName:P.notificationSchemeName,hideFailedStatuses:J(S),allFailedStatuses:!J(S),allGreenStatuses:A(S),baseUrl:contextPath}));
+C.find(".field-status-placeholder").append(Q);
+if(B){B()
+}Q.delegate(".show-failed-conditions","click",function(V){V.preventDefault();
+AJS.$(".statusRow[data-status='red']").show();
+AJS.$(".show-failed-conditions").hide();
+AJS.$(".hide-failed-conditions").show();
+if(B){B()
+}});
+Q.delegate(".hide-failed-conditions","click",function(V){V.preventDefault();
+AJS.$(".statusRow[data-status='red']").hide();
+AJS.$(".hide-failed-conditions").hide();
+AJS.$(".show-failed-conditions").show();
+if(B){B()
+}})
+}else{E(C,R)
+}}})
+};
+L.searchForm.submit(I);
+L.searchButton.click(I);
+function D(M,N){M.parent().append(AJS.$("<div>").addClass("error").text(N))
+}function F(M,N){return{eventId:function(){var O=M.find("#notificationhelper-event option:selected");
+if(eventId.length>0){return O.val()
+}else{return JIRA.NotificationHelper.defaultEventId()
+}},paramsForRequest:function(){return N.asRequestParams(this._paramsFromContents())
+},params:function(){return N.params(this._paramsFromContents())
+},_paramsFromContents:function(){var R={};
+var P=M.find("#notificationhelper-user option:selected");
+if(P.length==1){R.username=P.val()
+}var O=M.find("#notificationhelper-issue option:selected");
+if(O.length>0){R.issueKey=O.val()
+}var Q=M.find("#notificationhelper-event option:selected");
+if(Q.length>0){R.eventId=Q.val()
+}return R
+}}
+}function H(P){if(P.length==0){return P
+}function N(S){var R=[];
+AJS.$.each(S,function(T,U){R.push(O(U))
+});
+return R
+}function O(S){if(S.parameters.length==0){return AJS.escapeHTML(S.message)
+}else{var R=M(S.parameters);
+R.splice(0,0,AJS.escapeHTML(S.message));
+return AJS.format.apply(this,R)
+}}function M(S){var R=[];
+AJS.$.each(S,function(T,U){if(U.type=="plain"){R.push(AJS.escapeHTML(U.value))
+}else{if(U.type=="link"){R.push(AJS.format("<a href=''{0}'' target=''_blank''>{1}</a>",AJS.escapeHTML(U.href),AJS.escapeHTML(U.text)))
+}else{if(U.type=="newline"){R.push("<br/>")
+}else{if(U.type=="tagstart"){R.push("<"+U.tagName+">")
+}else{if(U.type=="tagend"){R.push("</"+U.tagName+">")
+}else{throw"Unrecognized parameter type: "+U.type
+}}}}}});
+return R
+}var Q=[];
+AJS.$.each(P,function(T,R){var S={};
+S.status=R.status;
+S.summary=N(R.summary);
+S.details=N(R.details);
+Q.push(S)
+});
+return Q
+}function J(N){var M=false;
+AJS.$.each(N,function(P,O){if(O.status=="green"){M=true;
+return false
+}});
+return M
+}function A(N){var M=false;
+AJS.$.each(N,function(P,O){if(O.status=="red"){M=true
+}});
+return !M
+}function E(P,O){var M=false;
+var R=[];
+if(O.data){var Q=JSON.parse(O.data);
+if(Q.errorMessages&&Q.errorMessages.length){R.push(Q.errorMessages);
+M=true
+}if(Q.errors){if(Q.errors.issue){D(AJS.$("#notificationhelper-issue",P),Q.errors.issue);
+M=true
+}if(Q.errors.user){D(AJS.$("#notificationhelper-user",P),Q.errors.user);
+M=true
+}if(Q.errors.event){D(AJS.$("#notificationhelper-event",P),Q.errors.event);
+M=true
+}}}if(!M){R.push(JIRA.SmartAjax.buildSimpleErrorContent(O))
+}var N=L.searchForm.find("#error-message-placeholder");
+AJS.$.each(R,function(S,T){AJS.messages.error(N,{body:T,closeable:false})
+})
+}function G(){new JIRA.AdminHelper.IssuePicker({element:AJS.$("#notificationhelper-issue"),itemAttrDisplayed:"label",width:500});
+new AJS.SingleSelect({element:AJS.$("#notificationhelper-event"),itemAttrDisplayed:"label",width:500})
+}return L
+}};
+/* module-key = 'com.atlassian.jira.plugins.jira-admin-helper-plugin:whereismycf-resources', location = 'js/notification-helper-dialog.js' */
+JIRA.NotificationHelper.NotificationHelperDialog=JIRA.Dialog.extend({_getDefaultOptions:function(){return AJS.$.extend(this._super(),{cached:false,id:"permission-helper-dialog",widthClass:"large",stacked:true})
+},_setContent:function(B,E){var A=this;
+if(B){this._super(B,E)
+}else{var D=this.context().issueKey()||"";
+this._super(AJS.$(JIRA.Templates.Dialogs.NotificationHelper.searchPage({currentIssueKey:D,events:JIRA.NotificationHelper.NOTIFICATION_EVENTS,defaultEventId:JIRA.NotificationHelper.defaultEventId()})),true)
+}this.get$popupContent().find(".cancel").click(function(F){A.hide();
+F.preventDefault()
+});
+if(JIRA.Dialog.current===this){var C=new JIRA.setFocus.FocusConfiguration();
+C.context=this.get$popup()[0];
+C.parentElementSelectors=[".form-body"];
+JIRA.setFocus.pushConfiguration(C);
+JIRA.setFocus.triggerFocus()
+}},decorateContent:function(){var A=this;
+this.addHeading("Notification Helper");
+JIRA.NotificationHelper.NotificationHelperUi.initUi(this.get$popupContent(),this.context(),function(){A._positionInCenter()
+})
+},show:function(A){if(A){this.context(A)
+}if(!this.options.context){throw"This class must be initialized with 'context' parameter before calling show()"
+}this._super()
+},context:function(A){if(A){this.options.context=A
+}else{return this.options.context
+}},hide:function(A){if(this._super(A)===false){return false
+}JIRA.setFocus.popConfiguration()
+}});
+JIRA.NotificationHelper.Context=Class.extend({init:function(A){this.options=A||{}
+},issueKey:function(A){if(A){this.options.issueKey=A
+}else{return this.options.issueKey
+}},eventId:function(A){if(A){this.options.permissionId=A
+}else{return this.options.eventId
+}},params:function(A){var B=AJS.$.extend({},this.options);
+if(this._exists(A)){AJS.$.extend(B,A)
+}return B
+},asRequestParams:function(A){var C=this.params(A);
+var B="atl_token="+atl_token();
+if(this._exists(C.username)){B+="&username="+C.username
+}if(this._exists(C.issueKey)){B+="&issueKey="+C.issueKey
+}if(this._exists(C.projectKey)){B+="&projectKey="+C.projectKey
+}if(this._exists(C.projectId)){B+="&projectId="+C.projectId
+}if(this._exists(C.issueOperation!==undefined)){B+="&issueOperation="+C.issueOperation
+}if(this._exists(C.issueTypeId)){B+="&issueTypeId="+C.issueTypeId
+}return B
+},_exists:function(A){return typeof (A)!="undefined"
+}});
+/* module-key = 'com.atlassian.jira.plugins.jira-admin-helper-plugin:whereismycf-resources', location = 'js/notification-helper.js' */
+(function(D){var C="Notification Helper";
+JIRA.NotificationHelper.dialog=new JIRA.NotificationHelper.NotificationHelperDialog;
+D(document).delegate(".notificationhelper-trigger","click",function(E){E.preventDefault();
+JIRA.NotificationHelper.dialog.show(A())
+});
+D(function(){var E=D("#notification-helper-admin-page");
+if(E.length==1){B();
+E.append(D(JIRA.Templates.Dialogs.NotificationHelper.searchPage({noCloseLink:true,events:JIRA.NotificationHelper.NOTIFICATION_EVENTS,defaultEventId:JIRA.NotificationHelper.defaultEventId()})));
+E.trigger(JIRA.Events.NEW_CONTENT_ADDED,[E]);
+JIRA.NotificationHelper.NotificationHelperUi.initUi(E,new JIRA.NotificationHelper.Context());
+D("#notificationhelper-user-field").focus()
+}});
+function A(){var E=JIRA.Issue.getIssueKey();
+if(!E&&JIRA.IssueNavigator){E=JIRA.IssueNavigator.getSelectedIssueKey()
+}return new JIRA.NotificationHelper.Context({issueKey:E,issueOperation:JIRA.NotificationHelper.dialog.OPERATION_VIEW})
+}function B(){var E=D("#notification-helper-admin-page");
+E.prepend(D("<h2>").attr("id","admin-page-heading").text(C))
+}})(AJS.$);
